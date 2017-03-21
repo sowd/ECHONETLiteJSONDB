@@ -12,7 +12,7 @@
 
 また、本来keyはUniqueなものであるべきなので、ObjectのIDやEPCは16進数の文字列よりも10進の数値にしたほうがよいのではと一瞬思ったが、自分含め16進で記憶しているECHONET Lite Geeksも多いため、オリジナル通り'0x****'といった文字列をkeyにしている。
 
-＊_Body.json の中の文字列リソースは$から始まる文字列になっている($EPCNAME_OPERATING_STATEなど)。対応する文字列がリソースファイル(＊_EN.jsonや＊_JP.json)にある。文字列リソースを自動で埋め込んだ単一のファイルを作るには、以下のコマンドを用いる。
+＊_Body.json の中の文字列リソースは$から始まるキー文字列になっている($EPCNAME_OPERATING_STATEなど)。対応する各言語の文字列がリソースファイル(＊_EN.jsonや＊_JP.json)にある。文字列リソースを自動で埋め込んだ単一のファイルを作るには、以下のコマンドを用いる。
 
 ```bash
 node replacer.js [json file to be output] [resource file]
