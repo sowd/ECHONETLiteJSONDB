@@ -1,0 +1,393 @@
+{
+	"date": "2016/9/1",
+	"version": "1.12",
+	"elObjects": {
+		"0x0EF0": {
+			"epcs": {
+				"0x80": {
+					"accessModeAnno": "required",
+					"accessModeGet": "required",
+					"accessModeSet": "optional",
+					"epcSize": 1,
+					"epcName": "$EPCNAME_OPERATING_STATE",
+					"edt": [
+						{
+							"content": {
+								"keyValues": {
+									"0x30": "ON",
+									"0x31": "OFF"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_OPERATING_STATE"
+						}
+					]
+				},
+				"0x82": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 4,
+					"epcName": "$EPCNAME_VERSION_INFORMATION",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 4,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_VERSION_INFORMATION"
+						}
+					]
+				},
+				"0x83": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 17,
+					"epcName": "$EPCNAME_IDENTIFICATION_NUMBER",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 17,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_IDENTIFICATION_NUMBER"
+						}
+					]
+				},
+				"0x88": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 1,
+					"epcName": "$EPCNAME_ABNORMAL_OCCURRENCE_STATE",
+					"edt": [
+						{
+							"content": {
+								"keyValues": {
+									"0x41": "有",
+									"0x42": "無"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_ABNORMAL_OCCURRENCE_STATE"
+						}
+					]
+				},
+				"0x89": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 2,
+					"epcName": "$EPCNAME_ABNORMAL_CONTENT",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 2,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_ABNORMAL_CONTENT"
+						}
+					]
+				},
+				"0x8A": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 3,
+					"epcName": "$EPCNAME_MANUFACTURER_CODE",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 3,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_MANUFACTURER_CODE"
+						}
+					]
+				},
+				"0x8B": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 3,
+					"epcName": "$EPCNAME_PLANT_CODE",
+					"edt": [
+						{
+							"content": {
+								"rawData": "binary"
+							},
+							"elementSize": 3,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_PLANT_CODE"
+						}
+					]
+				},
+				"0x8C": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 12,
+					"epcName": "$EPCNAME_PRODUCT_CODE",
+					"edt": [
+						{
+							"content": {
+								"rawData": "binary"
+							},
+							"elementSize": 12,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_PRODUCT_CODE"
+						}
+					]
+				},
+				"0x8D": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 12,
+					"epcName": "$EPCNAME_SERIAL_NUMBER",
+					"edt": [
+						{
+							"content": {
+								"rawData": "binary"
+							},
+							"elementSize": 12,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_SERIAL_NUMBER"
+						}
+					]
+				},
+				"0x8E": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 4,
+					"epcName": "$EPCNAME_MADE_DATE",
+					"edt": [
+						{
+							"content": {
+								"customType": "YYMD"
+							},
+							"elementSize": 4,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_MADE_DATE"
+						}
+					]
+				},
+				"0x9D": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 17,
+					"epcName": "$EPCNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 17,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP"
+						}
+					]
+				},
+				"0x9E": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 17,
+					"epcName": "$EPCNAME_SET_PROPERTY_MAP",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 17,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_SET_PROPERTY_MAP"
+						}
+					]
+				},
+				"0x9F": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 17,
+					"epcName": "$EPCNAME_GET_PROPERTY_MAP",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 17,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_GET_PROPERTY_MAP"
+						}
+					]
+				},
+				"0xBF": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "optional",
+					"epcSize": 2,
+					"epcName": "$EPCNAME_INDIVIDUAL_IDENTIFICATION_INFORMATION",
+					"edt": [
+						{
+							"content": {
+								"rawData": "binary"
+							},
+							"elementSize": 2,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_INDIVIDUAL_IDENTIFICATION_INFORMATION"
+						}
+					]
+				},
+				"0xD3": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 3,
+					"epcName": "$EPCNAME_SELF_NODE_NUMBER_OF_INSTANCES",
+					"edt": [
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"min": 1,
+									"max": 16777215
+								}
+							},
+							"elementSize": 3,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_SELF_NODE_NUMBER_OF_INSTANCES"
+						}
+					]
+				},
+				"0xD4": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 2,
+					"epcName": "$EPCNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS",
+					"edt": [
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"min": 2,
+									"max": 65535
+								}
+							},
+							"elementSize": 2,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS"
+						}
+					]
+				},
+				"0xD5": {
+					"accessModeAnno": "required",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 253,
+					"epcName": "$EPCNAME_INSTANCE_LIST_NOTIFICATION",
+					"edt": [
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"min": 1,
+									"max": 254
+								},
+								"keyValues": {
+									"0xFF": "Overflow"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_INSTANCE_THE_TOTAL_NUMBER"
+						},
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 252,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_INSTANCE_LIST"
+						}
+					]
+				},
+				"0xD6": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 253,
+					"epcName": "$EPCNAME_SELF_NODE_INSTANCE_LIST_S",
+					"edt": [
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"min": 1,
+									"max": 254
+								},
+								"keyValues": {
+									"0xFF": "Overflow"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_INSTANCE_THE_TOTAL_NUMBER"
+						},
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 252,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_INSTANCE_LIST"
+						}
+					]
+				},
+				"0xD7": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 17,
+					"epcName": "$EPCNAME_SELF_NODE_CLASS_LIST_S",
+					"edt": [
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"min": 1,
+									"max": 254
+								},
+								"keyValues": {
+									"0xFF": "Overflow"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_CLASS_TOTAL_NUMBER"
+						},
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 16,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_CLASS_LIST"
+						}
+					]
+				}
+			},
+			"objectName": "$OBJNAME_0EF0"
+		}
+	}
+}

@@ -1,0 +1,499 @@
+{
+	"date": "2016/9/5",
+	"version": "G",
+	"elObjects": {
+		"0x0000": {
+			"epcs": {
+				"0x80": {
+					"accessModeAnno": "required",
+					"accessModeGet": "required",
+					"accessModeSet": "optional",
+					"epcSize": 1,
+					"epcName": "$EPCNAME_OPERATING_STATE",
+					"doc": "$EPCDOC_0000_80",
+					"edt": [
+						{
+							"content": {
+								"keyValues": {
+									"0x30": "ON",
+									"0x31": "OFF"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_OPERATING_STATE"
+						}
+					]
+				},
+				"0x81": {
+					"accessModeAnno": "required",
+					"accessModeGet": "required",
+					"accessModeSet": "required",
+					"epcSize": 1,
+					"epcName": "$EPCNAME_INSTALLATION_LOCATION",
+					"doc": "$EPCDOC_0000_81",
+					"edt": [
+						{
+							"content": {
+								"keyValues": {
+									"0x00": "未設定",
+									"0x08": "リビング",
+									"0x60": "庭",
+									"0xFF": "不定"
+								},
+								"others": "referSpec"
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_INSTALLATION_LOCATION"
+						}
+					]
+				},
+				"0x82": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 4,
+					"epcName": "$EPCNAME_STANDARD_VERSION_INFORMATION",
+					"doc": "$EPCDOC_0000_82",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 4,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_STANDARD_VERSION_INFORMATION"
+						}
+					]
+				},
+				"0x83": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 17,
+					"epcName": "$EPCNAME_IDENTIFICATION_NUMBER",
+					"doc": "$EPCDOC_0000_83",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 17,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_IDENTIFICATION_NUMBER"
+						}
+					]
+				},
+				"0x84": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 2,
+					"epcName": "$EPCNAME_INSTANTANEOUS_POWER_CONSUMPTION_MEASUREMENTS",
+					"doc": "$EPCDOC_0000_84",
+					"edt": [
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"unit": "W",
+									"min": 0,
+									"max": 65533
+								}
+							},
+							"elementSize": 2,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_INSTANTANEOUS_POWER_CONSUMPTION_MEASUREMENTS"
+						}
+					]
+				},
+				"0x85": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 4,
+					"epcName": "$EPCNAME_CUMULATIVE_POWER_CONSUMPTION_MEASUREMENTS",
+					"doc": "$EPCDOC_0000_85",
+					"edt": [
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"magnification": -3,
+									"unit": "kWh",
+									"min": 0,
+									"max": 999999999
+								}
+							},
+							"elementSize": 4,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_CUMULATIVE_POWER_CONSUMPTION_MEASUREMENTS"
+						}
+					]
+				},
+				"0x86": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 225,
+					"epcName": "$EPCNAME_MAKER_ABNORMAL_CODE",
+					"doc": "$EPCDOC_0000_86",
+					"edt": [
+						{
+							"content": {
+								"rawData": "binary"
+							},
+							"elementSize": 225,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_MAKER_ABNORMAL_CODE"
+						}
+					]
+				},
+				"0x87": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "optional",
+					"epcSize": 1,
+					"epcName": "$EPCNAME_CURRENT_LIMIT_SETTING",
+					"doc": "$EPCDOC_0000_87",
+					"edt": [
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"unit": "%",
+									"min": 0,
+									"max": 100
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_CURRENT_LIMIT_SETTING"
+						}
+					]
+				},
+				"0x88": {
+					"accessModeAnno": "required",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 1,
+					"epcName": "$EPCNAME_ABNORMAL_OCCURRENCE_STATE",
+					"doc": "$EPCDOC_0000_88",
+					"edt": [
+						{
+							"content": {
+								"keyValues": {
+									"0x41": "有",
+									"0x42": "無"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_ABNORMAL_OCCURRENCE_STATE"
+						}
+					]
+				},
+				"0x89": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 2,
+					"epcName": "$EPCNAME_ABNORMAL_CONTENT",
+					"doc": "$EPCDOC_0000_89",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 2,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_ABNORMAL_CONTENT"
+						}
+					]
+				},
+				"0x8A": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 3,
+					"epcName": "$EPCNAME_MANUFACTURER_CODE",
+					"doc": "$EPCDOC_0000_8A",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 3,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_MANUFACTURER_CODE"
+						}
+					]
+				},
+				"0x8B": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 3,
+					"epcName": "$EPCNAME_PLANT_CODE",
+					"doc": "$EPCDOC_0000_8B",
+					"edt": [
+						{
+							"content": {
+								"rawData": "ASCII"
+							},
+							"elementSize": 3,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_PLANT_CODE"
+						}
+					]
+				},
+				"0x8C": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 12,
+					"epcName": "$EPCNAME_PRODUCT_CODE",
+					"doc": "$EPCDOC_0000_8C",
+					"edt": [
+						{
+							"content": {
+								"rawData": "ASCII"
+							},
+							"elementSize": 12,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_PRODUCT_CODE"
+						}
+					]
+				},
+				"0x8D": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 12,
+					"epcName": "$EPCNAME_SERIAL_NUMBER",
+					"doc": "$EPCDOC_0000_8D",
+					"edt": [
+						{
+							"content": {
+								"rawData": "ASCII"
+							},
+							"elementSize": 12,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_SERIAL_NUMBER"
+						}
+					]
+				},
+				"0x8E": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 4,
+					"epcName": "$EPCNAME_MADE_DATE",
+					"doc": "$EPCDOC_0000_8E",
+					"edt": [
+						{
+							"content": {
+								"customType": "YYMD"
+							},
+							"elementSize": 4,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_MADE_DATE"
+						}
+					]
+				},
+				"0x8F": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "optional",
+					"epcSize": 1,
+					"epcName": "$EPCNAME_POWER_SAVING_OPERATION_SETTING",
+					"doc": "$EPCDOC_0000_8F",
+					"edt": [
+						{
+							"content": {
+								"keyValues": {
+									"0x41": "節電動作中",
+									"0x42": "通常動作中"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_POWER_SAVING_OPERATION_SETTING"
+						}
+					]
+				},
+				"0x93": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "optional",
+					"epcSize": 1,
+					"epcName": "$EPCNAME_REMOTE_CONTROL_SET",
+					"doc": "$EPCDOC_0000_93",
+					"edt": [
+						{
+							"content": {
+								"keyValues": {
+									"0x41": "公衆回線未経由操作",
+									"0x42": "公衆回線経由操作"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_REMOTE_CONTROL_SET"
+						}
+					]
+				},
+				"0x97": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "optional",
+					"epcSize": 2,
+					"epcName": "$EPCNAME_CURRENT_TIME_SETTING",
+					"doc": "$EPCDOC_0000_97",
+					"edt": [
+						{
+							"content": {
+								"customType": "HM"
+							},
+							"elementSize": 2,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_CURRENT_TIME_SETTING"
+						}
+					]
+				},
+				"0x98": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "optional",
+					"epcSize": 4,
+					"epcName": "$EPCNAME_CURRENT_DATE_SETTING",
+					"doc": "$EPCDOC_0000_98",
+					"edt": [
+						{
+							"content": {
+								"customType": "YYMD"
+							},
+							"elementSize": 4,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_CURRENT_DATE_SETTING"
+						}
+					]
+				},
+				"0x99": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "optional",
+					"epcSize": 2,
+					"epcName": "$EPCNAME_POWER_LIMIT_SETTING",
+					"doc": "$EPCDOC_0000_99",
+					"edt": [
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"unit": "W",
+									"min": 0,
+									"max": 65535
+								}
+							},
+							"elementSize": 2,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_POWER_LIMIT_SETTING"
+						}
+					]
+				},
+				"0x9A": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "optional",
+					"accessModeSet": "notApplicable",
+					"epcSize": 5,
+					"epcName": "$EPCNAME_INTEGRATED_OPERATING_TIME",
+					"doc": "$EPCDOC_0000_9A",
+					"edt": [
+						{
+							"content": {
+								"keyValues": {
+									"0x41": "Second",
+									"0x42": "Minute",
+									"0x43": "Hour",
+									"0x44": "Day"
+								}
+							},
+							"elementSize": 1,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_MEASURE_OF_TIME"
+						},
+						{
+							"content": {
+								"numericValue": {
+									"integerType": "Unsigned",
+									"min": 0,
+									"max": 4294967295
+								}
+							},
+							"elementSize": 4,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_ELAPSED_TIME"
+						}
+					]
+				},
+				"0x9D": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 17,
+					"epcName": "$EPCNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP",
+					"doc": "$EPCDOC_0000_9D",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 17,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP"
+						}
+					]
+				},
+				"0x9E": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 17,
+					"epcName": "$EPCNAME_SET_PROPERTY_MAP",
+					"doc": "$EPCDOC_0000_9E",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 17,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_SET_PROPERTY_MAP"
+						}
+					]
+				},
+				"0x9F": {
+					"accessModeAnno": "notApplicable",
+					"accessModeGet": "required",
+					"accessModeSet": "notApplicable",
+					"epcSize": 17,
+					"epcName": "$EPCNAME_GET_PROPERTY_MAP",
+					"doc": "$EPCDOC_0000_9F",
+					"edt": [
+						{
+							"content": {
+								"others": "referSpec"
+							},
+							"elementSize": 17,
+							"repeatCount": 1,
+							"elementName": "$ELEMNAME_GET_PROPERTY_MAP"
+						}
+					]
+				}
+			},
+			"objectName": "$OBJNAME_0000"
+		}
+	}
+}
