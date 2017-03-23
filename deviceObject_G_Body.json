@@ -3,6 +3,8 @@
 	"version": "G",
 	"elObjects": {
 		"0x0001": {
+			"objectId": "GasLeakSensor",
+			"objectName": "$OBJNAME_0001",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -87,10 +89,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0001"
+			}
 		},
 		"0x0002": {
+			"objectId": "IntrusionDetectionSensor",
+			"objectName": "$OBJNAME_0002",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -175,10 +178,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0002"
+			}
 		},
 		"0x0003": {
+			"objectId": "EmergencyButton",
+			"objectName": "$OBJNAME_0003",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -242,10 +246,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0003"
+			}
 		},
 		"0x0004": {
+			"objectId": "EmergencySensor",
+			"objectName": "$OBJNAME_0004",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -330,10 +335,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0004"
+			}
 		},
 		"0x0005": {
+			"objectId": "EarthquakeSensor",
+			"objectName": "$OBJNAME_0005",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -418,10 +424,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0005"
+			}
 		},
 		"0x0006": {
+			"objectId": "LeakageSensor",
+			"objectName": "$OBJNAME_0006",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -506,10 +513,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0006"
+			}
 		},
 		"0x0007": {
+			"objectId": "HumanBodyDetectionSensor",
+			"objectName": "$OBJNAME_0007",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -574,10 +582,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0007"
+			}
 		},
 		"0x0008": {
+			"objectId": "VisitorSensor",
+			"objectName": "$OBJNAME_0008",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -669,10 +678,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0008"
+			}
 		},
 		"0x0009": {
+			"objectId": "CallSensor",
+			"objectName": "$OBJNAME_0009",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -764,10 +774,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0009"
+			}
 		},
 		"0x000A": {
+			"objectId": "CondensationSensor",
+			"objectName": "$OBJNAME_000A",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -832,10 +843,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_000A"
+			}
 		},
 		"0x000B": {
+			"objectId": "AirPollutionSensor",
+			"objectName": "$OBJNAME_000B",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -900,10 +912,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_000B"
+			}
 		},
 		"0x000C": {
+			"objectId": "OxygenSensor",
+			"objectName": "$OBJNAME_000C",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -954,10 +967,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_000C"
+			}
 		},
 		"0x000D": {
+			"objectId": "IlluminanceSensor",
+			"objectName": "$OBJNAME_000D",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1034,10 +1048,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_000D"
+			}
 		},
 		"0x000E": {
+			"objectId": "SoundSensor",
+			"objectName": "$OBJNAME_000E",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1129,10 +1144,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_000E"
+			}
 		},
 		"0x000F": {
+			"objectId": "MailingSensor",
+			"objectName": "$OBJNAME_000F",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1197,10 +1213,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_000F"
+			}
 		},
 		"0x0010": {
+			"objectId": "BurdenSensor",
+			"objectName": "$OBJNAME_0010",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1265,10 +1282,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0010"
+			}
 		},
 		"0x0011": {
+			"objectId": "TemperatureSensor",
+			"objectName": "$OBJNAME_0011",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1319,10 +1337,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0011"
+			}
 		},
 		"0x0012": {
+			"objectId": "HumiditySensor",
+			"objectName": "$OBJNAME_0012",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1372,10 +1391,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0012"
+			}
 		},
 		"0x0013": {
+			"objectId": "RainSensor",
+			"objectName": "$OBJNAME_0013",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1440,10 +1460,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0013"
+			}
 		},
 		"0x0014": {
+			"objectId": "WaterLevelSensor",
+			"objectName": "$OBJNAME_0014",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1537,10 +1558,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0014"
+			}
 		},
 		"0x0015": {
+			"objectId": "BathWaterLevelSensor",
+			"objectName": "$OBJNAME_0015",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1634,10 +1656,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0015"
+			}
 		},
 		"0x0016": {
+			"objectId": "BathUpsurgeSensor",
+			"objectName": "$OBJNAME_0016",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1702,10 +1725,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0016"
+			}
 		},
 		"0x0017": {
+			"objectId": "WaterLeakSensor",
+			"objectName": "$OBJNAME_0017",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1770,10 +1794,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0017"
+			}
 		},
 		"0x0018": {
+			"objectId": "WaterOverflowSensor",
+			"objectName": "$OBJNAME_0018",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1838,10 +1863,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0018"
+			}
 		},
 		"0x0019": {
+			"objectId": "FireSensor",
+			"objectName": "$OBJNAME_0019",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1926,10 +1952,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0019"
+			}
 		},
 		"0x001A": {
+			"objectId": "TobaccoSmokeSensor",
+			"objectName": "$OBJNAME_001A",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -1994,10 +2021,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_001A"
+			}
 		},
 		"0x001B": {
+			"objectId": "CO2Sensor",
+			"objectName": "$OBJNAME_001B",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2047,10 +2075,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_001B"
+			}
 		},
 		"0x001C": {
+			"objectId": "GasSensor",
+			"objectName": "$OBJNAME_001C",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2142,10 +2171,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_001C"
+			}
 		},
 		"0x001D": {
+			"objectId": "VOCSensor",
+			"objectName": "$OBJNAME_001D",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2237,10 +2267,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_001D"
+			}
 		},
 		"0x001E": {
+			"objectId": "DifferentialPressureSensor",
+			"objectName": "$OBJNAME_001E",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2290,10 +2321,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_001E"
+			}
 		},
 		"0x001F": {
+			"objectId": "WindSpeedSensor",
+			"objectName": "$OBJNAME_001F",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2367,10 +2399,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_001F"
+			}
 		},
 		"0x0020": {
+			"objectId": "OdorSensor",
+			"objectName": "$OBJNAME_0020",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2466,10 +2499,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0020"
+			}
 		},
 		"0x0021": {
+			"objectId": "FlameSensor",
+			"objectName": "$OBJNAME_0021",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2554,10 +2588,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0021"
+			}
 		},
 		"0x0022": {
+			"objectId": "AmountOfPowerSensor",
+			"objectName": "$OBJNAME_0022",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2733,10 +2768,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0022"
+			}
 		},
 		"0x0023": {
+			"objectId": "CurrentValueSensor",
+			"objectName": "$OBJNAME_0023",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2836,10 +2872,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0023"
+			}
 		},
 		"0x0025": {
+			"objectId": "WaterFlowRateSensor",
+			"objectName": "$OBJNAME_0025",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -2914,10 +2951,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0025"
+			}
 		},
 		"0x0026": {
+			"objectId": "Fine-motionSensor",
+			"objectName": "$OBJNAME_0026",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -3053,10 +3091,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0026"
+			}
 		},
 		"0x0027": {
+			"objectId": "PassageSensor",
+			"objectName": "$OBJNAME_0027",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -3152,10 +3191,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0027"
+			}
 		},
 		"0x0028": {
+			"objectId": "BedSensor",
+			"objectName": "$OBJNAME_0028",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -3220,10 +3260,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0028"
+			}
 		},
 		"0x0029": {
+			"objectId": "OpeningAndClosingSensor",
+			"objectName": "$OBJNAME_0029",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -3313,10 +3354,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0029"
+			}
 		},
 		"0x002A": {
+			"objectId": "ActivitySensor",
+			"objectName": "$OBJNAME_002A",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -3360,10 +3402,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_002A"
+			}
 		},
 		"0x002B": {
+			"objectId": "HumanBodyPositionSensor",
+			"objectName": "$OBJNAME_002B",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -3408,10 +3451,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_002B"
+			}
 		},
 		"0x002C": {
+			"objectId": "SnowSensor",
+			"objectName": "$OBJNAME_002C",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -3476,10 +3520,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_002C"
+			}
 		},
 		"0x002D": {
+			"objectId": "BarometricPressureSensor",
+			"objectName": "$OBJNAME_002D",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -3528,10 +3573,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_002D"
+			}
 		},
 		"0x0130": {
+			"objectId": "DomesticAirConditioner",
+			"objectName": "$OBJNAME_0130",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -4735,10 +4781,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0130"
+			}
 		},
 		"0x0133": {
+			"objectId": "ExhaustFan",
+			"objectName": "$OBJNAME_0133",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -4806,10 +4853,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0133"
+			}
 		},
 		"0x0134": {
+			"objectId": "AirConditioningVentilationFan",
+			"objectName": "$OBJNAME_0134",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -5008,10 +5056,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0134"
+			}
 		},
 		"0x0135": {
+			"objectId": "AirPurifier",
+			"objectName": "$OBJNAME_0135",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -5142,10 +5191,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0135"
+			}
 		},
 		"0x0139": {
+			"objectId": "Humidifier",
+			"objectName": "$OBJNAME_0139",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -5410,10 +5460,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0139"
+			}
 		},
 		"0x0142": {
+			"objectId": "ElectricHeater",
+			"objectName": "$OBJNAME_0142",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -5671,10 +5722,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0142"
+			}
 		},
 		"0x0143": {
+			"objectId": "FanHeater",
+			"objectName": "$OBJNAME_0143",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -6010,10 +6062,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0143"
+			}
 		},
 		"0x0145": {
+			"objectId": "CommercialPackageAirConditionerIndoorUnit",
+			"objectName": "$OBJNAME_0145",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -6936,10 +6989,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0145"
+			}
 		},
 		"0x0146": {
+			"objectId": "CommercialPackageAirConditionerOutdoorUnit",
+			"objectName": "$OBJNAME_0146",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -7221,10 +7275,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0146"
+			}
 		},
 		"0x0155": {
+			"objectId": "ElectricThermalStorageHeater",
+			"objectName": "$OBJNAME_0155",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -7679,10 +7734,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0155"
+			}
 		},
 		"0x0260": {
+			"objectId": "IElectricBlindDate",
+			"objectName": "$OBJNAME_0260",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -8102,10 +8158,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0260"
+			}
 		},
 		"0x0261": {
+			"objectId": "ElectricShutter",
+			"objectName": "$OBJNAME_0261",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -8480,10 +8537,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0261"
+			}
 		},
 		"0x0263": {
+			"objectId": "ElectricShuttersShutter",
+			"objectName": "$OBJNAME_0263",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -8858,10 +8916,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0263"
+			}
 		},
 		"0x0264": {
+			"objectId": "ElectricGate",
+			"objectName": "$OBJNAME_0264",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -9173,10 +9232,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0264"
+			}
 		},
 		"0x0265": {
+			"objectId": "ElectricWindows",
+			"objectName": "$OBJNAME_0265",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -9568,10 +9628,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0265"
+			}
 		},
 		"0x0266": {
+			"objectId": "ElectricEntranceDoor,SlidingDoor",
+			"objectName": "$OBJNAME_0266",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -9883,10 +9944,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0266"
+			}
 		},
 		"0x0267": {
+			"objectId": "Sprinkler(forTheGarden)",
+			"objectName": "$OBJNAME_0267",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -10029,10 +10091,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0267"
+			}
 		},
 		"0x026B": {
+			"objectId": "ElectricWaterHeater",
+			"objectName": "$OBJNAME_026B",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -10862,10 +10925,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_026B"
+			}
 		},
 		"0x026E": {
+			"objectId": "ElectricToiletSeats",
+			"objectName": "$OBJNAME_026E",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -11138,10 +11202,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_026E"
+			}
 		},
 		"0x026F": {
+			"objectId": "ElectricLock",
+			"objectName": "$OBJNAME_026F",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -11326,10 +11391,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_026F"
+			}
 		},
 		"0x0272": {
+			"objectId": "InstantaneousTypeWaterHeater",
+			"objectName": "$OBJNAME_0272",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -11893,10 +11959,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0272"
+			}
 		},
 		"0x0273": {
+			"objectId": "BathroomHeatingDryer",
+			"objectName": "$OBJNAME_0273",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -12309,10 +12376,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0273"
+			}
 		},
 		"0x0279": {
+			"objectId": "ResidentialSolarPowerGeneration",
+			"objectName": "$OBJNAME_0279",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -12571,10 +12639,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0279"
+			}
 		},
 		"0x027A": {
+			"objectId": "HotAndColdWaterHeatSourceMachine",
+			"objectName": "$OBJNAME_027A",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -12957,10 +13026,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_027A"
+			}
 		},
 		"0x027B": {
+			"objectId": "FloorHeating",
+			"objectName": "$OBJNAME_027B",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -13421,10 +13491,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_027B"
+			}
 		},
 		"0x027C": {
+			"objectId": "FuelCell",
+			"objectName": "$OBJNAME_027C",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -13826,10 +13897,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_027C"
+			}
 		},
 		"0x027D": {
+			"objectId": "StorageBattery",
+			"objectName": "$OBJNAME_027D",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -14681,10 +14753,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_027D"
+			}
 		},
 		"0x027E": {
+			"objectId": "ElectricVehicleChargingAndDischargingDevice",
+			"objectName": "$OBJNAME_027E",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -15514,10 +15587,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_027E"
+			}
 		},
 		"0x027F": {
+			"objectId": "EngineCogeneration",
+			"objectName": "$OBJNAME_027F",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -15903,10 +15977,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_027F"
+			}
 		},
 		"0x0280": {
+			"objectId": "PowerMeter",
+			"objectName": "$OBJNAME_0280",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -15992,10 +16067,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0280"
+			}
 		},
 		"0x0281": {
+			"objectId": "WaterFlowMeter",
+			"objectName": "$OBJNAME_0281",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -16202,10 +16278,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0281"
+			}
 		},
 		"0x0282": {
+			"objectId": "GasMeter",
+			"objectName": "$OBJNAME_0282",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -16279,10 +16356,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0282"
+			}
 		},
 		"0x0283": {
+			"objectId": "LPGasMeters",
+			"objectName": "$OBJNAME_0283",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -16852,10 +16930,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0283"
+			}
 		},
 		"0x0287": {
+			"objectId": "PanelboardMetering",
+			"objectName": "$OBJNAME_0287",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -19187,10 +19266,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0287"
+			}
 		},
 		"0x0288": {
+			"objectId": "LowVoltageSmartPowerMeter",
+			"objectName": "$OBJNAME_0288",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -19651,10 +19731,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0288"
+			}
 		},
 		"0x0289": {
+			"objectId": "SmartGasMeters",
+			"objectName": "$OBJNAME_0289",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -20122,10 +20203,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0289"
+			}
 		},
 		"0x028A": {
+			"objectId": "High-voltageSmartPowerMeter",
+			"objectName": "$OBJNAME_028A",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -20827,10 +20909,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_028A"
+			}
 		},
 		"0x0290": {
+			"objectId": "GenericIllumination",
+			"objectName": "$OBJNAME_0290",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -21332,10 +21415,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0290"
+			}
 		},
 		"0x0291": {
+			"objectId": "Single-functionLighting",
+			"objectName": "$OBJNAME_0291",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -21379,10 +21463,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0291"
+			}
 		},
 		"0x02A0": {
+			"objectId": "Buzzer",
+			"objectName": "$OBJNAME_02A0",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -21453,10 +21538,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_02A0"
+			}
 		},
 		"0x02A1": {
+			"objectId": "ElectricCarCharger",
+			"objectName": "$OBJNAME_02A1",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -21828,10 +21914,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_02A1"
+			}
 		},
 		"0x03B2": {
+			"objectId": "ElectricPot",
+			"objectName": "$OBJNAME_03B2",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -22004,10 +22091,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03B2"
+			}
 		},
 		"0x03B7": {
+			"objectId": "Refrigerator-freezer",
+			"objectName": "$OBJNAME_03B7",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -22791,10 +22879,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03B7"
+			}
 		},
 		"0x03B8": {
+			"objectId": "MicrowaveOven",
+			"objectName": "$OBJNAME_03B8",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -23288,10 +23377,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03B8"
+			}
 		},
 		"0x03B9": {
+			"objectId": "CookingHeater",
+			"objectName": "$OBJNAME_03B9",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -23530,10 +23620,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03B9"
+			}
 		},
 		"0x03BB": {
+			"objectId": "RiceCooker",
+			"objectName": "$OBJNAME_03BB",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -23742,10 +23833,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03BB"
+			}
 		},
 		"0x03C5": {
+			"objectId": "WashingMachine",
+			"objectName": "$OBJNAME_03C5",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -23910,10 +24002,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03C5"
+			}
 		},
 		"0x03C6": {
+			"objectId": "ClothDrier",
+			"objectName": "$OBJNAME_03C6",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -24076,10 +24169,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03C6"
+			}
 		},
 		"0x03CE": {
+			"objectId": "ShowcaseForBusiness",
+			"objectName": "$OBJNAME_03CE",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -24338,10 +24432,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03CE"
+			}
 		},
 		"0x03D3": {
+			"objectId": "WashingAndDryingMachine",
+			"objectName": "$OBJNAME_03D3",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -25281,10 +25376,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03D3"
+			}
 		},
 		"0x03D4": {
+			"objectId": "CommercialShowcaseForTheOutdoorUnit",
+			"objectName": "$OBJNAME_03D4",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -25412,10 +25508,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_03D4"
+			}
 		},
 		"0x0401": {
+			"objectId": "WeightScale",
+			"objectName": "$OBJNAME_0401",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -25483,10 +25580,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0401"
+			}
 		},
 		"0x05FB": {
+			"objectId": "DREventController",
+			"objectName": "$OBJNAME_05FB",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -25801,10 +25899,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_05FB"
+			}
 		},
 		"0x05FD": {
+			"objectId": "Switch(JEMA/HATerminalCorrespondence)",
+			"objectName": "$OBJNAME_05FD",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -25845,10 +25944,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_05FD"
+			}
 		},
 		"0x05FF": {
+			"objectId": "Controller",
+			"objectName": "$OBJNAME_05FF",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -26091,10 +26191,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_05FF"
+			}
 		},
 		"0x0601": {
+			"objectId": "Display",
+			"objectName": "$OBJNAME_0601",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -26335,10 +26436,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0601"
+			}
 		},
 		"0x0602": {
+			"objectId": "TvSet",
+			"objectName": "$OBJNAME_0602",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -26578,10 +26680,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0602"
+			}
 		},
 		"0x0603": {
+			"objectId": "Audio",
+			"objectName": "$OBJNAME_0603",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -26686,10 +26789,11 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0603"
+			}
 		},
 		"0x0604": {
+			"objectId": "NetworkCamera",
+			"objectName": "$OBJNAME_0604",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -26798,8 +26902,7 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0604"
+			}
 		}
 	}
 }

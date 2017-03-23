@@ -3,6 +3,8 @@
 	"version": "1.12",
 	"elObjects": {
 		"0x0EF0": {
+			"objectId": "NodeProfile",
+			"objectName": "$OBJNAME_0EF0",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -386,8 +388,7 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0EF0"
+			}
 		}
 	}
 }

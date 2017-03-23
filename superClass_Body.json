@@ -3,6 +3,8 @@
 	"version": "G",
 	"elObjects": {
 		"0x0000": {
+			"objectId": "Superclass",
+			"objectName": "$OBJNAME_0000",
 			"epcs": {
 				"0x80": {
 					"accessModeAnno": "required",
@@ -492,8 +494,7 @@
 						}
 					]
 				}
-			},
-			"objectName": "$OBJNAME_0000"
+			}
 		}
 	}
 }
