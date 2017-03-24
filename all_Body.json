@@ -277,7 +277,7 @@
 					]
 				},
 				"0xD3": {
-					"epcType": "Self-nodeNumberOfInstances",
+					"epcType": "SelfNodeNumberOfInstances",
 					"epcName": "$EPCNAME_SELF_NODE_NUMBER_OF_INSTANCES",
 					"epcSize": 3,
 					"accessModeAnno": "notApplicable",
@@ -285,7 +285,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Self-nodeNumberOfInstances",
+							"elementType": "SelfNodeNumberOfInstances",
 							"elementName": "$ELEMNAME_SELF_NODE_NUMBER_OF_INSTANCES",
 							"elementSize": 3,
 							"repeatCount": 1,
@@ -300,7 +300,7 @@
 					]
 				},
 				"0xD4": {
-					"epcType": "TheNumberOfTheSelf-nodeClass",
+					"epcType": "TheNumberOfTheSelfNodeClass",
 					"epcName": "$EPCNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -308,7 +308,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "TheNumberOfTheSelf-nodeClass",
+							"elementType": "TheNumberOfTheSelfNodeClass",
 							"elementName": "$ELEMNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -358,7 +358,7 @@
 					]
 				},
 				"0xD6": {
-					"epcType": "Self-nodeInstanceListS",
+					"epcType": "SelfNodeInstanceListS",
 					"epcName": "$EPCNAME_SELF_NODE_INSTANCE_LIST_S",
 					"epcSize": 253,
 					"accessModeAnno": "notApplicable",
@@ -393,7 +393,7 @@
 					]
 				},
 				"0xD7": {
-					"epcType": "Self-nodeClassListS",
+					"epcType": "SelfNodeClassListS",
 					"epcName": "$EPCNAME_SELF_NODE_CLASS_LIST_S",
 					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
@@ -747,7 +747,7 @@
 					]
 				},
 				"0x8F": {
-					"epcType": "Power-savingOperationSetting",
+					"epcType": "PowerSavingOperationSetting",
 					"epcName": "$EPCNAME_POWER_SAVING_OPERATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -755,7 +755,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Power-savingOperationSetting",
+							"elementType": "PowerSavingOperationSetting",
 							"elementName": "$ELEMNAME_POWER_SAVING_OPERATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -3032,7 +3032,7 @@
 					]
 				},
 				"0xB1": {
-					"epcType": "Smoke(cigarette)DetectionStatus",
+					"epcType": "SmokeDetectionStatus",
 					"epcName": "$EPCNAME_SMOKE_DETECTION_STATUS",
 					"epcSize": 1,
 					"accessModeAnno": "required",
@@ -3040,7 +3040,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Smoke(cigarette)DetectionStatus",
+							"elementType": "SmokeDetectionStatus",
 							"elementName": "$ELEMNAME_SMOKE_DETECTION_STATUS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -3056,7 +3056,7 @@
 			}
 		},
 		"0x001B": {
-			"objectType": "CO2Sensor",
+			"objectType": "Co2Sensor",
 			"objectName": "$OBJNAME_001B",
 			"epcs": {
 				"0x80": {
@@ -3082,7 +3082,7 @@
 					]
 				},
 				"0xE0": {
-					"epcType": "CO2ConcentrationMeasurementValue",
+					"epcType": "Co2ConcentrationMeasurementValue",
 					"epcName": "$EPCNAME_CO2_CONCENTRATION_MEASUREMENT_VALUE",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -3090,7 +3090,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "CO2ConcentrationMeasurementValue",
+							"elementType": "Co2ConcentrationMeasurementValue",
 							"elementName": "$ELEMNAME_CO2_CONCENTRATION_MEASUREMENT_VALUE",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -3212,7 +3212,7 @@
 			}
 		},
 		"0x001D": {
-			"objectType": "VOCSensor",
+			"objectType": "VocSensor",
 			"objectName": "$OBJNAME_001D",
 			"epcs": {
 				"0x80": {
@@ -3260,7 +3260,7 @@
 					]
 				},
 				"0xB1": {
-					"epcType": "VOCDetectionState",
+					"epcType": "VocDetectionState",
 					"epcName": "$EPCNAME_VOC_DETECTION_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "required",
@@ -3268,7 +3268,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "VOCDetectionState",
+							"elementType": "VocDetectionState",
 							"elementName": "$ELEMNAME_VOC_DETECTION_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -3282,7 +3282,7 @@
 					]
 				},
 				"0xE0": {
-					"epcType": "VOCConcentrationMeasurementValue",
+					"epcType": "VocConcentrationMeasurementValue",
 					"epcName": "$EPCNAME_VOC_CONCENTRATION_MEASUREMENT_VALUE",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -3290,7 +3290,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "VOCConcentrationMeasurementValue",
+							"elementType": "VocConcentrationMeasurementValue",
 							"elementName": "$ELEMNAME_VOC_CONCENTRATION_MEASUREMENT_VALUE",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -3697,7 +3697,7 @@
 					]
 				},
 				"0xE1": {
-					"epcType": "Medium-capacitySensorInstantaneousPowerValueMeasurementValue",
+					"epcType": "MediumCapacitySensorInstantaneousPowerValueMeasurementValue",
 					"epcName": "$EPCNAME_MEDIUM_CAPACITY_SENSOR_INSTANTANEOUS_POWER_VALUE_MEASUREMENT_VALUE",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -3705,7 +3705,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Medium-capacitySensorInstantaneousPowerValueMeasurementValue",
+							"elementType": "MediumCapacitySensorInstantaneousPowerValueMeasurementValue",
 							"elementName": "$ELEMNAME_MEDIUM_CAPACITY_SENSOR_INSTANTANEOUS_POWER_VALUE_MEASUREMENT_VALUE",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -3754,7 +3754,7 @@
 					]
 				},
 				"0xE3": {
-					"epcType": "Large-capacitySensorInstantaneousPowerValueMeasurementValue",
+					"epcType": "LargeCapacitySensorInstantaneousPowerValueMeasurementValue",
 					"epcName": "$EPCNAME_LARGE_CAPACITY_SENSOR_INSTANTANEOUS_POWER_VALUE_MEASUREMENT_VALUE",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -3762,7 +3762,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Large-capacitySensorInstantaneousPowerValueMeasurementValue",
+							"elementType": "LargeCapacitySensorInstantaneousPowerValueMeasurementValue",
 							"elementName": "$ELEMNAME_LARGE_CAPACITY_SENSOR_INSTANTANEOUS_POWER_VALUE_MEASUREMENT_VALUE",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -4024,7 +4024,7 @@
 			}
 		},
 		"0x0026": {
-			"objectType": "Fine-motionSensor",
+			"objectType": "FineMotionSensor",
 			"objectName": "$OBJNAME_0026",
 			"epcs": {
 				"0x80": {
@@ -4528,7 +4528,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "X/Y/ZAxis",
+							"elementType": "XYZAxis",
 							"elementName": "$ELEMNAME_X___Y___Z_AXIS",
 							"elementSize": 1,
 							"repeatCount": 3,
@@ -4700,7 +4700,7 @@
 					]
 				},
 				"0x8F": {
-					"epcType": "Power-savingOperationSetting",
+					"epcType": "PowerSavingOperationSetting",
 					"epcName": "$EPCNAME_POWER_SAVING_OPERATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "required",
@@ -4708,7 +4708,7 @@
 					"accessModeSet": "required",
 					"edt": [
 						{
-							"elementType": "Power-savingOperationSetting",
+							"elementType": "PowerSavingOperationSetting",
 							"elementName": "$ELEMNAME_POWER_SAVING_OPERATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -4722,7 +4722,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -4730,7 +4730,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -4746,7 +4746,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -4754,7 +4754,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -4765,7 +4765,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -4773,7 +4773,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -4784,7 +4784,7 @@
 					]
 				},
 				"0x94": {
-					"epcType": "OFFTimerReservationSetting",
+					"epcType": "OffTimerReservationSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -4792,7 +4792,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerReservationSetting",
+							"elementType": "OffTimerReservationSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -4808,7 +4808,7 @@
 					]
 				},
 				"0x95": {
-					"epcType": "OFFTimerTimeSetting",
+					"epcType": "OffTimerTimeSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -4816,7 +4816,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerTimeSetting",
+							"elementType": "OffTimerTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -4835,7 +4835,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerRelativeTimeSetting",
+							"elementType": "OffTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -4987,7 +4987,7 @@
 					]
 				},
 				"0xAB": {
-					"epcType": "Non-priorityState",
+					"epcType": "NonPriorityState",
 					"epcName": "$EPCNAME_NON_PRIORITY_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -4995,7 +4995,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Non-priorityState",
+							"elementType": "NonPriorityState",
 							"elementName": "$ELEMNAME_NON_PRIORITY_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -5211,7 +5211,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Cooling/Heating/Dehumidifying/Blast",
+							"elementType": "CoolingHeatingDehumidifyingBlast",
 							"elementName": "$ELEMNAME_COOLING___HEATING___DEHUMIDIFYING___BLAST",
 							"elementSize": 2,
 							"repeatCount": 4,
@@ -5569,7 +5569,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ElectrostaticPrecipitatorSystem/ClusterIonSystem/Preliminary",
+							"elementType": "ElectrostaticPrecipitatorSystemClusterIonSystemPreliminary",
 							"elementName": "$ELEMNAME_ELECTROSTATIC_PRECIPITATOR_SYSTEM___CLUSTER_ION_SYSTEM___PRELIMINARY",
 							"elementSize": 1,
 							"repeatCount": 8,
@@ -5667,7 +5667,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "NegativeIonMode/ClusterIonSystem/Preliminary",
+							"elementType": "NegativeIonModeClusterIonSystemPreliminary",
 							"elementName": "$ELEMNAME_NEGATIVE_ION_MODE___CLUSTER_ION_SYSTEM___PRELIMINARY",
 							"elementSize": 1,
 							"repeatCount": 8,
@@ -5717,7 +5717,7 @@
 					]
 				},
 				"0xCA": {
-					"epcType": "EquippedWithSelf-cleaningMethod",
+					"epcType": "EquippedWithSelfCleaningMethod",
 					"epcName": "$EPCNAME_EQUIPPED_WITH_SELF_CLEANING_METHOD",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -5725,7 +5725,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "EquippedWithSelf-cleaningMethod",
+							"elementType": "EquippedWithSelfCleaningMethod",
 							"elementName": "$ELEMNAME_EQUIPPED_WITH_SELF_CLEANING_METHOD",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -5757,7 +5757,7 @@
 					]
 				},
 				"0xCB": {
-					"epcType": "SettingSelf-cleaningFunctionMode",
+					"epcType": "SettingSelfCleaningFunctionMode",
 					"epcName": "$EPCNAME_SETTING_SELF_CLEANING_FUNCTION_MODE",
 					"epcSize": 8,
 					"accessModeAnno": "notApplicable",
@@ -5765,7 +5765,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OzoneCleaningSystem/DryingSystem/Preliminary",
+							"elementType": "OzoneCleaningSystemDryingSystemPreliminary",
 							"elementName": "$ELEMNAME_OZONE_CLEANING_SYSTEM___DRYING_SYSTEM___PRELIMINARY",
 							"elementSize": 1,
 							"repeatCount": 8,
@@ -6123,7 +6123,7 @@
 					]
 				},
 				"0xC0": {
-					"epcType": "CO2ConcentrationMeasurementValue",
+					"epcType": "Co2ConcentrationMeasurementValue",
 					"epcName": "$EPCNAME_CO2_CONCENTRATION_MEASUREMENT_VALUE",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -6131,7 +6131,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "CO2ConcentrationMeasurementValue",
+							"elementType": "Co2ConcentrationMeasurementValue",
 							"elementName": "$ELEMNAME_CO2_CONCENTRATION_MEASUREMENT_VALUE",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -6147,7 +6147,7 @@
 					]
 				},
 				"0xC1": {
-					"epcType": "Smoke(cigarette)DetectionStatus",
+					"epcType": "SmokeDetectionStatus",
 					"epcName": "$EPCNAME_SMOKE_DETECTION_STATUS",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -6155,7 +6155,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Smoke(cigarette)DetectionStatus",
+							"elementType": "SmokeDetectionStatus",
 							"elementName": "$ELEMNAME_SMOKE_DETECTION_STATUS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -6288,7 +6288,7 @@
 					]
 				},
 				"0xC1": {
-					"epcType": "Smoke(cigarette)DetectionStatus",
+					"epcType": "SmokeDetectionStatus",
 					"epcName": "$EPCNAME_SMOKE_DETECTION_STATUS",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -6296,7 +6296,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Smoke(cigarette)DetectionStatus",
+							"elementType": "SmokeDetectionStatus",
 							"elementName": "$ELEMNAME_SMOKE_DETECTION_STATUS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -6382,7 +6382,7 @@
 					]
 				},
 				"0x94": {
-					"epcType": "OFFTimerReservationSetting",
+					"epcType": "OffTimerReservationSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -6390,7 +6390,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerReservationSetting",
+							"elementType": "OffTimerReservationSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -6412,7 +6412,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerRelativeTimeSetting",
+							"elementType": "OffTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -6661,7 +6661,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -6669,7 +6669,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -6683,7 +6683,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -6691,7 +6691,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -6702,7 +6702,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -6710,7 +6710,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -6721,7 +6721,7 @@
 					]
 				},
 				"0x94": {
-					"epcType": "OFFTimerReservationSetting",
+					"epcType": "OffTimerReservationSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -6729,7 +6729,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerReservationSetting",
+							"elementType": "OffTimerReservationSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -6743,7 +6743,7 @@
 					]
 				},
 				"0x95": {
-					"epcType": "OFFTimerTimeSetting",
+					"epcType": "OffTimerTimeSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -6751,7 +6751,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerTimeSetting",
+							"elementType": "OffTimerTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -6770,7 +6770,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerRelativeTimeSetting",
+							"elementType": "OffTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -6935,7 +6935,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -6943,7 +6943,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -6959,7 +6959,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -6967,7 +6967,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -6978,7 +6978,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -6986,7 +6986,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -6997,7 +6997,7 @@
 					]
 				},
 				"0x94": {
-					"epcType": "OFFTimerReservationSetting",
+					"epcType": "OffTimerReservationSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -7005,7 +7005,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerReservationSetting",
+							"elementType": "OffTimerReservationSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -7021,7 +7021,7 @@
 					]
 				},
 				"0x95": {
-					"epcType": "OFFTimerTimeSetting",
+					"epcType": "OffTimerTimeSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -7029,7 +7029,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerTimeSetting",
+							"elementType": "OffTimerTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -7048,7 +7048,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerRelativeTimeSetting",
+							"elementType": "OffTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -7290,7 +7290,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -7298,7 +7298,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -7314,7 +7314,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -7322,7 +7322,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -7333,7 +7333,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -7341,7 +7341,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -7352,7 +7352,7 @@
 					]
 				},
 				"0x94": {
-					"epcType": "OFFTimerReservationSetting",
+					"epcType": "OffTimerReservationSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -7360,7 +7360,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerReservationSetting",
+							"elementType": "OffTimerReservationSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -7376,7 +7376,7 @@
 					]
 				},
 				"0x95": {
-					"epcType": "OFFTimerTimeSetting",
+					"epcType": "OffTimerTimeSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -7384,7 +7384,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerTimeSetting",
+							"elementType": "OffTimerTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -7403,7 +7403,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerRelativeTimeSetting",
+							"elementType": "OffTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -7715,7 +7715,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Cooling/Heating/Dehumidifying/Blast",
+							"elementType": "CoolingHeatingDehumidifyingBlast",
 							"elementName": "$ELEMNAME_COOLING___HEATING___DEHUMIDIFYING___BLAST",
 							"elementSize": 2,
 							"repeatCount": 4,
@@ -8313,7 +8313,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Cooling/Heating/Dehumidifying",
+							"elementType": "CoolingHeatingDehumidifying",
 							"elementName": "$ELEMNAME_COOLING___HEATING___DEHUMIDIFYING",
 							"elementSize": 2,
 							"repeatCount": 3,
@@ -8636,7 +8636,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "ThermalStorage/Control/FanWeak/FanStrong",
+							"elementType": "ThermalStorageControlFanWeakFanStrong",
 							"elementName": "$ELEMNAME_THERMAL_STORAGE___CONTROL___FAN_WEAK___FAN_STRONG",
 							"elementSize": 2,
 							"repeatCount": 4,
@@ -9034,7 +9034,7 @@
 			}
 		},
 		"0x0260": {
-			"objectType": "IElectricBlindDate",
+			"objectType": "ElectricBlindSunshade",
 			"objectName": "$OBJNAME_0260",
 			"epcs": {
 				"0x80": {
@@ -9060,7 +9060,7 @@
 					]
 				},
 				"0x89": {
-					"epcType": "AbnormalContents(returnPossibleAbnormal)",
+					"epcType": "AbnormalContents",
 					"epcName": "$EPCNAME_ABNORMAL_CONTENTS",
 					"epcSize": 2,
 					"accessModeAnno": "required",
@@ -9162,7 +9162,7 @@
 					]
 				},
 				"0xD0": {
-					"epcType": "Open(overhang)SpeedSetting",
+					"epcType": "OpenSpeedSetting",
 					"epcName": "$EPCNAME_OPEN_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -9170,7 +9170,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Open(overhang)SpeedSetting",
+							"elementType": "OpenSpeedSetting",
 							"elementName": "$ELEMNAME_OPEN_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -9185,7 +9185,7 @@
 					]
 				},
 				"0xD1": {
-					"epcType": "Closed(storage)SpeedSetting",
+					"epcType": "ClosedSpeedSetting",
 					"epcName": "$EPCNAME_CLOSED_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -9193,7 +9193,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Closed(storage)SpeedSetting",
+							"elementType": "ClosedSpeedSetting",
 							"elementName": "$ELEMNAME_CLOSED_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -9392,7 +9392,7 @@
 					]
 				},
 				"0xE9": {
-					"epcType": "SelectOpen(overhang)DegreesOperationSetting",
+					"epcType": "SelectOpenDegreesOperationSetting",
 					"epcName": "$EPCNAME_SELECT_OPEN_DEGREES_OPERATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "required",
@@ -9400,7 +9400,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "SelectOpen(overhang)DegreesOperationSetting",
+							"elementType": "SelectOpenDegreesOperationSetting",
 							"elementName": "$ELEMNAME_SELECT_OPEN_DEGREES_OPERATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -9441,7 +9441,7 @@
 					]
 				},
 				"0xEE": {
-					"epcType": "One-timeOpen(overhang)SpeedSetting",
+					"epcType": "OneTimeOpenSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_OPEN_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -9449,7 +9449,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeOpen(overhang)SpeedSetting",
+							"elementType": "OneTimeOpenSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_OPEN_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -9465,7 +9465,7 @@
 					]
 				},
 				"0xEF": {
-					"epcType": "One-timeClosed(storage)SpeedSetting",
+					"epcType": "OneTimeClosedSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_CLOSED_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -9473,7 +9473,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeClosed(storage)SpeedSetting",
+							"elementType": "OneTimeClosedSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_CLOSED_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -9517,7 +9517,7 @@
 					]
 				},
 				"0x89": {
-					"epcType": "AbnormalContents(returnPossibleAbnormal)",
+					"epcType": "AbnormalContents",
 					"epcName": "$EPCNAME_ABNORMAL_CONTENTS",
 					"epcSize": 2,
 					"accessModeAnno": "required",
@@ -9525,7 +9525,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "AbnormalContents(returnPossibleAbnormal)",
+							"elementType": "AbnormalContents",
 							"elementName": "$ELEMNAME_ABNORMAL_CONTENTS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -9855,7 +9855,7 @@
 					]
 				},
 				"0xEE": {
-					"epcType": "One-timeOpeningSpeedSetting",
+					"epcType": "OneTimeOpeningSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_OPENING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -9863,7 +9863,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeOpeningSpeedSetting",
+							"elementType": "OneTimeOpeningSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_OPENING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -9879,7 +9879,7 @@
 					]
 				},
 				"0xEF": {
-					"epcType": "One-timeClosingSpeedSetting",
+					"epcType": "OneTimeClosingSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -9887,7 +9887,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeClosingSpeedSetting",
+							"elementType": "OneTimeClosingSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -9931,7 +9931,7 @@
 					]
 				},
 				"0x89": {
-					"epcType": "AbnormalContents(returnPossibleAbnormal)",
+					"epcType": "AbnormalContents",
 					"epcName": "$EPCNAME_ABNORMAL_CONTENTS",
 					"epcSize": 2,
 					"accessModeAnno": "required",
@@ -9939,7 +9939,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "AbnormalContents(returnPossibleAbnormal)",
+							"elementType": "AbnormalContents",
 							"elementName": "$ELEMNAME_ABNORMAL_CONTENTS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -10269,7 +10269,7 @@
 					]
 				},
 				"0xEE": {
-					"epcType": "One-timeOpeningSpeedSetting",
+					"epcType": "OneTimeOpeningSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_OPENING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -10277,7 +10277,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeOpeningSpeedSetting",
+							"elementType": "OneTimeOpeningSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_OPENING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -10293,7 +10293,7 @@
 					]
 				},
 				"0xEF": {
-					"epcType": "One-timeClosingSpeedSetting",
+					"epcType": "OneTimeClosingSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -10301,7 +10301,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeClosingSpeedSetting",
+							"elementType": "OneTimeClosingSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -10345,7 +10345,7 @@
 					]
 				},
 				"0x89": {
-					"epcType": "AbnormalContents(returnPossibleAbnormal)",
+					"epcType": "AbnormalContents",
 					"epcName": "$EPCNAME_ABNORMAL_CONTENTS",
 					"epcSize": 2,
 					"accessModeAnno": "required",
@@ -10353,7 +10353,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "AbnormalContents(returnPossibleAbnormal)",
+							"elementType": "AbnormalContents",
 							"elementName": "$ELEMNAME_ABNORMAL_CONTENTS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -10614,7 +10614,7 @@
 					]
 				},
 				"0xEE": {
-					"epcType": "One-timeOpeningSpeedSetting",
+					"epcType": "OneTimeOpeningSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_OPENING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -10622,7 +10622,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeOpeningSpeedSetting",
+							"elementType": "OneTimeOpeningSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_OPENING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -10638,7 +10638,7 @@
 					]
 				},
 				"0xEF": {
-					"epcType": "One-timeClosingSpeedSetting",
+					"epcType": "OneTimeClosingSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -10646,7 +10646,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeClosingSpeedSetting",
+							"elementType": "OneTimeClosingSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -10690,7 +10690,7 @@
 					]
 				},
 				"0x89": {
-					"epcType": "AbnormalContents(returnPossibleAbnormal)",
+					"epcType": "AbnormalContents",
 					"epcName": "$EPCNAME_ABNORMAL_CONTENTS",
 					"epcSize": 2,
 					"accessModeAnno": "required",
@@ -10698,7 +10698,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "AbnormalContents(returnPossibleAbnormal)",
+							"elementType": "AbnormalContents",
 							"elementName": "$ELEMNAME_ABNORMAL_CONTENTS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -11047,7 +11047,7 @@
 					]
 				},
 				"0xEE": {
-					"epcType": "One-timeOpeningSpeedSetting",
+					"epcType": "OneTimeOpeningSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_OPENING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -11055,7 +11055,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeOpeningSpeedSetting",
+							"elementType": "OneTimeOpeningSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_OPENING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -11071,7 +11071,7 @@
 					]
 				},
 				"0xEF": {
-					"epcType": "One-timeClosingSpeedSetting",
+					"epcType": "OneTimeClosingSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -11079,7 +11079,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeClosingSpeedSetting",
+							"elementType": "OneTimeClosingSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -11123,7 +11123,7 @@
 					]
 				},
 				"0x89": {
-					"epcType": "AbnormalContents(returnPossibleAbnormal)",
+					"epcType": "AbnormalContents",
 					"epcName": "$EPCNAME_ABNORMAL_CONTENTS",
 					"epcSize": 2,
 					"accessModeAnno": "required",
@@ -11131,7 +11131,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "AbnormalContents(returnPossibleAbnormal)",
+							"elementType": "AbnormalContents",
 							"elementName": "$ELEMNAME_ABNORMAL_CONTENTS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -11392,7 +11392,7 @@
 					]
 				},
 				"0xEE": {
-					"epcType": "One-timeOpeningSpeedSetting",
+					"epcType": "OneTimeOpeningSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_OPENING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -11400,7 +11400,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeOpeningSpeedSetting",
+							"elementType": "OneTimeOpeningSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_OPENING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -11416,7 +11416,7 @@
 					]
 				},
 				"0xEF": {
-					"epcType": "One-timeClosingSpeedSetting",
+					"epcType": "OneTimeClosingSpeedSetting",
 					"epcName": "$EPCNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -11424,7 +11424,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "One-timeClosingSpeedSetting",
+							"elementType": "OneTimeClosingSpeedSetting",
 							"elementName": "$ELEMNAME_ONE_TIME_CLOSING_SPEED_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -11442,7 +11442,7 @@
 			}
 		},
 		"0x0267": {
-			"objectType": "Sprinkler(forTheGarden)",
+			"objectType": "Sprinkler",
 			"objectName": "$OBJNAME_0267",
 			"epcs": {
 				"0x80": {
@@ -11629,7 +11629,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -11637,7 +11637,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -11651,7 +11651,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -11659,7 +11659,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -11788,7 +11788,7 @@
 					]
 				},
 				"0xB5": {
-					"epcType": "ManualBoilingOFFTimerRelativeTimeSettingValue",
+					"epcType": "ManualBoilingOffTimerRelativeTimeSettingValue",
 					"epcName": "$EPCNAME_MANUAL_BOILING_OFF_TIMER_RELATIVE_TIME_SETTING_VALUE",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -11796,7 +11796,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ManualBoilingOFFTimerRelativeTimeSettingValue",
+							"elementType": "ManualBoilingOffTimerRelativeTimeSettingValue",
 							"elementName": "$ELEMNAME_MANUAL_BOILING_OFF_TIMER_RELATIVE_TIME_SETTING_VALUE",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -12140,7 +12140,7 @@
 					]
 				},
 				"0xDB": {
-					"epcType": "WinterH/PUnitRatedPowerConsumption",
+					"epcType": "WinterHPUnitRatedPowerConsumption",
 					"epcName": "$EPCNAME_WINTER_H___P_UNIT_RATED_POWER_CONSUMPTION",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -12148,7 +12148,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "WinterH/PUnitRatedPowerConsumption",
+							"elementType": "WinterHPUnitRatedPowerConsumption",
 							"elementName": "$ELEMNAME_WINTER_H___P_UNIT_RATED_POWER_CONSUMPTION",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -12164,7 +12164,7 @@
 					]
 				},
 				"0xDC": {
-					"epcType": "InterimPeriodH/PUnitRatedPowerConsumption",
+					"epcType": "InterimPeriodHPUnitRatedPowerConsumption",
 					"epcName": "$EPCNAME_INTERIM_PERIOD_H___P_UNIT_RATED_POWER_CONSUMPTION",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -12172,7 +12172,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "InterimPeriodH/PUnitRatedPowerConsumption",
+							"elementType": "InterimPeriodHPUnitRatedPowerConsumption",
 							"elementName": "$ELEMNAME_INTERIM_PERIOD_H___P_UNIT_RATED_POWER_CONSUMPTION",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -12188,7 +12188,7 @@
 					]
 				},
 				"0xDD": {
-					"epcType": "SummerH/PUnitRatedPowerConsumption",
+					"epcType": "SummerHPUnitRatedPowerConsumption",
 					"epcName": "$EPCNAME_SUMMER_H___P_UNIT_RATED_POWER_CONSUMPTION",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -12196,7 +12196,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "SummerH/PUnitRatedPowerConsumption",
+							"elementType": "SummerHPUnitRatedPowerConsumption",
 							"elementName": "$ELEMNAME_SUMMER_H___P_UNIT_RATED_POWER_CONSUMPTION",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -12908,7 +12908,7 @@
 					]
 				},
 				"0xE4": {
-					"epcType": "Occupancy-absentState",
+					"epcType": "OccupancyAbsentState",
 					"epcName": "$EPCNAME_OCCUPANCY_ABSENT_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -12916,7 +12916,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Occupancy-absentState",
+							"elementType": "OccupancyAbsentState",
 							"elementName": "$ELEMNAME_OCCUPANCY_ABSENT_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -13027,7 +13027,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "AutoONTimerReservationSettingBath",
+					"epcType": "AutoOnTimerReservationSettingBath",
 					"epcName": "$EPCNAME_AUTO_ON_TIMER_RESERVATION_SETTING_BATH",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -13035,7 +13035,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "AutoONTimerReservationSettingBath",
+							"elementType": "AutoOnTimerReservationSettingBath",
 							"elementName": "$ELEMNAME_AUTO_ON_TIMER_RESERVATION_SETTING_BATH",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -13049,7 +13049,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "BathAutomaticONTimerTimeSetting",
+					"epcType": "BathAutomaticOnTimerTimeSetting",
 					"epcName": "$EPCNAME_BATH_AUTOMATIC_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -13057,7 +13057,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "BathAutomaticONTimerTimeSetting",
+							"elementType": "BathAutomaticOnTimerTimeSetting",
 							"elementName": "$ELEMNAME_BATH_AUTOMATIC_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -13068,7 +13068,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "BathAutomaticONTimerRelativeTimeSetting",
+					"epcType": "BathAutomaticOnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_BATH_AUTOMATIC_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -13076,7 +13076,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "BathAutomaticONTimerRelativeTimeSetting",
+							"elementType": "BathAutomaticOnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_BATH_AUTOMATIC_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -13535,7 +13535,7 @@
 					]
 				},
 				"0xEC": {
-					"epcType": "HotWaterSupplyWarmthONTimerReservationSetting",
+					"epcType": "HotWaterSupplyWarmthOnTimerReservationSetting",
 					"epcName": "$EPCNAME_HOT_WATER_SUPPLY_WARMTH_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -13543,7 +13543,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "HotWaterSupplyWarmthONTimerReservationSetting",
+							"elementType": "HotWaterSupplyWarmthOnTimerReservationSetting",
 							"elementName": "$ELEMNAME_HOT_WATER_SUPPLY_WARMTH_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -13557,7 +13557,7 @@
 					]
 				},
 				"0xED": {
-					"epcType": "HotWaterSupplyWarmthONTimerTimeSetting",
+					"epcType": "HotWaterSupplyWarmthOnTimerTimeSetting",
 					"epcName": "$EPCNAME_HOT_WATER_SUPPLY_WARMTH_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -13565,7 +13565,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "HotWaterSupplyWarmthONTimerTimeSetting",
+							"elementType": "HotWaterSupplyWarmthOnTimerTimeSetting",
 							"elementName": "$ELEMNAME_HOT_WATER_SUPPLY_WARMTH_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -13651,7 +13651,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting1",
+					"epcType": "OnTimerReservationSetting1",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING_1",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -13659,7 +13659,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting1",
+							"elementType": "OnTimerReservationSetting1",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING_1",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -13673,7 +13673,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -13681,7 +13681,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -13692,7 +13692,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -13700,7 +13700,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -13711,7 +13711,7 @@
 					]
 				},
 				"0x94": {
-					"epcType": "OFFTimerReservationSetting",
+					"epcType": "OffTimerReservationSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -13719,7 +13719,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerReservationSetting",
+							"elementType": "OffTimerReservationSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -13733,7 +13733,7 @@
 					]
 				},
 				"0x95": {
-					"epcType": "OFFTimerTimeSetting",
+					"epcType": "OffTimerTimeSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -13741,7 +13741,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerTimeSetting",
+							"elementType": "OffTimerTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -13760,7 +13760,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerRelativeTimeSetting",
+							"elementType": "OffTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -13823,7 +13823,7 @@
 					]
 				},
 				"0xB2": {
-					"epcType": "BathingBeforeThePre-heatingOperationSet",
+					"epcType": "BathingBeforeThePreHeatingOperationSet",
 					"epcName": "$EPCNAME_BATHING_BEFORE_THE_PRE_HEATING_OPERATION_SET",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -13831,7 +13831,7 @@
 					"accessModeSet": "required",
 					"edt": [
 						{
-							"elementType": "BathingBeforeThePre-heatingOperationSet",
+							"elementType": "BathingBeforeThePreHeatingOperationSet",
 							"elementName": "$ELEMNAME_BATHING_BEFORE_THE_PRE_HEATING_OPERATION_SET",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -14052,7 +14052,7 @@
 					]
 				},
 				"0xE1": {
-					"epcType": "ONTimerReservationSetting2",
+					"epcType": "OnTimerReservationSetting2",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING_2",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -14060,7 +14060,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting2",
+							"elementType": "OnTimerReservationSetting2",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING_2",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -14106,7 +14106,7 @@
 					]
 				},
 				"0xD0": {
-					"epcType": "Grid-connectedState",
+					"epcType": "GridConnectedState",
 					"epcName": "$EPCNAME_GRID_CONNECTED_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -14114,7 +14114,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Grid-connectedState",
+							"elementType": "GridConnectedState",
 							"elementName": "$ELEMNAME_GRID_CONNECTED_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -14317,7 +14317,7 @@
 					]
 				},
 				"0xE8": {
-					"epcType": "TheRatedPowerGenerationPowerValue(atTheTimeOfIndependence)",
+					"epcType": "TheRatedPowerGenerationPowerValue",
 					"epcName": "$EPCNAME_THE_RATED_POWER_GENERATION_POWER_VALUE",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -14325,7 +14325,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "TheRatedPowerGenerationPowerValue(atTheTimeOfIndependence)",
+							"elementType": "TheRatedPowerGenerationPowerValue",
 							"elementName": "$ELEMNAME_THE_RATED_POWER_GENERATION_POWER_VALUE",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -14341,7 +14341,7 @@
 					]
 				},
 				"0xE9": {
-					"epcType": "TheRatedPowerGenerationPowerValue(atTheTimeOfIndependence)",
+					"epcType": "TheRatedPowerGenerationPowerValue",
 					"epcName": "$EPCNAME_THE_RATED_POWER_GENERATION_POWER_VALUE",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -14349,7 +14349,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "TheRatedPowerGenerationPowerValue(atTheTimeOfIndependence)",
+							"elementType": "TheRatedPowerGenerationPowerValue",
 							"elementName": "$ELEMNAME_THE_RATED_POWER_GENERATION_POWER_VALUE",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -14393,7 +14393,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -14401,7 +14401,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -14415,7 +14415,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -14423,7 +14423,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -14434,7 +14434,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -14442,7 +14442,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -14453,7 +14453,7 @@
 					]
 				},
 				"0x94": {
-					"epcType": "OFFTimerReservationSetting",
+					"epcType": "OffTimerReservationSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -14461,7 +14461,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerReservationSetting",
+							"elementType": "OffTimerReservationSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -14475,7 +14475,7 @@
 					]
 				},
 				"0x95": {
-					"epcType": "OFFTimerTimeSetting",
+					"epcType": "OffTimerTimeSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -14483,7 +14483,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerTimeSetting",
+							"elementType": "OffTimerTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -14502,7 +14502,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerRelativeTimeSetting",
+							"elementType": "OffTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -14584,7 +14584,7 @@
 					]
 				},
 				"0xE3": {
-					"epcType": "ForwardWaterTemperatureMeasurementValue(outletWaterTemperature)",
+					"epcType": "ForwardWaterTemperatureMeasurementValue",
 					"epcName": "$EPCNAME_FORWARD_WATER_TEMPERATURE_MEASUREMENT_VALUE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -14592,7 +14592,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "ForwardWaterTemperatureMeasurementValue(outletWaterTemperature)",
+							"elementType": "ForwardWaterTemperatureMeasurementValue",
 							"elementName": "$ELEMNAME_FORWARD_WATER_TEMPERATURE_MEASUREMENT_VALUE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -14611,7 +14611,7 @@
 					]
 				},
 				"0xE4": {
-					"epcType": "ReturnWaterTemperatureMeasurementValue(inletWaterTemperature)",
+					"epcType": "ReturnWaterTemperatureMeasurementValue",
 					"epcName": "$EPCNAME_RETURN_WATER_TEMPERATURE_MEASUREMENT_VALUE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -14619,7 +14619,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "ReturnWaterTemperatureMeasurementValue(inletWaterTemperature)",
+							"elementType": "ReturnWaterTemperatureMeasurementValue",
 							"elementName": "$ELEMNAME_RETURN_WATER_TEMPERATURE_MEASUREMENT_VALUE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -14730,7 +14730,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Heating/Cooling",
+							"elementType": "HeatingCooling",
 							"elementName": "$ELEMNAME_HEATING___COOLING",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -14800,7 +14800,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -14808,7 +14808,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -14822,7 +14822,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -14830,7 +14830,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -14841,7 +14841,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -14849,7 +14849,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -14860,7 +14860,7 @@
 					]
 				},
 				"0x94": {
-					"epcType": "OFFTimerReservationSetting",
+					"epcType": "OffTimerReservationSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -14868,7 +14868,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerReservationSetting",
+							"elementType": "OffTimerReservationSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -14882,7 +14882,7 @@
 					]
 				},
 				"0x95": {
-					"epcType": "OFFTimerTimeSetting",
+					"epcType": "OffTimerTimeSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -14890,7 +14890,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerTimeSetting",
+							"elementType": "OffTimerTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -14909,7 +14909,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerRelativeTimeSetting",
+							"elementType": "OffTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -15615,7 +15615,7 @@
 					]
 				},
 				"0xD0": {
-					"epcType": "Grid-connectedState",
+					"epcType": "GridConnectedState",
 					"epcName": "$EPCNAME_GRID_CONNECTED_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -15623,7 +15623,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Grid-connectedState",
+							"elementType": "GridConnectedState",
 							"elementName": "$ELEMNAME_GRID_CONNECTED_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -15722,7 +15722,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Min/MaxChargingPowerValue",
+							"elementType": "MinMaxChargingPowerValue",
 							"elementName": "$ELEMNAME_MIN___MAX_CHARGING_POWER_VALUE",
 							"elementSize": 4,
 							"repeatCount": 2,
@@ -15746,7 +15746,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Min/MaxDischargePowerValue",
+							"elementType": "MinMaxDischargePowerValue",
 							"elementName": "$ELEMNAME_MIN___MAX_DISCHARGE_POWER_VALUE",
 							"elementSize": 4,
 							"repeatCount": 2,
@@ -15770,7 +15770,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Minimum/MaximumChargingCurrentValue",
+							"elementType": "MinimumMaximumChargingCurrentValue",
 							"elementName": "$ELEMNAME_MINIMUM___MAXIMUM_CHARGING_CURRENT_VALUE",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -15795,7 +15795,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Minimum/MaximumDischargeCurrentValue",
+							"elementType": "MinimumMaximumDischargeCurrentValue",
 							"elementName": "$ELEMNAME_MINIMUM___MAXIMUM_DISCHARGE_CURRENT_VALUE",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -16104,7 +16104,7 @@
 					]
 				},
 				"0xDB": {
-					"epcType": "Grid-connectedState",
+					"epcType": "GridConnectedState",
 					"epcName": "$EPCNAME_GRID_CONNECTED_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -16112,7 +16112,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Grid-connectedState",
+							"elementType": "GridConnectedState",
 							"elementName": "$ELEMNAME_GRID_CONNECTED_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -16135,7 +16135,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Min/MaxChargingPowerValue",
+							"elementType": "MinMaxChargingPowerValue",
 							"elementName": "$ELEMNAME_MIN___MAX_CHARGING_POWER_VALUE",
 							"elementSize": 4,
 							"repeatCount": 2,
@@ -16159,7 +16159,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Min/MaxDischargePowerValue",
+							"elementType": "MinMaxDischargePowerValue",
 							"elementName": "$ELEMNAME_MIN___MAX_DISCHARGE_POWER_VALUE",
 							"elementSize": 4,
 							"repeatCount": 2,
@@ -16183,7 +16183,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Minimum/MaximumChargingCurrentValue",
+							"elementType": "MinimumMaximumChargingCurrentValue",
 							"elementName": "$ELEMNAME_MINIMUM___MAXIMUM_CHARGING_CURRENT_VALUE",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -16208,7 +16208,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Minimum/MaximumDischargeCurrentValue",
+							"elementType": "MinimumMaximumDischargeCurrentValue",
 							"elementName": "$ELEMNAME_MINIMUM___MAXIMUM_DISCHARGE_CURRENT_VALUE",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -16225,7 +16225,7 @@
 					]
 				},
 				"0xE0": {
-					"epcType": "TheCharge-dischargeAmountSetValue1",
+					"epcType": "TheChargeDischargeAmountSetValue1",
 					"epcName": "$EPCNAME_THE_CHARGE_DISCHARGE_AMOUNT_SET_VALUE_1",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -16233,7 +16233,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "TheCharge-dischargeAmountSetValue1",
+							"elementType": "TheChargeDischargeAmountSetValue1",
 							"elementName": "$ELEMNAME_THE_CHARGE_DISCHARGE_AMOUNT_SET_VALUE_1",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -16249,7 +16249,7 @@
 					]
 				},
 				"0xE1": {
-					"epcType": "TheCharge-dischargeAmountSetValue2",
+					"epcType": "TheChargeDischargeAmountSetValue2",
 					"epcName": "$EPCNAME_THE_CHARGE_DISCHARGE_AMOUNT_SET_VALUE_2",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -16257,7 +16257,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "TheCharge-dischargeAmountSetValue2",
+							"elementType": "TheChargeDischargeAmountSetValue2",
 							"elementName": "$ELEMNAME_THE_CHARGE_DISCHARGE_AMOUNT_SET_VALUE_2",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -16646,7 +16646,7 @@
 					]
 				},
 				"0xC0": {
-					"epcType": "DischargeCapacityValueOfTheIn-vehicleBattery1",
+					"epcType": "DischargeCapacityValueOfTheInVehicleBattery1",
 					"epcName": "$EPCNAME_DISCHARGE_CAPACITY_VALUE_OF_THE_IN_VEHICLE_BATTERY_1",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -16654,7 +16654,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "DischargeCapacityValueOfTheIn-vehicleBattery1",
+							"elementType": "DischargeCapacityValueOfTheInVehicleBattery1",
 							"elementName": "$ELEMNAME_DISCHARGE_CAPACITY_VALUE_OF_THE_IN_VEHICLE_BATTERY_1",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -16670,7 +16670,7 @@
 					]
 				},
 				"0xC1": {
-					"epcType": "DischargeCapacityValueOfTheVehicle-mountedBattery2",
+					"epcType": "DischargeCapacityValueOfTheVehicleMountedBattery2",
 					"epcName": "$EPCNAME_DISCHARGE_CAPACITY_VALUE_OF_THE_VEHICLE_MOUNTED_BATTERY_2",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -16678,7 +16678,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "DischargeCapacityValueOfTheVehicle-mountedBattery2",
+							"elementType": "DischargeCapacityValueOfTheVehicleMountedBattery2",
 							"elementName": "$ELEMNAME_DISCHARGE_CAPACITY_VALUE_OF_THE_VEHICLE_MOUNTED_BATTERY_2",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -16695,7 +16695,7 @@
 					]
 				},
 				"0xC2": {
-					"epcType": "DischargeTheRemainingCapacityOfTheOn-vehicleBattery1",
+					"epcType": "DischargeTheRemainingCapacityOfTheOnVehicleBattery1",
 					"epcName": "$EPCNAME_DISCHARGE_THE_REMAINING_CAPACITY_OF_THE_ON_VEHICLE_BATTERY_1",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -16703,7 +16703,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "DischargeTheRemainingCapacityOfTheOn-vehicleBattery1",
+							"elementType": "DischargeTheRemainingCapacityOfTheOnVehicleBattery1",
 							"elementName": "$ELEMNAME_DISCHARGE_THE_REMAINING_CAPACITY_OF_THE_ON_VEHICLE_BATTERY_1",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -16719,7 +16719,7 @@
 					]
 				},
 				"0xC3": {
-					"epcType": "OfTheVehicle-mountedBatteryDischargePossibleRemainingCapacity2",
+					"epcType": "OfTheVehicleMountedBatteryDischargePossibleRemainingCapacity2",
 					"epcName": "$EPCNAME_OF_THE_VEHICLE_MOUNTED_BATTERY_DISCHARGE_POSSIBLE_REMAINING_CAPACITY_2",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -16727,7 +16727,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "OfTheVehicle-mountedBatteryDischargePossibleRemainingCapacity2",
+							"elementType": "OfTheVehicleMountedBatteryDischargePossibleRemainingCapacity2",
 							"elementName": "$ELEMNAME_OF_THE_VEHICLE_MOUNTED_BATTERY_DISCHARGE_POSSIBLE_REMAINING_CAPACITY_2",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -16744,7 +16744,7 @@
 					]
 				},
 				"0xC4": {
-					"epcType": "DischargeTheRemainingCapacity3OfTheVehicle-mountedBattery",
+					"epcType": "DischargeTheRemainingCapacity3OfTheVehicleMountedBattery",
 					"epcName": "$EPCNAME_DISCHARGE_THE_REMAINING_CAPACITY_3_OF_THE_VEHICLE_MOUNTED_BATTERY",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -16752,7 +16752,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "DischargeTheRemainingCapacity3OfTheVehicle-mountedBattery",
+							"elementType": "DischargeTheRemainingCapacity3OfTheVehicleMountedBattery",
 							"elementName": "$ELEMNAME_DISCHARGE_THE_REMAINING_CAPACITY_3_OF_THE_VEHICLE_MOUNTED_BATTERY",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -16850,7 +16850,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Min/MaxChargingPowerValue",
+							"elementType": "MinMaxChargingPowerValue",
 							"elementName": "$ELEMNAME_MIN___MAX_CHARGING_POWER_VALUE",
 							"elementSize": 4,
 							"repeatCount": 2,
@@ -16874,7 +16874,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Min/MaxDischargePowerValue",
+							"elementType": "MinMaxDischargePowerValue",
 							"elementName": "$ELEMNAME_MIN___MAX_DISCHARGE_POWER_VALUE",
 							"elementSize": 4,
 							"repeatCount": 2,
@@ -16898,7 +16898,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Minimum/MaximumChargingCurrentValue",
+							"elementType": "MinimumMaximumChargingCurrentValue",
 							"elementName": "$ELEMNAME_MINIMUM___MAXIMUM_CHARGING_CURRENT_VALUE",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -16923,7 +16923,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Minimum/MaximumDischargeCurrentValue",
+							"elementType": "MinimumMaximumDischargeCurrentValue",
 							"elementName": "$ELEMNAME_MINIMUM___MAXIMUM_DISCHARGE_CURRENT_VALUE",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -16940,7 +16940,7 @@
 					]
 				},
 				"0xCC": {
-					"epcType": "Charge-dischargeUnitType",
+					"epcType": "ChargeDischargeUnitType",
 					"epcName": "$EPCNAME_CHARGE_DISCHARGE_UNIT_TYPE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -16948,7 +16948,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Charge-dischargeUnitType",
+							"elementType": "ChargeDischargeUnitType",
 							"elementName": "$ELEMNAME_CHARGE_DISCHARGE_UNIT_TYPE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -16996,7 +16996,7 @@
 					]
 				},
 				"0xD0": {
-					"epcType": "UseOfAVehicle-mountedBatteryCapacityValueOf1",
+					"epcType": "UseOfAVehicleMountedBatteryCapacityValueOf1",
 					"epcName": "$EPCNAME_USE_OF_A_VEHICLE_MOUNTED_BATTERY_CAPACITY_VALUE_OF_1",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -17004,7 +17004,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "UseOfAVehicle-mountedBatteryCapacityValueOf1",
+							"elementType": "UseOfAVehicleMountedBatteryCapacityValueOf1",
 							"elementName": "$ELEMNAME_USE_OF_A_VEHICLE_MOUNTED_BATTERY_CAPACITY_VALUE_OF_1",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -17020,7 +17020,7 @@
 					]
 				},
 				"0xD1": {
-					"epcType": "UseOfAVehicle-mountedBatteryCapacityValueOf2",
+					"epcType": "UseOfAVehicleMountedBatteryCapacityValueOf2",
 					"epcName": "$EPCNAME_USE_OF_A_VEHICLE_MOUNTED_BATTERY_CAPACITY_VALUE_OF_2",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -17028,7 +17028,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "UseOfAVehicle-mountedBatteryCapacityValueOf2",
+							"elementType": "UseOfAVehicleMountedBatteryCapacityValueOf2",
 							"elementName": "$ELEMNAME_USE_OF_A_VEHICLE_MOUNTED_BATTERY_CAPACITY_VALUE_OF_2",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -17259,7 +17259,7 @@
 					]
 				},
 				"0xDB": {
-					"epcType": "Grid-connectedState",
+					"epcType": "GridConnectedState",
 					"epcName": "$EPCNAME_GRID_CONNECTED_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -17267,7 +17267,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Grid-connectedState",
+							"elementType": "GridConnectedState",
 							"elementName": "$ELEMNAME_GRID_CONNECTED_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -17282,7 +17282,7 @@
 					]
 				},
 				"0xE2": {
-					"epcType": "TheRemainingBatteryCapacityOfTheVehicle-mountedBattery1",
+					"epcType": "TheRemainingBatteryCapacityOfTheVehicleMountedBattery1",
 					"epcName": "$EPCNAME_THE_REMAINING_BATTERY_CAPACITY_OF_THE_VEHICLE_MOUNTED_BATTERY_1",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -17290,7 +17290,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "TheRemainingBatteryCapacityOfTheVehicle-mountedBattery1",
+							"elementType": "TheRemainingBatteryCapacityOfTheVehicleMountedBattery1",
 							"elementName": "$ELEMNAME_THE_REMAINING_BATTERY_CAPACITY_OF_THE_VEHICLE_MOUNTED_BATTERY_1",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -17306,7 +17306,7 @@
 					]
 				},
 				"0xE3": {
-					"epcType": "BatteryOfAVehicle-mountedBatteryRemainingCapacity2",
+					"epcType": "BatteryOfAVehicleMountedBatteryRemainingCapacity2",
 					"epcName": "$EPCNAME_BATTERY_OF_A_VEHICLE_MOUNTED_BATTERY_REMAINING_CAPACITY_2",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -17314,7 +17314,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "BatteryOfAVehicle-mountedBatteryRemainingCapacity2",
+							"elementType": "BatteryOfAVehicleMountedBatteryRemainingCapacity2",
 							"elementName": "$ELEMNAME_BATTERY_OF_A_VEHICLE_MOUNTED_BATTERY_REMAINING_CAPACITY_2",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -17331,7 +17331,7 @@
 					]
 				},
 				"0xE4": {
-					"epcType": "TheRemainingBatteryCapacity3OfTheVehicle-mountedBattery",
+					"epcType": "TheRemainingBatteryCapacity3OfTheVehicleMountedBattery",
 					"epcName": "$EPCNAME_THE_REMAINING_BATTERY_CAPACITY_3_OF_THE_VEHICLE_MOUNTED_BATTERY",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -17339,7 +17339,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "TheRemainingBatteryCapacity3OfTheVehicle-mountedBattery",
+							"elementType": "TheRemainingBatteryCapacity3OfTheVehicleMountedBattery",
 							"elementName": "$ELEMNAME_THE_REMAINING_BATTERY_CAPACITY_3_OF_THE_VEHICLE_MOUNTED_BATTERY",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -17881,7 +17881,7 @@
 					]
 				},
 				"0xD0": {
-					"epcType": "Grid-connectedState",
+					"epcType": "GridConnectedState",
 					"epcName": "$EPCNAME_GRID_CONNECTED_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -17889,7 +17889,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Grid-connectedState",
+							"elementType": "GridConnectedState",
 							"elementName": "$ELEMNAME_GRID_CONNECTED_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -18004,7 +18004,7 @@
 					]
 				},
 				"0xE2": {
-					"epcType": "IntegralPowerConsumptionUnit(forward,ReverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionUnit",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_UNIT",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -18012,7 +18012,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "IntegralPowerConsumptionUnit(forward,ReverseDirectionMeasurementValue)",
+							"elementType": "IntegralPowerConsumptionUnit",
 							"elementName": "$ELEMNAME_INTEGRAL_POWER_CONSUMPTION_UNIT",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -18026,7 +18026,7 @@
 					]
 				},
 				"0xE3": {
-					"epcType": "IntegralPowerConsumptionMeasurementValueHistory1(reverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionMeasurementValueHistory1",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_HISTORY_1",
 					"epcSize": 192,
 					"accessModeAnno": "notApplicable",
@@ -18243,7 +18243,7 @@
 					]
 				},
 				"0xE5": {
-					"epcType": "IDNumberSetting",
+					"epcType": "IdNumberSetting",
 					"epcName": "$EPCNAME_ID_NUMBER_SETTING",
 					"epcSize": 6,
 					"accessModeAnno": "notApplicable",
@@ -18251,7 +18251,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "IDNumberSetting",
+							"elementType": "IdNumberSetting",
 							"elementName": "$ELEMNAME_ID_NUMBER_SETTING",
 							"elementSize": 6,
 							"repeatCount": 1,
@@ -18364,7 +18364,7 @@
 			}
 		},
 		"0x0283": {
-			"objectType": "LPGasMeters",
+			"objectType": "LpGasMeters",
 			"objectName": "$OBJNAME_0283",
 			"epcs": {
 				"0x80": {
@@ -18548,7 +18548,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "OcclusionPressureAbnormalNumberOfDays/SupplyPressureAbnormalNumberOfDays",
+							"elementType": "OcclusionPressureAbnormalNumberOfDaysSupplyPressureAbnormalNumberOfDays",
 							"elementName": "$ELEMNAME_OCCLUSION_PRESSURE_ABNORMAL_NUMBER_OF_DAYS___SUPPLY_PRESSURE_ABNORMAL_NUMBER_OF_DAYS",
 							"elementSize": 1,
 							"repeatCount": 2,
@@ -18710,7 +18710,7 @@
 					]
 				},
 				"0xE5": {
-					"epcType": "CenterValveShut-offState",
+					"epcType": "CenterValveShutOffState",
 					"epcName": "$EPCNAME_CENTER_VALVE_SHUT_OFF_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "required",
@@ -18718,7 +18718,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "CenterValveShut-offState",
+							"elementType": "CenterValveShutOffState",
 							"elementName": "$ELEMNAME_CENTER_VALVE_SHUT_OFF_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -18732,7 +18732,7 @@
 					]
 				},
 				"0xE6": {
-					"epcType": "CenterValveShut-offReturnPermitState",
+					"epcType": "CenterValveShutOffReturnPermitState",
 					"epcName": "$EPCNAME_CENTER_VALVE_SHUT_OFF_RETURN_PERMIT_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -18740,7 +18740,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "CenterValveShut-offReturnPermitState",
+							"elementType": "CenterValveShutOffReturnPermitState",
 							"elementName": "$ELEMNAME_CENTER_VALVE_SHUT_OFF_RETURN_PERMIT_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -18754,7 +18754,7 @@
 					]
 				},
 				"0xE7": {
-					"epcType": "EmergencyValveShut-offState",
+					"epcType": "EmergencyValveShutOffState",
 					"epcName": "$EPCNAME_EMERGENCY_VALVE_SHUT_OFF_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -18762,7 +18762,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "EmergencyValveShut-offState",
+							"elementType": "EmergencyValveShutOffState",
 							"elementName": "$ELEMNAME_EMERGENCY_VALVE_SHUT_OFF_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -18776,7 +18776,7 @@
 					]
 				},
 				"0xE8": {
-					"epcType": "Shut-offValveOpeningAndClosingState",
+					"epcType": "ShutOffValveOpeningAndClosingState",
 					"epcName": "$EPCNAME_SHUT_OFF_VALVE_OPENING_AND_CLOSING_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -18784,7 +18784,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Shut-offValveOpeningAndClosingState",
+							"elementType": "ShutOffValveOpeningAndClosingState",
 							"elementName": "$ELEMNAME_SHUT_OFF_VALVE_OPENING_AND_CLOSING_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -18895,7 +18895,7 @@
 					]
 				},
 				"0xED": {
-					"epcType": "SmallLeakageTimerValue(noPressureRise)",
+					"epcType": "SmallLeakageTimerValue",
 					"epcName": "$EPCNAME_SMALL_LEAKAGE_TIMER_VALUE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -18903,7 +18903,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "SmallLeakageTimerValue(noPressureRise)",
+							"elementType": "SmallLeakageTimerValue",
 							"elementName": "$ELEMNAME_SMALL_LEAKAGE_TIMER_VALUE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -18919,7 +18919,7 @@
 					]
 				},
 				"0xEE": {
-					"epcType": "SmallLeakageTimerValue(noPressureRise)",
+					"epcType": "SmallLeakageTimerValue",
 					"epcName": "$EPCNAME_SMALL_LEAKAGE_TIMER_VALUE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -18927,7 +18927,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "SmallLeakageTimerValue(noPressureRise)",
+							"elementType": "SmallLeakageTimerValue",
 							"elementName": "$ELEMNAME_SMALL_LEAKAGE_TIMER_VALUE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -18951,7 +18951,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "History3/History2/History1",
+							"elementType": "History3History2History1",
 							"elementName": "$ELEMNAME_HISTORY_3___HISTORY_2___HISTORY_1",
 							"elementSize": 1,
 							"repeatCount": 3,
@@ -19014,7 +19014,7 @@
 					]
 				},
 				"0xB1": {
-					"epcType": "MeasuringTheNumberOfChannels(two-way)",
+					"epcType": "MeasuringTheNumberOfChannels",
 					"epcName": "$EPCNAME_MEASURING_THE_NUMBER_OF_CHANNELS",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -19022,7 +19022,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "MeasuringTheNumberOfChannels(two-way)",
+							"elementType": "MeasuringTheNumberOfChannels",
 							"elementName": "$ELEMNAME_MEASURING_THE_NUMBER_OF_CHANNELS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -19040,7 +19040,7 @@
 					]
 				},
 				"0xB2": {
-					"epcType": "IntegralPowerConsumptionMeasurementChannelRangeSpecification(two-way)",
+					"epcType": "IntegralPowerConsumptionMeasurementChannelRangeSpecification",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_CHANNEL_RANGE_SPECIFICATION",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -19082,7 +19082,7 @@
 					]
 				},
 				"0xB3": {
-					"epcType": "IntegralPowerConsumptionMeasurementValueList(two-way)",
+					"epcType": "IntegralPowerConsumptionMeasurementValueList",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_LIST",
 					"epcSize": 242,
 					"accessModeAnno": "notApplicable",
@@ -19141,7 +19141,7 @@
 					]
 				},
 				"0xB4": {
-					"epcType": "InstantaneousCurrentMeasurementChannelRangeSpecification(two-way)",
+					"epcType": "InstantaneousCurrentMeasurementChannelRangeSpecification",
 					"epcName": "$EPCNAME_INSTANTANEOUS_CURRENT_MEASUREMENT_CHANNEL_RANGE_SPECIFICATION",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -19183,7 +19183,7 @@
 					]
 				},
 				"0xB5": {
-					"epcType": "InstantaneousCurrentMeasurementValueList(two-way)",
+					"epcType": "InstantaneousCurrentMeasurementValueList",
 					"epcName": "$EPCNAME_INSTANTANEOUS_CURRENT_MEASUREMENT_VALUE_LIST",
 					"epcSize": 242,
 					"accessModeAnno": "notApplicable",
@@ -19223,7 +19223,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 120,
@@ -19243,7 +19243,7 @@
 					]
 				},
 				"0xB6": {
-					"epcType": "InstantaneousPowerMeasurementChannelRangeSpecification(two-way)",
+					"epcType": "InstantaneousPowerMeasurementChannelRangeSpecification",
 					"epcName": "$EPCNAME_INSTANTANEOUS_POWER_MEASUREMENT_CHANNEL_RANGE_SPECIFICATION",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -19285,7 +19285,7 @@
 					]
 				},
 				"0xB7": {
-					"epcType": "InstantaneousPowerMeasurementValueList(two-way)",
+					"epcType": "InstantaneousPowerMeasurementValueList",
 					"epcName": "$EPCNAME_INSTANTANEOUS_POWER_MEASUREMENT_VALUE_LIST",
 					"epcSize": 242,
 					"accessModeAnno": "notApplicable",
@@ -19344,7 +19344,7 @@
 					]
 				},
 				"0xB8": {
-					"epcType": "MeasuringTheNumberOfChannels(two-way)",
+					"epcType": "MeasuringTheNumberOfChannels",
 					"epcName": "$EPCNAME_MEASURING_THE_NUMBER_OF_CHANNELS",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -19352,7 +19352,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "MeasuringTheNumberOfChannels(two-way)",
+							"elementType": "MeasuringTheNumberOfChannels",
 							"elementName": "$ELEMNAME_MEASURING_THE_NUMBER_OF_CHANNELS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -19370,7 +19370,7 @@
 					]
 				},
 				"0xB9": {
-					"epcType": "IntegralPowerConsumptionMeasurementChannelRangeSpecification(two-way)",
+					"epcType": "IntegralPowerConsumptionMeasurementChannelRangeSpecification",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_CHANNEL_RANGE_SPECIFICATION",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -19412,7 +19412,7 @@
 					]
 				},
 				"0xBA": {
-					"epcType": "IntegralPowerConsumptionMeasurementValueList(two-way)",
+					"epcType": "IntegralPowerConsumptionMeasurementValueList",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_LIST",
 					"epcSize": 242,
 					"accessModeAnno": "notApplicable",
@@ -19452,7 +19452,7 @@
 							}
 						},
 						{
-							"elementType": "TheAmountOfPower(forward/Reverse)",
+							"elementType": "TheAmountOfPower",
 							"elementName": "$ELEMNAME_THE_AMOUNT_OF_POWER",
 							"elementSize": 4,
 							"repeatCount": 60,
@@ -19471,7 +19471,7 @@
 					]
 				},
 				"0xBB": {
-					"epcType": "InstantaneousCurrentMeasurementChannelRangeSpecification(two-way)",
+					"epcType": "InstantaneousCurrentMeasurementChannelRangeSpecification",
 					"epcName": "$EPCNAME_INSTANTANEOUS_CURRENT_MEASUREMENT_CHANNEL_RANGE_SPECIFICATION",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -19513,7 +19513,7 @@
 					]
 				},
 				"0xBC": {
-					"epcType": "InstantaneousCurrentMeasurementValueList(two-way)",
+					"epcType": "InstantaneousCurrentMeasurementValueList",
 					"epcName": "$EPCNAME_INSTANTANEOUS_CURRENT_MEASUREMENT_VALUE_LIST",
 					"epcSize": 242,
 					"accessModeAnno": "notApplicable",
@@ -19553,7 +19553,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 120,
@@ -19573,7 +19573,7 @@
 					]
 				},
 				"0xBD": {
-					"epcType": "InstantaneousPowerMeasurementChannelRangeSpecification(two-way)",
+					"epcType": "InstantaneousPowerMeasurementChannelRangeSpecification",
 					"epcName": "$EPCNAME_INSTANTANEOUS_POWER_MEASUREMENT_CHANNEL_RANGE_SPECIFICATION",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -19615,7 +19615,7 @@
 					]
 				},
 				"0xBE": {
-					"epcType": "InstantaneousPowerMeasurementValueList(two-way)",
+					"epcType": "InstantaneousPowerMeasurementValueList",
 					"epcName": "$EPCNAME_INSTANTANEOUS_POWER_MEASUREMENT_VALUE_LIST",
 					"epcSize": 242,
 					"accessModeAnno": "notApplicable",
@@ -19674,7 +19674,7 @@
 					]
 				},
 				"0xC0": {
-					"epcType": "IntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionMeasurementValue",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -19682,7 +19682,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "IntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+							"elementType": "IntegralPowerConsumptionMeasurementValue",
 							"elementName": "$ELEMNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -19701,7 +19701,7 @@
 					]
 				},
 				"0xC1": {
-					"epcType": "IntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionMeasurementValue",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -19709,7 +19709,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "IntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+							"elementType": "IntegralPowerConsumptionMeasurementValue",
 							"elementName": "$ELEMNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -19728,7 +19728,7 @@
 					]
 				},
 				"0xC2": {
-					"epcType": "IntegralPowerConsumptionUnit(forward,ReverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionUnit",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_UNIT",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -19736,7 +19736,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "IntegralPowerConsumptionUnit(forward,ReverseDirectionMeasurementValue)",
+							"elementType": "IntegralPowerConsumptionUnit",
 							"elementName": "$ELEMNAME_INTEGRAL_POWER_CONSUMPTION_UNIT",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -19757,7 +19757,7 @@
 					]
 				},
 				"0xC3": {
-					"epcType": "IntegralPowerConsumptionMeasurementValueHistory(reverse)",
+					"epcType": "IntegralPowerConsumptionMeasurementValueHistory",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_HISTORY",
 					"epcSize": 194,
 					"accessModeAnno": "notApplicable",
@@ -19765,7 +19765,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "IntegralPowerConsumptionMeasurementValueHistory(reverse)",
+							"elementType": "IntegralPowerConsumptionMeasurementValueHistory",
 							"elementName": "$ELEMNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_HISTORY",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -19801,7 +19801,7 @@
 					]
 				},
 				"0xC4": {
-					"epcType": "IntegralPowerConsumptionMeasurementValueHistory(reverse)",
+					"epcType": "IntegralPowerConsumptionMeasurementValueHistory",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_HISTORY",
 					"epcSize": 194,
 					"accessModeAnno": "notApplicable",
@@ -19809,7 +19809,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "IntegralPowerConsumptionMeasurementValueHistory(reverse)",
+							"elementType": "IntegralPowerConsumptionMeasurementValueHistory",
 							"elementName": "$ELEMNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_HISTORY",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -19909,7 +19909,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -19939,7 +19939,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Voltage(RS(N)/S(N)-T)",
+							"elementType": "Voltage",
 							"elementName": "$ELEMNAME_VOLTAGE",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -19985,7 +19985,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20032,7 +20032,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20079,7 +20079,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20126,7 +20126,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20173,7 +20173,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20220,7 +20220,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20267,7 +20267,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20314,7 +20314,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20361,7 +20361,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20408,7 +20408,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20455,7 +20455,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20502,7 +20502,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20549,7 +20549,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20596,7 +20596,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20643,7 +20643,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20690,7 +20690,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20737,7 +20737,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20784,7 +20784,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20831,7 +20831,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20878,7 +20878,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20925,7 +20925,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -20972,7 +20972,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21019,7 +21019,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21066,7 +21066,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21113,7 +21113,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21160,7 +21160,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21207,7 +21207,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21254,7 +21254,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21301,7 +21301,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21348,7 +21348,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21395,7 +21395,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21442,7 +21442,7 @@
 							}
 						},
 						{
-							"elementType": "Current(R-phase/TPhase)",
+							"elementType": "Current",
 							"elementName": "$ELEMNAME_CURRENT",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21538,7 +21538,7 @@
 					]
 				},
 				"0xE0": {
-					"epcType": "IntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionMeasurementValue",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -21546,7 +21546,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "IntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+							"elementType": "IntegralPowerConsumptionMeasurementValue",
 							"elementName": "$ELEMNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -21565,7 +21565,7 @@
 					]
 				},
 				"0xE1": {
-					"epcType": "IntegralPowerConsumptionUnit(forward,ReverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionUnit",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_UNIT",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -21573,7 +21573,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "IntegralPowerConsumptionUnit(forward,ReverseDirectionMeasurementValue)",
+							"elementType": "IntegralPowerConsumptionUnit",
 							"elementName": "$ELEMNAME_INTEGRAL_POWER_CONSUMPTION_UNIT",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -21594,7 +21594,7 @@
 					]
 				},
 				"0xE2": {
-					"epcType": "IntegralPowerConsumptionMeasurementValueHistory1(reverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionMeasurementValueHistory1",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_HISTORY_1",
 					"epcSize": 194,
 					"accessModeAnno": "notApplicable",
@@ -21638,7 +21638,7 @@
 					]
 				},
 				"0xE3": {
-					"epcType": "IntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionMeasurementValue",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -21646,7 +21646,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "IntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+							"elementType": "IntegralPowerConsumptionMeasurementValue",
 							"elementName": "$ELEMNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -21665,7 +21665,7 @@
 					]
 				},
 				"0xE4": {
-					"epcType": "IntegralPowerConsumptionMeasurementValueHistory1(reverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionMeasurementValueHistory1",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_HISTORY_1",
 					"epcSize": 194,
 					"accessModeAnno": "notApplicable",
@@ -21773,7 +21773,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "R-phase/TPhase",
+							"elementType": "RPhaseTPhase",
 							"elementName": "$ELEMNAME_R_PHASE___T_PHASE",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -21795,7 +21795,7 @@
 					]
 				},
 				"0xEA": {
-					"epcType": "OrdinaryIntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+					"epcType": "OrdinaryIntegralPowerConsumptionMeasurementValue",
 					"epcName": "$EPCNAME_ORDINARY_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 					"epcSize": 11,
 					"accessModeAnno": "notApplicable",
@@ -21840,7 +21840,7 @@
 					]
 				},
 				"0xEB": {
-					"epcType": "OrdinaryIntegralPowerConsumptionMeasurementValue(reverseDirectionMeasurementValue)",
+					"epcType": "OrdinaryIntegralPowerConsumptionMeasurementValue",
 					"epcName": "$EPCNAME_ORDINARY_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE",
 					"epcSize": 11,
 					"accessModeAnno": "notApplicable",
@@ -21885,7 +21885,7 @@
 					]
 				},
 				"0xEC": {
-					"epcType": "IntegralPowerConsumptionMeasurementValueHistory2(forward,ReverseDirectionMeasurementValue)",
+					"epcType": "IntegralPowerConsumptionMeasurementValueHistory2",
 					"epcName": "$EPCNAME_INTEGRAL_POWER_CONSUMPTION_MEASUREMENT_VALUE_HISTORY_2",
 					"epcSize": 103,
 					"accessModeAnno": "notApplicable",
@@ -21911,7 +21911,7 @@
 							}
 						},
 						{
-							"elementType": "TheAmountOfPower(forward/Reverse)",
+							"elementType": "TheAmountOfPower",
 							"elementName": "$ELEMNAME_THE_AMOUNT_OF_POWER",
 							"elementSize": 4,
 							"repeatCount": 24,
@@ -22312,7 +22312,7 @@
 					]
 				},
 				"0xE8": {
-					"epcType": "CenterValveShut-offState",
+					"epcType": "CenterValveShutOffState",
 					"epcName": "$EPCNAME_CENTER_VALVE_SHUT_OFF_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -22320,7 +22320,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "CenterValveShut-offState",
+							"elementType": "CenterValveShutOffState",
 							"elementName": "$ELEMNAME_CENTER_VALVE_SHUT_OFF_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -22334,7 +22334,7 @@
 					]
 				},
 				"0xE9": {
-					"epcType": "CenterValveShut-offReturnPermitState",
+					"epcType": "CenterValveShutOffReturnPermitState",
 					"epcName": "$EPCNAME_CENTER_VALVE_SHUT_OFF_RETURN_PERMIT_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -22342,7 +22342,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "CenterValveShut-offReturnPermitState",
+							"elementType": "CenterValveShutOffReturnPermitState",
 							"elementName": "$ELEMNAME_CENTER_VALVE_SHUT_OFF_RETURN_PERMIT_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -22356,7 +22356,7 @@
 					]
 				},
 				"0xEA": {
-					"epcType": "EmergencyValveShut-offState",
+					"epcType": "EmergencyValveShutOffState",
 					"epcName": "$EPCNAME_EMERGENCY_VALVE_SHUT_OFF_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -22364,7 +22364,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "EmergencyValveShut-offState",
+							"elementType": "EmergencyValveShutOffState",
 							"elementName": "$ELEMNAME_EMERGENCY_VALVE_SHUT_OFF_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -22378,7 +22378,7 @@
 					]
 				},
 				"0xEB": {
-					"epcType": "Shut-offValveOpeningAndClosingState",
+					"epcType": "ShutOffValveOpeningAndClosingState",
 					"epcName": "$EPCNAME_SHUT_OFF_VALVE_OPENING_AND_CLOSING_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -22386,7 +22386,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Shut-offValveOpeningAndClosingState",
+							"elementType": "ShutOffValveOpeningAndClosingState",
 							"elementName": "$ELEMNAME_SHUT_OFF_VALVE_OPENING_AND_CLOSING_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -22408,7 +22408,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "History3/History2/History1",
+							"elementType": "History3History2History1",
 							"elementName": "$ELEMNAME_HISTORY_3___HISTORY_2___HISTORY_1",
 							"elementSize": 1,
 							"repeatCount": 3,
@@ -22419,7 +22419,7 @@
 					]
 				},
 				"0xED": {
-					"epcType": "IDNumberSetting",
+					"epcType": "IdNumberSetting",
 					"epcName": "$EPCNAME_ID_NUMBER_SETTING",
 					"epcSize": 6,
 					"accessModeAnno": "notApplicable",
@@ -22427,7 +22427,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "IDNumberSetting",
+							"elementType": "IdNumberSetting",
 							"elementName": "$ELEMNAME_ID_NUMBER_SETTING",
 							"elementSize": 6,
 							"repeatCount": 1,
@@ -22459,7 +22459,7 @@
 			}
 		},
 		"0x028A": {
-			"objectType": "High-voltageSmartPowerMeter",
+			"objectType": "HighVoltageSmartPowerMeter",
 			"objectName": "$OBJNAME_028A",
 			"epcs": {
 				"0x80": {
@@ -22539,7 +22539,7 @@
 					]
 				},
 				"0xC3": {
-					"epcType": "OrdinaryDemandPower(30-minuteAveragePower)",
+					"epcType": "OrdinaryDemandPower",
 					"epcName": "$EPCNAME_ORDINARY_DEMAND_POWER",
 					"epcSize": 11,
 					"accessModeAnno": "notApplicable",
@@ -22709,7 +22709,7 @@
 					]
 				},
 				"0xCA": {
-					"epcType": "ForceMeasurementAccumulatedReactiveEnergy(delay)MeasurementValue",
+					"epcType": "ForceMeasurementAccumulatedReactiveEnergyMeasurementValue",
 					"epcName": "$EPCNAME_FORCE_MEASUREMENT_ACCUMULATED_REACTIVE_ENERGY_MEASUREMENT_VALUE",
 					"epcSize": 11,
 					"accessModeAnno": "notApplicable",
@@ -22754,7 +22754,7 @@
 					]
 				},
 				"0xCB": {
-					"epcType": "OrdinaryForceMeasuringCumulativeReactiveEnergy(delay)MeasurementValue",
+					"epcType": "OrdinaryForceMeasuringCumulativeReactiveEnergyMeasurementValue",
 					"epcName": "$EPCNAME_ORDINARY_FORCE_MEASURING_CUMULATIVE_REACTIVE_ENERGY_MEASUREMENT_VALUE",
 					"epcSize": 11,
 					"accessModeAnno": "notApplicable",
@@ -22799,7 +22799,7 @@
 					]
 				},
 				"0xCC": {
-					"epcType": "ForceMeasurementAccumulatedReactiveEnergy(delay)TheNumberOfSignificantDigits",
+					"epcType": "ForceMeasurementAccumulatedReactiveEnergyTheNumberOfSignificantDigits",
 					"epcName": "$EPCNAME_FORCE_MEASUREMENT_ACCUMULATED_REACTIVE_ENERGY_THE_NUMBER_OF_SIGNIFICANT_DIGITS",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -22807,7 +22807,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "ForceMeasurementAccumulatedReactiveEnergy(delay)TheNumberOfSignificantDigits",
+							"elementType": "ForceMeasurementAccumulatedReactiveEnergyTheNumberOfSignificantDigits",
 							"elementName": "$ELEMNAME_FORCE_MEASUREMENT_ACCUMULATED_REACTIVE_ENERGY_THE_NUMBER_OF_SIGNIFICANT_DIGITS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -22822,7 +22822,7 @@
 					]
 				},
 				"0xCD": {
-					"epcType": "ForceMeasurementAccumulatedReactiveEnergy(delay)Units",
+					"epcType": "ForceMeasurementAccumulatedReactiveEnergyUnits",
 					"epcName": "$EPCNAME_FORCE_MEASUREMENT_ACCUMULATED_REACTIVE_ENERGY_UNITS",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -22830,7 +22830,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "ForceMeasurementAccumulatedReactiveEnergy(delay)Units",
+							"elementType": "ForceMeasurementAccumulatedReactiveEnergyUnits",
 							"elementName": "$ELEMNAME_FORCE_MEASUREMENT_ACCUMULATED_REACTIVE_ENERGY_UNITS",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -22851,7 +22851,7 @@
 					]
 				},
 				"0xCE": {
-					"epcType": "ForceMeasurementAccumulatedReactiveEnergy(delay)MeasurementValueHistory",
+					"epcType": "ForceMeasurementAccumulatedReactiveEnergyMeasurementValueHistory",
 					"epcName": "$EPCNAME_FORCE_MEASUREMENT_ACCUMULATED_REACTIVE_ENERGY_MEASUREMENT_VALUE_HISTORY",
 					"epcSize": 194,
 					"accessModeAnno": "notApplicable",
@@ -23252,7 +23252,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -23260,7 +23260,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -23274,7 +23274,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -23282,7 +23282,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -23293,7 +23293,7 @@
 					]
 				},
 				"0x94": {
-					"epcType": "OFFTimerReservationSetting",
+					"epcType": "OffTimerReservationSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -23301,7 +23301,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerReservationSetting",
+							"elementType": "OffTimerReservationSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -23315,7 +23315,7 @@
 					]
 				},
 				"0x95": {
-					"epcType": "OFFTimerTimeSetting",
+					"epcType": "OffTimerTimeSetting",
 					"epcName": "$EPCNAME_OFF_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -23323,7 +23323,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "OFFTimerTimeSetting",
+							"elementType": "OffTimerTimeSetting",
 							"elementName": "$ELEMNAME_OFF_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -23447,7 +23447,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Illumination/LightColor",
+							"elementType": "IlluminationLightColor",
 							"elementName": "$ELEMNAME_ILLUMINATION___LIGHT_COLOR",
 							"elementSize": 1,
 							"repeatCount": 2,
@@ -23473,7 +23473,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Illumination/LightColor",
+							"elementType": "IlluminationLightColor",
 							"elementName": "$ELEMNAME_ILLUMINATION___LIGHT_COLOR",
 							"elementSize": 1,
 							"repeatCount": 2,
@@ -23565,7 +23565,7 @@
 					]
 				},
 				"0xB9": {
-					"epcType": "Night-lightModeIlluminationLevelSetting",
+					"epcType": "NightLightModeIlluminationLevelSetting",
 					"epcName": "$EPCNAME_NIGHT_LIGHT_MODE_ILLUMINATION_LEVEL_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -23573,7 +23573,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Night-lightModeIlluminationLevelSetting",
+							"elementType": "NightLightModeIlluminationLevelSetting",
 							"elementName": "$ELEMNAME_NIGHT_LIGHT_MODE_ILLUMINATION_LEVEL_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -23589,7 +23589,7 @@
 					]
 				},
 				"0xBA": {
-					"epcType": "Night-lightModeIlluminationLevelTheNumberOfStagesSet",
+					"epcType": "NightLightModeIlluminationLevelTheNumberOfStagesSet",
 					"epcName": "$EPCNAME_NIGHT_LIGHT_MODE_ILLUMINATION_LEVEL_THE_NUMBER_OF_STAGES_SET",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -23597,7 +23597,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Night-lightModeIlluminationLevelTheNumberOfStagesSet",
+							"elementType": "NightLightModeIlluminationLevelTheNumberOfStagesSet",
 							"elementName": "$ELEMNAME_NIGHT_LIGHT_MODE_ILLUMINATION_LEVEL_THE_NUMBER_OF_STAGES_SET",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -23666,7 +23666,7 @@
 					]
 				},
 				"0xBD": {
-					"epcType": "Night-lightModeLightColorSetting",
+					"epcType": "NightLightModeLightColorSetting",
 					"epcName": "$EPCNAME_NIGHT_LIGHT_MODE_LIGHT_COLOR_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -23674,7 +23674,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Night-lightModeLightColorSetting",
+							"elementType": "NightLightModeLightColorSetting",
 							"elementName": "$ELEMNAME_NIGHT_LIGHT_MODE_LIGHT_COLOR_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -23691,7 +23691,7 @@
 					]
 				},
 				"0xBE": {
-					"epcType": "Night-lightModeLightColorLevelTheNumberOfStagesSet",
+					"epcType": "NightLightModeLightColorLevelTheNumberOfStagesSet",
 					"epcName": "$EPCNAME_NIGHT_LIGHT_MODE_LIGHT_COLOR_LEVEL_THE_NUMBER_OF_STAGES_SET",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -23699,7 +23699,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Night-lightModeLightColorLevelTheNumberOfStagesSet",
+							"elementType": "NightLightModeLightColorLevelTheNumberOfStagesSet",
 							"elementName": "$ELEMNAME_NIGHT_LIGHT_MODE_LIGHT_COLOR_LEVEL_THE_NUMBER_OF_STAGES_SET",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -23741,7 +23741,7 @@
 					]
 				},
 				"0xC0": {
-					"epcType": "ColorLightModeRGBSetting",
+					"epcType": "ColorLightModeRgbSetting",
 					"epcName": "$EPCNAME_COLOR_LIGHT_MODE_RGB_SETTING",
 					"epcSize": 3,
 					"accessModeAnno": "notApplicable",
@@ -23749,7 +23749,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "R/G/B",
+							"elementType": "RGB",
 							"elementName": "$ELEMNAME_R___G___B",
 							"elementSize": 1,
 							"repeatCount": 3,
@@ -23766,7 +23766,7 @@
 			}
 		},
 		"0x0291": {
-			"objectType": "Single-functionLighting",
+			"objectType": "SingleFunctionLighting",
 			"objectName": "$OBJNAME_0291",
 			"epcs": {
 				"0x80": {
@@ -24019,7 +24019,7 @@
 					]
 				},
 				"0xCC": {
-					"epcType": "Charge-dischargeUnitType",
+					"epcType": "ChargeDischargeUnitType",
 					"epcName": "$EPCNAME_CHARGE_DISCHARGE_UNIT_TYPE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -24027,7 +24027,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Charge-dischargeUnitType",
+							"elementType": "ChargeDischargeUnitType",
 							"elementName": "$ELEMNAME_CHARGE_DISCHARGE_UNIT_TYPE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -24065,7 +24065,7 @@
 					]
 				},
 				"0xD0": {
-					"epcType": "UseOfAVehicle-mountedBatteryCapacityValueOf1",
+					"epcType": "UseOfAVehicleMountedBatteryCapacityValueOf1",
 					"epcName": "$EPCNAME_USE_OF_A_VEHICLE_MOUNTED_BATTERY_CAPACITY_VALUE_OF_1",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -24073,7 +24073,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "UseOfAVehicle-mountedBatteryCapacityValueOf1",
+							"elementType": "UseOfAVehicleMountedBatteryCapacityValueOf1",
 							"elementName": "$ELEMNAME_USE_OF_A_VEHICLE_MOUNTED_BATTERY_CAPACITY_VALUE_OF_1",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -24207,7 +24207,7 @@
 					]
 				},
 				"0xE2": {
-					"epcType": "TheRemainingBatteryCapacityOfTheVehicle-mountedBattery1",
+					"epcType": "TheRemainingBatteryCapacityOfTheVehicleMountedBattery1",
 					"epcName": "$EPCNAME_THE_REMAINING_BATTERY_CAPACITY_OF_THE_VEHICLE_MOUNTED_BATTERY_1",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -24215,7 +24215,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "TheRemainingBatteryCapacityOfTheVehicle-mountedBattery1",
+							"elementType": "TheRemainingBatteryCapacityOfTheVehicleMountedBattery1",
 							"elementName": "$ELEMNAME_THE_REMAINING_BATTERY_CAPACITY_OF_THE_VEHICLE_MOUNTED_BATTERY_1",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -24231,7 +24231,7 @@
 					]
 				},
 				"0xE4": {
-					"epcType": "TheRemainingBatteryCapacity3OfTheVehicle-mountedBattery",
+					"epcType": "TheRemainingBatteryCapacity3OfTheVehicleMountedBattery",
 					"epcName": "$EPCNAME_THE_REMAINING_BATTERY_CAPACITY_3_OF_THE_VEHICLE_MOUNTED_BATTERY",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -24239,7 +24239,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "TheRemainingBatteryCapacity3OfTheVehicle-mountedBattery",
+							"elementType": "TheRemainingBatteryCapacity3OfTheVehicleMountedBattery",
 							"elementName": "$ELEMNAME_THE_REMAINING_BATTERY_CAPACITY_3_OF_THE_VEHICLE_MOUNTED_BATTERY",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -24398,7 +24398,7 @@
 					]
 				},
 				"0xE0": {
-					"epcType": "Boiling/WarmModeSetting",
+					"epcType": "BoilingWarmModeSetting",
 					"epcName": "$EPCNAME_BOILING___WARM_MODE_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -24406,7 +24406,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Boiling/WarmModeSetting",
+							"elementType": "BoilingWarmModeSetting",
 							"elementName": "$ELEMNAME_BOILING___WARM_MODE_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -24491,7 +24491,7 @@
 			}
 		},
 		"0x03B7": {
-			"objectType": "Refrigerator-freezer",
+			"objectType": "RefrigeratorFreezer",
 			"objectName": "$OBJNAME_03B7",
 			"epcs": {
 				"0x80": {
@@ -24586,7 +24586,7 @@
 					]
 				},
 				"0xA5": {
-					"epcType": "Ice-makingOperationState",
+					"epcType": "IceMakingOperationState",
 					"epcName": "$EPCNAME_ICE_MAKING_OPERATION_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -24594,7 +24594,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Ice-makingOperationState",
+							"elementType": "IceMakingOperationState",
 							"elementName": "$ELEMNAME_ICE_MAKING_OPERATION_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -25065,7 +25065,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "RefrigeratingChamber/Refrigerator/IceGreenhouse/Crisper/SwitchingRoom",
+							"elementType": "RefrigeratingChamberRefrigeratorIceGreenhouseCrisperSwitchingRoom",
 							"elementName": "$ELEMNAME_REFRIGERATING_CHAMBER___REFRIGERATOR___ICE_GREENHOUSE___CRISPER___SWITCHING_ROOM",
 							"elementSize": 1,
 							"repeatCount": 8,
@@ -25789,7 +25789,7 @@
 					]
 				},
 				"0xEB": {
-					"epcType": "MicrowaveTwo-stageHeatingTimeSetting",
+					"epcType": "MicrowaveTwoStageHeatingTimeSetting",
 					"epcName": "$EPCNAME_MICROWAVE_TWO_STAGE_HEATING_TIME_SETTING",
 					"epcSize": 6,
 					"accessModeAnno": "notApplicable",
@@ -25797,7 +25797,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "1-stage/2-stage",
+							"elementType": "1Stage2Stage",
 							"elementName": "$ELEMNAME_1_STAGE___2_STAGE",
 							"elementSize": 3,
 							"repeatCount": 2,
@@ -25808,7 +25808,7 @@
 					]
 				},
 				"0xEC": {
-					"epcType": "MicrowaveTwo-stageHeatingOutputSetValue",
+					"epcType": "MicrowaveTwoStageHeatingOutputSetValue",
 					"epcName": "$EPCNAME_MICROWAVE_TWO_STAGE_HEATING_OUTPUT_SET_VALUE",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -25816,7 +25816,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "MicrowaveTwo-stageHeatingOutputSetValue",
+							"elementType": "MicrowaveTwoStageHeatingOutputSetValue",
 							"elementName": "$ELEMNAME_MICROWAVE_TWO_STAGE_HEATING_OUTPUT_SET_VALUE",
 							"elementSize": 2,
 							"repeatCount": 2,
@@ -25868,7 +25868,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Left/Right/Back/Roaster",
+							"elementType": "LeftRightBackRoaster",
 							"elementName": "$ELEMNAME_LEFT___RIGHT___BACK___ROASTER",
 							"elementSize": 3,
 							"repeatCount": 4,
@@ -25934,7 +25934,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Left/Right/Back/Roaster",
+							"elementType": "LeftRightBackRoaster",
 							"elementName": "$ELEMNAME_LEFT___RIGHT___BACK___ROASTER",
 							"elementSize": 1,
 							"repeatCount": 4,
@@ -25959,7 +25959,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Left/Right/Back/Roaster",
+							"elementType": "LeftRightBackRoaster",
 							"elementName": "$ELEMNAME_LEFT___RIGHT___BACK___ROASTER",
 							"elementSize": 1,
 							"repeatCount": 4,
@@ -26004,7 +26004,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Left/Right/Back",
+							"elementType": "LeftRightBack",
 							"elementName": "$ELEMNAME_LEFT___RIGHT___BACK",
 							"elementSize": 1,
 							"repeatCount": 3,
@@ -26030,7 +26030,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Left/Right/Back",
+							"elementType": "LeftRightBack",
 							"elementName": "$ELEMNAME_LEFT___RIGHT___BACK",
 							"elementSize": 1,
 							"repeatCount": 3,
@@ -26057,7 +26057,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Left/Right/Back/Roaster",
+							"elementType": "LeftRightBackRoaster",
 							"elementName": "$ELEMNAME_LEFT___RIGHT___BACK___ROASTER",
 							"elementSize": 2,
 							"repeatCount": 4,
@@ -26336,7 +26336,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -26344,7 +26344,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -26358,7 +26358,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -26366,7 +26366,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -26377,7 +26377,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -26385,7 +26385,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -26396,7 +26396,7 @@
 					]
 				},
 				"0xB0": {
-					"epcType": "Door-lidOpeningAndClosingState",
+					"epcType": "DoorLidOpeningAndClosingState",
 					"epcName": "$EPCNAME_DOOR_LID_OPENING_AND_CLOSING_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -26404,7 +26404,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Door-lidOpeningAndClosingState",
+							"elementType": "DoorLidOpeningAndClosingState",
 							"elementName": "$ELEMNAME_DOOR_LID_OPENING_AND_CLOSING_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -26513,7 +26513,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -26521,7 +26521,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -26535,7 +26535,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -26543,7 +26543,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -26554,7 +26554,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -26562,7 +26562,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -26573,7 +26573,7 @@
 					]
 				},
 				"0xB0": {
-					"epcType": "Door-lidOpeningAndClosingState",
+					"epcType": "DoorLidOpeningAndClosingState",
 					"epcName": "$EPCNAME_DOOR_LID_OPENING_AND_CLOSING_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -26581,7 +26581,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Door-lidOpeningAndClosingState",
+							"elementType": "DoorLidOpeningAndClosingState",
 							"elementName": "$ELEMNAME_DOOR_LID_OPENING_AND_CLOSING_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -26975,7 +26975,7 @@
 					]
 				},
 				"0x90": {
-					"epcType": "ONTimerReservationSetting",
+					"epcType": "OnTimerReservationSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RESERVATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -26983,7 +26983,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerReservationSetting",
+							"elementType": "OnTimerReservationSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RESERVATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -26997,7 +26997,7 @@
 					]
 				},
 				"0x91": {
-					"epcType": "ONTimerTimeSetting",
+					"epcType": "OnTimerTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -27005,7 +27005,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerTimeSetting",
+							"elementType": "OnTimerTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -27016,7 +27016,7 @@
 					]
 				},
 				"0x92": {
-					"epcType": "ONTimerRelativeTimeSetting",
+					"epcType": "OnTimerRelativeTimeSetting",
 					"epcName": "$EPCNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -27024,7 +27024,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "ONTimerRelativeTimeSetting",
+							"elementType": "OnTimerRelativeTimeSetting",
 							"elementName": "$ELEMNAME_ON_TIMER_RELATIVE_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -27035,7 +27035,7 @@
 					]
 				},
 				"0xB0": {
-					"epcType": "Door-lidOpeningAndClosingState",
+					"epcType": "DoorLidOpeningAndClosingState",
 					"epcName": "$EPCNAME_DOOR_LID_OPENING_AND_CLOSING_STATE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -27043,7 +27043,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Door-lidOpeningAndClosingState",
+							"elementType": "DoorLidOpeningAndClosingState",
 							"elementName": "$ELEMNAME_DOOR_LID_OPENING_AND_CLOSING_STATE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -27401,7 +27401,7 @@
 					]
 				},
 				"0xDF": {
-					"epcType": "ONTimerElapsedTime",
+					"epcType": "OnTimerElapsedTime",
 					"epcName": "$EPCNAME_ON_TIMER_ELAPSED_TIME",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -27409,7 +27409,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "ONTimerElapsedTime",
+							"elementType": "OnTimerElapsedTime",
 							"elementName": "$ELEMNAME_ON_TIMER_ELAPSED_TIME",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -27883,7 +27883,7 @@
 					]
 				},
 				"0xEE": {
-					"epcType": "Door-lidLockIsSetInOperation",
+					"epcType": "DoorLidLockIsSetInOperation",
 					"epcName": "$EPCNAME_DOOR_LID_LOCK_IS_SET_IN_OPERATION",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -27891,7 +27891,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Door-lidLockIsSetInOperation",
+							"elementType": "DoorLidLockIsSetInOperation",
 							"elementName": "$ELEMNAME_DOOR_LID_LOCK_IS_SET_IN_OPERATION",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -28148,7 +28148,7 @@
 			}
 		},
 		"0x05FB": {
-			"objectType": "DREventController",
+			"objectType": "DrEventController",
 			"objectName": "$OBJNAME_05FB",
 			"epcs": {
 				"0x80": {
@@ -28174,7 +28174,7 @@
 					]
 				},
 				"0xD0": {
-					"epcType": "CompanyID",
+					"epcType": "CompanyId",
 					"epcName": "$EPCNAME_COMPANY_ID",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -28182,7 +28182,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "CompanyID",
+							"elementType": "CompanyId",
 							"elementName": "$ELEMNAME_COMPANY_ID",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -28197,7 +28197,7 @@
 					]
 				},
 				"0xD1": {
-					"epcType": "DRProgramType",
+					"epcType": "DrProgramType",
 					"epcName": "$EPCNAME_DR_PROGRAM_TYPE",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -28205,7 +28205,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "DRProgramType",
+							"elementType": "DrProgramType",
 							"elementName": "$ELEMNAME_DR_PROGRAM_TYPE",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -28225,7 +28225,7 @@
 					]
 				},
 				"0xD2": {
-					"epcType": "ProgramID",
+					"epcType": "ProgramId",
 					"epcName": "$EPCNAME_PROGRAM_ID",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -28233,7 +28233,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "ProgramID",
+							"elementType": "ProgramId",
 							"elementName": "$ELEMNAME_PROGRAM_ID",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -28289,7 +28289,7 @@
 					]
 				},
 				"0xD5": {
-					"epcType": "FutureEventInformationNotificationIDList",
+					"epcType": "FutureEventInformationNotificationIdList",
 					"epcName": "$EPCNAME_FUTURE_EVENT_INFORMATION_NOTIFICATION_ID_LIST",
 					"epcSize": 101,
 					"accessModeAnno": "notApplicable",
@@ -28297,7 +28297,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "FutureEventInformationNotificationIDList",
+							"elementType": "FutureEventInformationNotificationIdList",
 							"elementName": "$ELEMNAME_FUTURE_EVENT_INFORMATION_NOTIFICATION_ID_LIST",
 							"elementSize": 101,
 							"repeatCount": 1,
@@ -28308,7 +28308,7 @@
 					]
 				},
 				"0xD6": {
-					"epcType": "PastEventsInformationNotificationIDList",
+					"epcType": "PastEventsInformationNotificationIdList",
 					"epcName": "$EPCNAME_PAST_EVENTS_INFORMATION_NOTIFICATION_ID_LIST",
 					"epcSize": 101,
 					"accessModeAnno": "notApplicable",
@@ -28316,7 +28316,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "PastEventsInformationNotificationIDList",
+							"elementType": "PastEventsInformationNotificationIdList",
 							"elementName": "$ELEMNAME_PAST_EVENTS_INFORMATION_NOTIFICATION_ID_LIST",
 							"elementSize": 101,
 							"repeatCount": 1,
@@ -28327,7 +28327,7 @@
 					]
 				},
 				"0xD7": {
-					"epcType": "LatestReceiveEventNotificationID",
+					"epcType": "LatestReceiveEventNotificationId",
 					"epcName": "$EPCNAME_LATEST_RECEIVE_EVENT_NOTIFICATION_ID",
 					"epcSize": 1,
 					"accessModeAnno": "required",
@@ -28335,7 +28335,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "LatestReceiveEventNotificationID",
+							"elementType": "LatestReceiveEventNotificationId",
 							"elementName": "$ELEMNAME_LATEST_RECEIVE_EVENT_NOTIFICATION_ID",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -28353,7 +28353,7 @@
 					]
 				},
 				"0xD8": {
-					"epcType": "MostPastReceiveEventNotificationID",
+					"epcType": "MostPastReceiveEventNotificationId",
 					"epcName": "$EPCNAME_MOST_PAST_RECEIVE_EVENT_NOTIFICATION_ID",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -28361,7 +28361,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "MostPastReceiveEventNotificationID",
+							"elementType": "MostPastReceiveEventNotificationId",
 							"elementName": "$ELEMNAME_MOST_PAST_RECEIVE_EVENT_NOTIFICATION_ID",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -28379,7 +28379,7 @@
 					]
 				},
 				"0xD9": {
-					"epcType": "NotificationIDSpecified",
+					"epcType": "NotificationIdSpecified",
 					"epcName": "$EPCNAME_NOTIFICATION_ID_SPECIFIED",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -28387,7 +28387,7 @@
 					"accessModeSet": "required",
 					"edt": [
 						{
-							"elementType": "NotificationIDSpecified",
+							"elementType": "NotificationIdSpecified",
 							"elementName": "$ELEMNAME_NOTIFICATION_ID_SPECIFIED",
 							"elementSize": 1,
 							"repeatCount": 1,
@@ -28402,7 +28402,7 @@
 					]
 				},
 				"0xDA": {
-					"epcType": "EventInformationIDSpecified",
+					"epcType": "EventInformationIdSpecified",
 					"epcName": "$EPCNAME_EVENT_INFORMATION_ID_SPECIFIED",
 					"epcSize": 10,
 					"accessModeAnno": "notApplicable",
@@ -28410,7 +28410,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "EventInformationIDSpecified",
+							"elementType": "EventInformationIdSpecified",
 							"elementName": "$ELEMNAME_EVENT_INFORMATION_ID_SPECIFIED",
 							"elementSize": 10,
 							"repeatCount": 1,
@@ -28459,7 +28459,7 @@
 					]
 				},
 				"0xE1": {
-					"epcType": "Confirmation·OPTInformation",
+					"epcType": "Confirmation·OptInformation",
 					"epcName": "$EPCNAME_CONFIRMATION_·_OPT_INFORMATION",
 					"epcSize": 28,
 					"accessModeAnno": "notApplicable",
@@ -28467,7 +28467,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Confirmation·OPTInformation",
+							"elementType": "Confirmation·OptInformation",
 							"elementName": "$ELEMNAME_CONFIRMATION_·_OPT_INFORMATION",
 							"elementSize": 28,
 							"repeatCount": 1,
@@ -28478,7 +28478,7 @@
 					]
 				},
 				"0xE2": {
-					"epcType": "Confirmation·OPTInformationStatus",
+					"epcType": "Confirmation·OptInformationStatus",
 					"epcName": "$EPCNAME_CONFIRMATION_·_OPT_INFORMATION_STATUS",
 					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
@@ -28486,7 +28486,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Confirmation·OPTInformationStatus",
+							"elementType": "Confirmation·OptInformationStatus",
 							"elementName": "$ELEMNAME_CONFIRMATION_·_OPT_INFORMATION_STATUS",
 							"elementSize": 4,
 							"repeatCount": 1,
@@ -28499,7 +28499,7 @@
 			}
 		},
 		"0x05FD": {
-			"objectType": "Switch(JEMA/HATerminalCorrespondence)",
+			"objectType": "Switch",
 			"objectName": "$OBJNAME_05FD",
 			"epcs": {
 				"0x80": {
@@ -28572,7 +28572,7 @@
 					]
 				},
 				"0xC0": {
-					"epcType": "ControllerID",
+					"epcType": "ControllerId",
 					"epcName": "$EPCNAME_CONTROLLER_ID",
 					"epcSize": 40,
 					"accessModeAnno": "notApplicable",
@@ -28580,7 +28580,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "ControllerID",
+							"elementType": "ControllerId",
 							"elementName": "$ELEMNAME_CONTROLLER_ID",
 							"elementSize": 40,
 							"repeatCount": 1,
@@ -28637,7 +28637,7 @@
 					]
 				},
 				"0xC3": {
-					"epcType": "EquipmentID",
+					"epcType": "EquipmentId",
 					"epcName": "$EPCNAME_EQUIPMENT_ID",
 					"epcSize": 40,
 					"accessModeAnno": "notApplicable",
@@ -28645,7 +28645,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "EquipmentID",
+							"elementType": "EquipmentId",
 							"elementName": "$ELEMNAME_EQUIPMENT_ID",
 							"elementSize": 40,
 							"repeatCount": 1,

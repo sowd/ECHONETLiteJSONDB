@@ -320,7 +320,7 @@
 					]
 				},
 				"0x8F": {
-					"epcType": "Power-savingOperationSetting",
+					"epcType": "PowerSavingOperationSetting",
 					"epcName": "$EPCNAME_POWER_SAVING_OPERATION_SETTING",
 					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
@@ -328,7 +328,7 @@
 					"accessModeSet": "optional",
 					"edt": [
 						{
-							"elementType": "Power-savingOperationSetting",
+							"elementType": "PowerSavingOperationSetting",
 							"elementName": "$ELEMNAME_POWER_SAVING_OPERATION_SETTING",
 							"elementSize": 1,
 							"repeatCount": 1,

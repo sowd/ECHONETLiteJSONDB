@@ -279,7 +279,7 @@
 					]
 				},
 				"0xD3": {
-					"epcType": "Self-nodeNumberOfInstances",
+					"epcType": "SelfNodeNumberOfInstances",
 					"epcName": "$EPCNAME_SELF_NODE_NUMBER_OF_INSTANCES",
 					"epcSize": 3,
 					"accessModeAnno": "notApplicable",
@@ -287,7 +287,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "Self-nodeNumberOfInstances",
+							"elementType": "SelfNodeNumberOfInstances",
 							"elementName": "$ELEMNAME_SELF_NODE_NUMBER_OF_INSTANCES",
 							"elementSize": 3,
 							"repeatCount": 1,
@@ -302,7 +302,7 @@
 					]
 				},
 				"0xD4": {
-					"epcType": "TheNumberOfTheSelf-nodeClass",
+					"epcType": "TheNumberOfTheSelfNodeClass",
 					"epcName": "$EPCNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS",
 					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
@@ -310,7 +310,7 @@
 					"accessModeSet": "notApplicable",
 					"edt": [
 						{
-							"elementType": "TheNumberOfTheSelf-nodeClass",
+							"elementType": "TheNumberOfTheSelfNodeClass",
 							"elementName": "$ELEMNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS",
 							"elementSize": 2,
 							"repeatCount": 1,
@@ -360,7 +360,7 @@
 					]
 				},
 				"0xD6": {
-					"epcType": "Self-nodeInstanceListS",
+					"epcType": "SelfNodeInstanceListS",
 					"epcName": "$EPCNAME_SELF_NODE_INSTANCE_LIST_S",
 					"epcSize": 253,
 					"accessModeAnno": "notApplicable",
@@ -395,7 +395,7 @@
 					]
 				},
 				"0xD7": {
-					"epcType": "Self-nodeClassListS",
+					"epcType": "SelfNodeClassListS",
 					"epcName": "$EPCNAME_SELF_NODE_CLASS_LIST_S",
 					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
