@@ -3,39 +3,44 @@
 	"version": "G",
 	"elObjects": {
 		"0x0000": {
-			"objectId": "Superclass",
+			"objectType": "Superclass",
 			"objectName": "$OBJNAME_0000",
 			"epcs": {
 				"0x80": {
+					"epcType": "OperatingState",
+					"epcName": "$EPCNAME_OPERATING_STATE",
+					"epcSize": 1,
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
-					"epcSize": 1,
-					"epcName": "$EPCNAME_OPERATING_STATE",
-					"doc": "$EPCDOC_0000_80",
 					"edt": [
 						{
+							"elementType": "OperatingState",
+							"elementName": "$ELEMNAME_OPERATING_STATE",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"keyValues": {
 									"0x30": "ON",
 									"0x31": "OFF"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_OPERATING_STATE"
+							}
 						}
 					]
 				},
 				"0x81": {
+					"epcType": "InstallationLocation",
+					"epcName": "$EPCNAME_INSTALLATION_LOCATION",
+					"epcSize": 1,
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
-					"epcSize": 1,
-					"epcName": "$EPCNAME_INSTALLATION_LOCATION",
-					"doc": "$EPCDOC_0000_81",
 					"edt": [
 						{
+							"elementType": "InstallationLocation",
+							"elementName": "$ELEMNAME_INSTALLATION_LOCATION",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"keyValues": {
 									"0x00": "未設定",
@@ -44,58 +49,61 @@
 									"0xFF": "不定"
 								},
 								"others": "referSpec"
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_INSTALLATION_LOCATION"
+							}
 						}
 					]
 				},
 				"0x82": {
+					"epcType": "StandardVersionInformation",
+					"epcName": "$EPCNAME_STANDARD_VERSION_INFORMATION",
+					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 4,
-					"epcName": "$EPCNAME_STANDARD_VERSION_INFORMATION",
-					"doc": "$EPCDOC_0000_82",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "StandardVersionInformation",
+							"elementName": "$ELEMNAME_STANDARD_VERSION_INFORMATION",
 							"elementSize": 4,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_STANDARD_VERSION_INFORMATION"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x83": {
+					"epcType": "IdentificationNumber",
+					"epcName": "$EPCNAME_IDENTIFICATION_NUMBER",
+					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 17,
-					"epcName": "$EPCNAME_IDENTIFICATION_NUMBER",
-					"doc": "$EPCDOC_0000_83",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "IdentificationNumber",
+							"elementName": "$ELEMNAME_IDENTIFICATION_NUMBER",
 							"elementSize": 17,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_IDENTIFICATION_NUMBER"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x84": {
+					"epcType": "InstantaneousPowerConsumptionMeasurements",
+					"epcName": "$EPCNAME_INSTANTANEOUS_POWER_CONSUMPTION_MEASUREMENTS",
+					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 2,
-					"epcName": "$EPCNAME_INSTANTANEOUS_POWER_CONSUMPTION_MEASUREMENTS",
-					"doc": "$EPCDOC_0000_84",
 					"edt": [
 						{
+							"elementType": "InstantaneousPowerConsumptionMeasurements",
+							"elementName": "$ELEMNAME_INSTANTANEOUS_POWER_CONSUMPTION_MEASUREMENTS",
+							"elementSize": 2,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
@@ -103,22 +111,23 @@
 									"min": 0,
 									"max": 65533
 								}
-							},
-							"elementSize": 2,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_INSTANTANEOUS_POWER_CONSUMPTION_MEASUREMENTS"
+							}
 						}
 					]
 				},
 				"0x85": {
+					"epcType": "CumulativePowerConsumptionMeasurements",
+					"epcName": "$EPCNAME_CUMULATIVE_POWER_CONSUMPTION_MEASUREMENTS",
+					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 4,
-					"epcName": "$EPCNAME_CUMULATIVE_POWER_CONSUMPTION_MEASUREMENTS",
-					"doc": "$EPCDOC_0000_85",
 					"edt": [
 						{
+							"elementType": "CumulativePowerConsumptionMeasurements",
+							"elementName": "$ELEMNAME_CUMULATIVE_POWER_CONSUMPTION_MEASUREMENTS",
+							"elementSize": 4,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
@@ -127,40 +136,42 @@
 									"min": 0,
 									"max": 999999999
 								}
-							},
-							"elementSize": 4,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_CUMULATIVE_POWER_CONSUMPTION_MEASUREMENTS"
+							}
 						}
 					]
 				},
 				"0x86": {
+					"epcType": "MakerAbnormalCode",
+					"epcName": "$EPCNAME_MAKER_ABNORMAL_CODE",
+					"epcSize": 225,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 225,
-					"epcName": "$EPCNAME_MAKER_ABNORMAL_CODE",
-					"doc": "$EPCDOC_0000_86",
 					"edt": [
 						{
-							"content": {
-								"rawData": "binary"
-							},
+							"elementType": "MakerAbnormalCode",
+							"elementName": "$ELEMNAME_MAKER_ABNORMAL_CODE",
 							"elementSize": 225,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_MAKER_ABNORMAL_CODE"
+							"content": {
+								"rawData": "binary"
+							}
 						}
 					]
 				},
 				"0x87": {
+					"epcType": "CurrentLimitSetting",
+					"epcName": "$EPCNAME_CURRENT_LIMIT_SETTING",
+					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
-					"epcSize": 1,
-					"epcName": "$EPCNAME_CURRENT_LIMIT_SETTING",
-					"doc": "$EPCDOC_0000_87",
 					"edt": [
 						{
+							"elementType": "CurrentLimitSetting",
+							"elementName": "$ELEMNAME_CURRENT_LIMIT_SETTING",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
@@ -168,229 +179,241 @@
 									"min": 0,
 									"max": 100
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_CURRENT_LIMIT_SETTING"
+							}
 						}
 					]
 				},
 				"0x88": {
+					"epcType": "AbnormalOccurrenceState",
+					"epcName": "$EPCNAME_ABNORMAL_OCCURRENCE_STATE",
+					"epcSize": 1,
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 1,
-					"epcName": "$EPCNAME_ABNORMAL_OCCURRENCE_STATE",
-					"doc": "$EPCDOC_0000_88",
 					"edt": [
 						{
+							"elementType": "AbnormalOccurrenceState",
+							"elementName": "$ELEMNAME_ABNORMAL_OCCURRENCE_STATE",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"keyValues": {
 									"0x41": "有",
 									"0x42": "無"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_ABNORMAL_OCCURRENCE_STATE"
+							}
 						}
 					]
 				},
 				"0x89": {
+					"epcType": "AbnormalContent",
+					"epcName": "$EPCNAME_ABNORMAL_CONTENT",
+					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 2,
-					"epcName": "$EPCNAME_ABNORMAL_CONTENT",
-					"doc": "$EPCDOC_0000_89",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "AbnormalContent",
+							"elementName": "$ELEMNAME_ABNORMAL_CONTENT",
 							"elementSize": 2,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_ABNORMAL_CONTENT"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x8A": {
+					"epcType": "ManufacturerCode",
+					"epcName": "$EPCNAME_MANUFACTURER_CODE",
+					"epcSize": 3,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 3,
-					"epcName": "$EPCNAME_MANUFACTURER_CODE",
-					"doc": "$EPCDOC_0000_8A",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "ManufacturerCode",
+							"elementName": "$ELEMNAME_MANUFACTURER_CODE",
 							"elementSize": 3,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_MANUFACTURER_CODE"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x8B": {
+					"epcType": "PlantCode",
+					"epcName": "$EPCNAME_PLANT_CODE",
+					"epcSize": 3,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 3,
-					"epcName": "$EPCNAME_PLANT_CODE",
-					"doc": "$EPCDOC_0000_8B",
 					"edt": [
 						{
-							"content": {
-								"rawData": "ASCII"
-							},
+							"elementType": "PlantCode",
+							"elementName": "$ELEMNAME_PLANT_CODE",
 							"elementSize": 3,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_PLANT_CODE"
+							"content": {
+								"rawData": "ASCII"
+							}
 						}
 					]
 				},
 				"0x8C": {
+					"epcType": "ProductCode",
+					"epcName": "$EPCNAME_PRODUCT_CODE",
+					"epcSize": 12,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 12,
-					"epcName": "$EPCNAME_PRODUCT_CODE",
-					"doc": "$EPCDOC_0000_8C",
 					"edt": [
 						{
-							"content": {
-								"rawData": "ASCII"
-							},
+							"elementType": "ProductCode",
+							"elementName": "$ELEMNAME_PRODUCT_CODE",
 							"elementSize": 12,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_PRODUCT_CODE"
+							"content": {
+								"rawData": "ASCII"
+							}
 						}
 					]
 				},
 				"0x8D": {
+					"epcType": "SerialNumber",
+					"epcName": "$EPCNAME_SERIAL_NUMBER",
+					"epcSize": 12,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 12,
-					"epcName": "$EPCNAME_SERIAL_NUMBER",
-					"doc": "$EPCDOC_0000_8D",
 					"edt": [
 						{
-							"content": {
-								"rawData": "ASCII"
-							},
+							"elementType": "SerialNumber",
+							"elementName": "$ELEMNAME_SERIAL_NUMBER",
 							"elementSize": 12,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_SERIAL_NUMBER"
+							"content": {
+								"rawData": "ASCII"
+							}
 						}
 					]
 				},
 				"0x8E": {
+					"epcType": "MadeDate",
+					"epcName": "$EPCNAME_MADE_DATE",
+					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 4,
-					"epcName": "$EPCNAME_MADE_DATE",
-					"doc": "$EPCDOC_0000_8E",
 					"edt": [
 						{
-							"content": {
-								"customType": "YYMD"
-							},
+							"elementType": "MadeDate",
+							"elementName": "$ELEMNAME_MADE_DATE",
 							"elementSize": 4,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_MADE_DATE"
+							"content": {
+								"customType": "YYMD"
+							}
 						}
 					]
 				},
 				"0x8F": {
+					"epcType": "Power-savingOperationSetting",
+					"epcName": "$EPCNAME_POWER_SAVING_OPERATION_SETTING",
+					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
-					"epcSize": 1,
-					"epcName": "$EPCNAME_POWER_SAVING_OPERATION_SETTING",
-					"doc": "$EPCDOC_0000_8F",
 					"edt": [
 						{
+							"elementType": "Power-savingOperationSetting",
+							"elementName": "$ELEMNAME_POWER_SAVING_OPERATION_SETTING",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"keyValues": {
 									"0x41": "節電動作中",
 									"0x42": "通常動作中"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_POWER_SAVING_OPERATION_SETTING"
+							}
 						}
 					]
 				},
 				"0x93": {
+					"epcType": "RemoteControlSet",
+					"epcName": "$EPCNAME_REMOTE_CONTROL_SET",
+					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
-					"epcSize": 1,
-					"epcName": "$EPCNAME_REMOTE_CONTROL_SET",
-					"doc": "$EPCDOC_0000_93",
 					"edt": [
 						{
+							"elementType": "RemoteControlSet",
+							"elementName": "$ELEMNAME_REMOTE_CONTROL_SET",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"keyValues": {
 									"0x41": "公衆回線未経由操作",
 									"0x42": "公衆回線経由操作"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_REMOTE_CONTROL_SET"
+							}
 						}
 					]
 				},
 				"0x97": {
+					"epcType": "CurrentTimeSetting",
+					"epcName": "$EPCNAME_CURRENT_TIME_SETTING",
+					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
-					"epcSize": 2,
-					"epcName": "$EPCNAME_CURRENT_TIME_SETTING",
-					"doc": "$EPCDOC_0000_97",
 					"edt": [
 						{
-							"content": {
-								"customType": "HM"
-							},
+							"elementType": "CurrentTimeSetting",
+							"elementName": "$ELEMNAME_CURRENT_TIME_SETTING",
 							"elementSize": 2,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_CURRENT_TIME_SETTING"
+							"content": {
+								"customType": "HM"
+							}
 						}
 					]
 				},
 				"0x98": {
+					"epcType": "CurrentDateSetting",
+					"epcName": "$EPCNAME_CURRENT_DATE_SETTING",
+					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
-					"epcSize": 4,
-					"epcName": "$EPCNAME_CURRENT_DATE_SETTING",
-					"doc": "$EPCDOC_0000_98",
 					"edt": [
 						{
-							"content": {
-								"customType": "YYMD"
-							},
+							"elementType": "CurrentDateSetting",
+							"elementName": "$ELEMNAME_CURRENT_DATE_SETTING",
 							"elementSize": 4,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_CURRENT_DATE_SETTING"
+							"content": {
+								"customType": "YYMD"
+							}
 						}
 					]
 				},
 				"0x99": {
+					"epcType": "PowerLimitSetting",
+					"epcName": "$EPCNAME_POWER_LIMIT_SETTING",
+					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
-					"epcSize": 2,
-					"epcName": "$EPCNAME_POWER_LIMIT_SETTING",
-					"doc": "$EPCDOC_0000_99",
 					"edt": [
 						{
+							"elementType": "PowerLimitSetting",
+							"elementName": "$ELEMNAME_POWER_LIMIT_SETTING",
+							"elementSize": 2,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
@@ -398,22 +421,23 @@
 									"min": 0,
 									"max": 65535
 								}
-							},
-							"elementSize": 2,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_POWER_LIMIT_SETTING"
+							}
 						}
 					]
 				},
 				"0x9A": {
+					"epcType": "IntegratedOperatingTime",
+					"epcName": "$EPCNAME_INTEGRATED_OPERATING_TIME",
+					"epcSize": 5,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 5,
-					"epcName": "$EPCNAME_INTEGRATED_OPERATING_TIME",
-					"doc": "$EPCDOC_0000_9A",
 					"edt": [
 						{
+							"elementType": "MeasureOfTime",
+							"elementName": "$ELEMNAME_MEASURE_OF_TIME",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"keyValues": {
 									"0x41": "Second",
@@ -421,76 +445,77 @@
 									"0x43": "Hour",
 									"0x44": "Day"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_MEASURE_OF_TIME"
+							}
 						},
 						{
+							"elementType": "ElapsedTime",
+							"elementName": "$ELEMNAME_ELAPSED_TIME",
+							"elementSize": 4,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
 									"min": 0,
 									"max": 4294967295
 								}
-							},
-							"elementSize": 4,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_ELAPSED_TIME"
+							}
 						}
 					]
 				},
 				"0x9D": {
+					"epcType": "StateChangeAnnouncementPropertyMap",
+					"epcName": "$EPCNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP",
+					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 17,
-					"epcName": "$EPCNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP",
-					"doc": "$EPCDOC_0000_9D",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "StateChangeAnnouncementPropertyMap",
+							"elementName": "$ELEMNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP",
 							"elementSize": 17,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x9E": {
+					"epcType": "SetPropertyMap",
+					"epcName": "$EPCNAME_SET_PROPERTY_MAP",
+					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 17,
-					"epcName": "$EPCNAME_SET_PROPERTY_MAP",
-					"doc": "$EPCDOC_0000_9E",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "SetPropertyMap",
+							"elementName": "$ELEMNAME_SET_PROPERTY_MAP",
 							"elementSize": 17,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_SET_PROPERTY_MAP"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x9F": {
+					"epcType": "GetPropertyMap",
+					"epcName": "$EPCNAME_GET_PROPERTY_MAP",
+					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 17,
-					"epcName": "$EPCNAME_GET_PROPERTY_MAP",
-					"doc": "$EPCDOC_0000_9F",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "GetPropertyMap",
+							"elementName": "$ELEMNAME_GET_PROPERTY_MAP",
 							"elementSize": 17,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_GET_PROPERTY_MAP"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				}

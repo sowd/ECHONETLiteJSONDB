@@ -3,303 +3,340 @@
 	"version": "1.12",
 	"elObjects": {
 		"0x0EF0": {
-			"objectId": "NodeProfile",
+			"objectType": "NodeProfile",
 			"objectName": "$OBJNAME_0EF0",
 			"epcs": {
 				"0x80": {
+					"epcType": "OperatingState",
+					"epcName": "$EPCNAME_OPERATING_STATE",
+					"epcSize": 1,
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
-					"epcSize": 1,
-					"epcName": "$EPCNAME_OPERATING_STATE",
 					"edt": [
 						{
+							"elementType": "OperatingState",
+							"elementName": "$ELEMNAME_OPERATING_STATE",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"keyValues": {
 									"0x30": "ON",
 									"0x31": "OFF"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_OPERATING_STATE"
+							}
 						}
 					]
 				},
 				"0x82": {
+					"epcType": "VersionInformation",
+					"epcName": "$EPCNAME_VERSION_INFORMATION",
+					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 4,
-					"epcName": "$EPCNAME_VERSION_INFORMATION",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "VersionInformation",
+							"elementName": "$ELEMNAME_VERSION_INFORMATION",
 							"elementSize": 4,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_VERSION_INFORMATION"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x83": {
+					"epcType": "IdentificationNumber",
+					"epcName": "$EPCNAME_IDENTIFICATION_NUMBER",
+					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 17,
-					"epcName": "$EPCNAME_IDENTIFICATION_NUMBER",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "IdentificationNumber",
+							"elementName": "$ELEMNAME_IDENTIFICATION_NUMBER",
 							"elementSize": 17,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_IDENTIFICATION_NUMBER"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x88": {
+					"epcType": "AbnormalOccurrenceState",
+					"epcName": "$EPCNAME_ABNORMAL_OCCURRENCE_STATE",
+					"epcSize": 1,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 1,
-					"epcName": "$EPCNAME_ABNORMAL_OCCURRENCE_STATE",
 					"edt": [
 						{
+							"elementType": "AbnormalOccurrenceState",
+							"elementName": "$ELEMNAME_ABNORMAL_OCCURRENCE_STATE",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"keyValues": {
 									"0x41": "有",
 									"0x42": "無"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_ABNORMAL_OCCURRENCE_STATE"
+							}
 						}
 					]
 				},
 				"0x89": {
+					"epcType": "AbnormalContent",
+					"epcName": "$EPCNAME_ABNORMAL_CONTENT",
+					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 2,
-					"epcName": "$EPCNAME_ABNORMAL_CONTENT",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "AbnormalContent",
+							"elementName": "$ELEMNAME_ABNORMAL_CONTENT",
 							"elementSize": 2,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_ABNORMAL_CONTENT"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x8A": {
+					"epcType": "ManufacturerCode",
+					"epcName": "$EPCNAME_MANUFACTURER_CODE",
+					"epcSize": 3,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 3,
-					"epcName": "$EPCNAME_MANUFACTURER_CODE",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "ManufacturerCode",
+							"elementName": "$ELEMNAME_MANUFACTURER_CODE",
 							"elementSize": 3,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_MANUFACTURER_CODE"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x8B": {
+					"epcType": "PlantCode",
+					"epcName": "$EPCNAME_PLANT_CODE",
+					"epcSize": 3,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 3,
-					"epcName": "$EPCNAME_PLANT_CODE",
 					"edt": [
 						{
-							"content": {
-								"rawData": "binary"
-							},
+							"elementType": "PlantCode",
+							"elementName": "$ELEMNAME_PLANT_CODE",
 							"elementSize": 3,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_PLANT_CODE"
+							"content": {
+								"rawData": "binary"
+							}
 						}
 					]
 				},
 				"0x8C": {
+					"epcType": "ProductCode",
+					"epcName": "$EPCNAME_PRODUCT_CODE",
+					"epcSize": 12,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 12,
-					"epcName": "$EPCNAME_PRODUCT_CODE",
 					"edt": [
 						{
-							"content": {
-								"rawData": "binary"
-							},
+							"elementType": "ProductCode",
+							"elementName": "$ELEMNAME_PRODUCT_CODE",
 							"elementSize": 12,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_PRODUCT_CODE"
+							"content": {
+								"rawData": "binary"
+							}
 						}
 					]
 				},
 				"0x8D": {
+					"epcType": "SerialNumber",
+					"epcName": "$EPCNAME_SERIAL_NUMBER",
+					"epcSize": 12,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 12,
-					"epcName": "$EPCNAME_SERIAL_NUMBER",
 					"edt": [
 						{
-							"content": {
-								"rawData": "binary"
-							},
+							"elementType": "SerialNumber",
+							"elementName": "$ELEMNAME_SERIAL_NUMBER",
 							"elementSize": 12,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_SERIAL_NUMBER"
+							"content": {
+								"rawData": "binary"
+							}
 						}
 					]
 				},
 				"0x8E": {
+					"epcType": "MadeDate",
+					"epcName": "$EPCNAME_MADE_DATE",
+					"epcSize": 4,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 4,
-					"epcName": "$EPCNAME_MADE_DATE",
 					"edt": [
 						{
-							"content": {
-								"customType": "YYMD"
-							},
+							"elementType": "MadeDate",
+							"elementName": "$ELEMNAME_MADE_DATE",
 							"elementSize": 4,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_MADE_DATE"
+							"content": {
+								"customType": "YYMD"
+							}
 						}
 					]
 				},
 				"0x9D": {
+					"epcType": "StateChangeAnnouncementPropertyMap",
+					"epcName": "$EPCNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP",
+					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 17,
-					"epcName": "$EPCNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "StateChangeAnnouncementPropertyMap",
+							"elementName": "$ELEMNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP",
 							"elementSize": 17,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_STATE_CHANGE_ANNOUNCEMENT_PROPERTY_MAP"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x9E": {
+					"epcType": "SetPropertyMap",
+					"epcName": "$EPCNAME_SET_PROPERTY_MAP",
+					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 17,
-					"epcName": "$EPCNAME_SET_PROPERTY_MAP",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "SetPropertyMap",
+							"elementName": "$ELEMNAME_SET_PROPERTY_MAP",
 							"elementSize": 17,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_SET_PROPERTY_MAP"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0x9F": {
+					"epcType": "GetPropertyMap",
+					"epcName": "$EPCNAME_GET_PROPERTY_MAP",
+					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 17,
-					"epcName": "$EPCNAME_GET_PROPERTY_MAP",
 					"edt": [
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "GetPropertyMap",
+							"elementName": "$ELEMNAME_GET_PROPERTY_MAP",
 							"elementSize": 17,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_GET_PROPERTY_MAP"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0xBF": {
+					"epcType": "IndividualIdentificationInformation",
+					"epcName": "$EPCNAME_INDIVIDUAL_IDENTIFICATION_INFORMATION",
+					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
-					"epcSize": 2,
-					"epcName": "$EPCNAME_INDIVIDUAL_IDENTIFICATION_INFORMATION",
 					"edt": [
 						{
-							"content": {
-								"rawData": "binary"
-							},
+							"elementType": "IndividualIdentificationInformation",
+							"elementName": "$ELEMNAME_INDIVIDUAL_IDENTIFICATION_INFORMATION",
 							"elementSize": 2,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_INDIVIDUAL_IDENTIFICATION_INFORMATION"
+							"content": {
+								"rawData": "binary"
+							}
 						}
 					]
 				},
 				"0xD3": {
+					"epcType": "Self-nodeNumberOfInstances",
+					"epcName": "$EPCNAME_SELF_NODE_NUMBER_OF_INSTANCES",
+					"epcSize": 3,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 3,
-					"epcName": "$EPCNAME_SELF_NODE_NUMBER_OF_INSTANCES",
 					"edt": [
 						{
+							"elementType": "Self-nodeNumberOfInstances",
+							"elementName": "$ELEMNAME_SELF_NODE_NUMBER_OF_INSTANCES",
+							"elementSize": 3,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
 									"min": 1,
 									"max": 16777215
 								}
-							},
-							"elementSize": 3,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_SELF_NODE_NUMBER_OF_INSTANCES"
+							}
 						}
 					]
 				},
 				"0xD4": {
+					"epcType": "TheNumberOfTheSelf-nodeClass",
+					"epcName": "$EPCNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS",
+					"epcSize": 2,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 2,
-					"epcName": "$EPCNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS",
 					"edt": [
 						{
+							"elementType": "TheNumberOfTheSelf-nodeClass",
+							"elementName": "$ELEMNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS",
+							"elementSize": 2,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
 									"min": 2,
 									"max": 65535
 								}
-							},
-							"elementSize": 2,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_THE_NUMBER_OF_THE_SELF_NODE_CLASS"
+							}
 						}
 					]
 				},
 				"0xD5": {
+					"epcType": "InstanceListNotification",
+					"epcName": "$EPCNAME_INSTANCE_LIST_NOTIFICATION",
+					"epcSize": 253,
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
-					"epcSize": 253,
-					"epcName": "$EPCNAME_INSTANCE_LIST_NOTIFICATION",
 					"edt": [
 						{
+							"elementType": "InstanceTheTotalNumber",
+							"elementName": "$ELEMNAME_INSTANCE_THE_TOTAL_NUMBER",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
@@ -309,29 +346,32 @@
 								"keyValues": {
 									"0xFF": "Overflow"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_INSTANCE_THE_TOTAL_NUMBER"
+							}
 						},
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "InstanceList",
+							"elementName": "$ELEMNAME_INSTANCE_LIST",
 							"elementSize": 252,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_INSTANCE_LIST"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0xD6": {
+					"epcType": "Self-nodeInstanceListS",
+					"epcName": "$EPCNAME_SELF_NODE_INSTANCE_LIST_S",
+					"epcSize": 253,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 253,
-					"epcName": "$EPCNAME_SELF_NODE_INSTANCE_LIST_S",
 					"edt": [
 						{
+							"elementType": "InstanceTheTotalNumber",
+							"elementName": "$ELEMNAME_INSTANCE_THE_TOTAL_NUMBER",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
@@ -341,29 +381,32 @@
 								"keyValues": {
 									"0xFF": "Overflow"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_INSTANCE_THE_TOTAL_NUMBER"
+							}
 						},
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "InstanceList",
+							"elementName": "$ELEMNAME_INSTANCE_LIST",
 							"elementSize": 252,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_INSTANCE_LIST"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				},
 				"0xD7": {
+					"epcType": "Self-nodeClassListS",
+					"epcName": "$EPCNAME_SELF_NODE_CLASS_LIST_S",
+					"epcSize": 17,
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
-					"epcSize": 17,
-					"epcName": "$EPCNAME_SELF_NODE_CLASS_LIST_S",
 					"edt": [
 						{
+							"elementType": "ClassTotalNumber",
+							"elementName": "$ELEMNAME_CLASS_TOTAL_NUMBER",
+							"elementSize": 1,
+							"repeatCount": 1,
 							"content": {
 								"numericValue": {
 									"integerType": "Unsigned",
@@ -373,18 +416,16 @@
 								"keyValues": {
 									"0xFF": "Overflow"
 								}
-							},
-							"elementSize": 1,
-							"repeatCount": 1,
-							"elementName": "$ELEMNAME_CLASS_TOTAL_NUMBER"
+							}
 						},
 						{
-							"content": {
-								"others": "referSpec"
-							},
+							"elementType": "ClassList",
+							"elementName": "$ELEMNAME_CLASS_LIST",
 							"elementSize": 16,
 							"repeatCount": 1,
-							"elementName": "$ELEMNAME_CLASS_LIST"
+							"content": {
+								"others": "referSpec"
+							}
 						}
 					]
 				}

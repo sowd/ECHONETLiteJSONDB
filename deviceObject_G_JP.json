@@ -1965,7 +1965,7 @@
 		"EPCDOC_0602_B3": "表示クラスの要件に関するセクション（クラスグループコード= 0x06の、クラスコード= 0x01の）を参照してください。 \n\n\n\n名前：ユーザに提示する文字列\n EPC：0xB3 \nデータ型：unsigned char型〜最大247 \nデータサイズ（バイト）：Max247 B YTE \n\n AccessRule \n発表：未定義\nセット：必須\n取得：オプション\n",
 		"OBJNAME_0603": "オーディオ",
 		"EPCNAME_INPUT_SOURCE_SETTINGS": "入力ソース設定",
-		"ELEMNAME_KIND": "種別",
+		"ELEMNAME_TYPE": "種別",
 		"ELEMNAME_NUMBER": "番号",
 		"OBJNAME_0604": "ネットワークカメラ",
 		"EPCNAME_STILL_IMAGE_SHOOTING_SETTINGS_CAN_BE_ACCEPTED_STATE": "静止画撮影設定受付可能状態",
