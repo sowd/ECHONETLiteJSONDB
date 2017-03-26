@@ -440,6 +440,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0000_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -462,6 +463,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0000_81",
 					"edt": [
 						{
 							"elementType": "InstallationLocation",
@@ -487,6 +489,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_82",
 					"edt": [
 						{
 							"elementType": "StandardVersionInformation",
@@ -506,6 +509,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_83",
 					"edt": [
 						{
 							"elementType": "IdentificationNumber",
@@ -525,6 +529,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_84",
 					"edt": [
 						{
 							"elementType": "InstantaneousPowerConsumptionMeasurements",
@@ -549,6 +554,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_85",
 					"edt": [
 						{
 							"elementType": "CumulativePowerConsumptionMeasurements",
@@ -574,6 +580,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_86",
 					"edt": [
 						{
 							"elementType": "MakerAbnormalCode",
@@ -593,6 +600,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0000_87",
 					"edt": [
 						{
 							"elementType": "CurrentLimitSetting",
@@ -617,6 +625,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_88",
 					"edt": [
 						{
 							"elementType": "AbnormalOccurrenceState",
@@ -639,6 +648,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_89",
 					"edt": [
 						{
 							"elementType": "AbnormalContent",
@@ -658,6 +668,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_8A",
 					"edt": [
 						{
 							"elementType": "ManufacturerCode",
@@ -677,6 +688,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_8B",
 					"edt": [
 						{
 							"elementType": "PlantCode",
@@ -696,6 +708,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_8C",
 					"edt": [
 						{
 							"elementType": "ProductCode",
@@ -715,6 +728,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_8D",
 					"edt": [
 						{
 							"elementType": "SerialNumber",
@@ -734,6 +748,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_8E",
 					"edt": [
 						{
 							"elementType": "MadeDate",
@@ -753,6 +768,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0000_8F",
 					"edt": [
 						{
 							"elementType": "PowerSavingOperationSetting",
@@ -775,6 +791,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0000_93",
 					"edt": [
 						{
 							"elementType": "RemoteControlSet",
@@ -797,6 +814,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0000_97",
 					"edt": [
 						{
 							"elementType": "CurrentTimeSetting",
@@ -816,6 +834,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0000_98",
 					"edt": [
 						{
 							"elementType": "CurrentDateSetting",
@@ -835,6 +854,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0000_99",
 					"edt": [
 						{
 							"elementType": "PowerLimitSetting",
@@ -859,6 +879,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_9A",
 					"edt": [
 						{
 							"elementType": "MeasureOfTime",
@@ -896,6 +917,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_9D",
 					"edt": [
 						{
 							"elementType": "StateChangeAnnouncementPropertyMap",
@@ -915,6 +937,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_9E",
 					"edt": [
 						{
 							"elementType": "SetPropertyMap",
@@ -934,6 +957,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0000_9F",
 					"edt": [
 						{
 							"elementType": "GetPropertyMap",
@@ -959,6 +983,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0001_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -981,6 +1006,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0001_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1003,6 +1029,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0001_B1",
 					"edt": [
 						{
 							"elementType": "GasLeakOccurrenceStatus",
@@ -1025,6 +1052,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0001_BF",
 					"edt": [
 						{
 							"elementType": "GasLeakOccurrenceStatusResetSetting",
@@ -1052,6 +1080,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0002_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1074,6 +1103,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0002_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1096,6 +1126,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0002_B1",
 					"edt": [
 						{
 							"elementType": "IntrusionOccurrenceState",
@@ -1118,6 +1149,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0002_BF",
 					"edt": [
 						{
 							"elementType": "IntrusionOccurrenceStateResetSetting",
@@ -1145,6 +1177,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0003_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1167,6 +1200,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0003_B1",
 					"edt": [
 						{
 							"elementType": "VeryOccurrenceState",
@@ -1189,6 +1223,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0003_BF",
 					"edt": [
 						{
 							"elementType": "VeryOccurrenceStateResetSetting",
@@ -1216,6 +1251,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0004_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1238,6 +1274,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0004_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1260,6 +1297,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0004_B1",
 					"edt": [
 						{
 							"elementType": "EmergencyGenerationState",
@@ -1282,6 +1320,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0004_BF",
 					"edt": [
 						{
 							"elementType": "EmergencyOccursStateResetSetting",
@@ -1309,6 +1348,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0005_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1331,6 +1371,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0005_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1353,6 +1394,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0005_B1",
 					"edt": [
 						{
 							"elementType": "EarthquakeState",
@@ -1375,6 +1417,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0005_BF",
 					"edt": [
 						{
 							"elementType": "EarthquakeStateResetSetting",
@@ -1402,6 +1445,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0006_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1424,6 +1468,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0006_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1446,6 +1491,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0006_B1",
 					"edt": [
 						{
 							"elementType": "OccurrenceOfLeakageState",
@@ -1468,6 +1514,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0006_BF",
 					"edt": [
 						{
 							"elementType": "OccurrenceOfLeakageStateResetSetting",
@@ -1495,6 +1542,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0007_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1517,6 +1565,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0007_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1539,6 +1588,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0007_B1",
 					"edt": [
 						{
 							"elementType": "TheHumanBodyDetectionState",
@@ -1567,6 +1617,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0008_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1589,6 +1640,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0008_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1611,6 +1663,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0008_B1",
 					"edt": [
 						{
 							"elementType": "VisitorDetectionState",
@@ -1633,6 +1686,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0008_BE",
 					"edt": [
 						{
 							"elementType": "VisitorDetectionHoldTimeSettingValue",
@@ -1667,6 +1721,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0009_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1689,6 +1744,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0009_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1711,6 +1767,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0009_B1",
 					"edt": [
 						{
 							"elementType": "CallState",
@@ -1733,6 +1790,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0009_BE",
 					"edt": [
 						{
 							"elementType": "CallHoldTimeSettingValue",
@@ -1767,6 +1825,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000A_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1789,6 +1848,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000A_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1811,6 +1871,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_000A_B1",
 					"edt": [
 						{
 							"elementType": "CondensationDetectionState",
@@ -1839,6 +1900,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000B_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1861,6 +1923,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000B_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -1883,6 +1946,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_000B_B1",
 					"edt": [
 						{
 							"elementType": "AirPollutionDetectionState",
@@ -1911,6 +1975,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000C_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1933,6 +1998,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_000C_E0",
 					"edt": [
 						{
 							"elementType": "OxygenConcentrationMeasurements",
@@ -1968,6 +2034,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000D_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -1990,6 +2057,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_000D_E0",
 					"edt": [
 						{
 							"elementType": "IlluminanceMeasurementValue1",
@@ -2018,6 +2086,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_000D_E1",
 					"edt": [
 						{
 							"elementType": "IlluminanceMeasurementValue2",
@@ -2052,6 +2121,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000E_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2074,6 +2144,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000E_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -2096,6 +2167,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_000E_B1",
 					"edt": [
 						{
 							"elementType": "SoundDetectionState",
@@ -2118,6 +2190,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000E_BE",
 					"edt": [
 						{
 							"elementType": "SoundDetectionHoldTimeSettingValue",
@@ -2152,6 +2225,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000F_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2174,6 +2248,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_000F_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -2196,6 +2271,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_000F_B1",
 					"edt": [
 						{
 							"elementType": "MailingDetectionState",
@@ -2224,6 +2300,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0010_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2246,6 +2323,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0010_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -2268,6 +2346,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0010_B1",
 					"edt": [
 						{
 							"elementType": "BurdenDetectionState",
@@ -2296,6 +2375,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0011_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2318,6 +2398,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0011_E0",
 					"edt": [
 						{
 							"elementType": "TemperatureMeasurementValue",
@@ -2353,6 +2434,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0012_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2375,6 +2457,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0012_E0",
 					"edt": [
 						{
 							"elementType": "RelativeHumidityMeasurements",
@@ -2409,6 +2492,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0013_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2431,6 +2515,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0013_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -2453,6 +2538,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0013_B1",
 					"edt": [
 						{
 							"elementType": "RainDetectionState",
@@ -2481,6 +2567,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0014_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2503,6 +2590,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0014_B0",
 					"edt": [
 						{
 							"elementType": "WaterLevelExceededDetectionThresholdSettingValue",
@@ -2527,6 +2615,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0014_B1",
 					"edt": [
 						{
 							"elementType": "WaterLevelExceededDetectionState",
@@ -2549,6 +2638,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0014_E0",
 					"edt": [
 						{
 							"elementType": "WaterLevelMeasurement",
@@ -2583,6 +2673,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0015_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2605,6 +2696,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0015_B0",
 					"edt": [
 						{
 							"elementType": "BathWaterLevelExceededDetectionThresholdSettingValue",
@@ -2629,6 +2721,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0015_B1",
 					"edt": [
 						{
 							"elementType": "BathWaterLevelExceededDetectionState",
@@ -2651,6 +2744,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0015_E0",
 					"edt": [
 						{
 							"elementType": "BathWaterLevelMeasurements",
@@ -2685,6 +2779,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0016_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2707,6 +2802,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0016_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -2729,6 +2825,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0016_B1",
 					"edt": [
 						{
 							"elementType": "BathUpsurgeDetectionState",
@@ -2757,6 +2854,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0017_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2779,6 +2877,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0017_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -2801,6 +2900,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0017_B1",
 					"edt": [
 						{
 							"elementType": "WaterLeakDetectionState",
@@ -2829,6 +2929,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0018_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2851,6 +2952,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0018_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -2873,6 +2975,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0018_B1",
 					"edt": [
 						{
 							"elementType": "WaterOverflowDetectionState",
@@ -2901,6 +3004,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0019_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -2923,6 +3027,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0019_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -2945,6 +3050,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0019_B1",
 					"edt": [
 						{
 							"elementType": "FireDetectionState",
@@ -2967,6 +3073,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0019_BF",
 					"edt": [
 						{
 							"elementType": "FireDetectionStateResetSetting",
@@ -2994,6 +3101,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_001A_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3016,6 +3124,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_001A_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -3038,6 +3147,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_001A_B1",
 					"edt": [
 						{
 							"elementType": "SmokeDetectionStatus",
@@ -3066,6 +3176,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_001B_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3088,6 +3199,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_001B_E0",
 					"edt": [
 						{
 							"elementType": "Co2ConcentrationMeasurementValue",
@@ -3122,6 +3234,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_001C_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3144,6 +3257,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_001C_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -3166,6 +3280,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_001C_B1",
 					"edt": [
 						{
 							"elementType": "GasDetectionState",
@@ -3188,6 +3303,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_001C_E0",
 					"edt": [
 						{
 							"elementType": "GasConcentrationMeasurementValue",
@@ -3222,6 +3338,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_001D_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3244,6 +3361,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_001D_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -3266,6 +3384,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_001D_B1",
 					"edt": [
 						{
 							"elementType": "VocDetectionState",
@@ -3288,6 +3407,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_001D_E0",
 					"edt": [
 						{
 							"elementType": "VocConcentrationMeasurementValue",
@@ -3322,6 +3442,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_001E_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3344,6 +3465,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_001E_E0",
 					"edt": [
 						{
 							"elementType": "DifferentialPressureMeasurementValue",
@@ -3378,6 +3500,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_001F_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3400,6 +3523,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_001F_E0",
 					"edt": [
 						{
 							"elementType": "WindSpeedMeasurements",
@@ -3429,6 +3553,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_001F_E1",
 					"edt": [
 						{
 							"elementType": "WindDirection",
@@ -3459,6 +3584,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0020_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3481,6 +3607,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0020_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -3508,6 +3635,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0020_B1",
 					"edt": [
 						{
 							"elementType": "OdorDetectionState",
@@ -3530,6 +3658,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0020_E0",
 					"edt": [
 						{
 							"elementType": "OdorMeasurementValue",
@@ -3563,6 +3692,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0021_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3585,6 +3715,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0021_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -3607,6 +3738,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0021_B1",
 					"edt": [
 						{
 							"elementType": "FlameDetectionState",
@@ -3629,6 +3761,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0021_BF",
 					"edt": [
 						{
 							"elementType": "FlameDetectionStateResetSetting",
@@ -3656,6 +3789,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0022_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3678,6 +3812,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0022_E0",
 					"edt": [
 						{
 							"elementType": "IntegralPowerConsumptionMeasurements",
@@ -3731,6 +3866,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0022_E2",
 					"edt": [
 						{
 							"elementType": "SmallCapacitySensorInstantaneousPowerValueMeasurementValue",
@@ -3760,6 +3896,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0022_E3",
 					"edt": [
 						{
 							"elementType": "LargeCapacitySensorInstantaneousPowerValueMeasurementValue",
@@ -3789,6 +3926,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0022_E4",
 					"edt": [
 						{
 							"elementType": "IntegralPowerConsumptionMeasurementHistoryInformation",
@@ -3814,6 +3952,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0022_E5",
 					"edt": [
 						{
 							"elementType": "EffectiveVoltageValueMeasurementValue",
@@ -3844,6 +3983,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0023_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3866,6 +4006,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0023_E0",
 					"edt": [
 						{
 							"elementType": "CurrentValueMeasurementValue1",
@@ -3894,6 +4035,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0023_E1",
 					"edt": [
 						{
 							"elementType": "MeasurementObjectRatedVoltageValue",
@@ -3918,6 +4060,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0023_E2",
 					"edt": [
 						{
 							"elementType": "CurrentValueMeasurementValue2",
@@ -3952,6 +4095,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0025_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -3974,6 +4118,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0025_E0",
 					"edt": [
 						{
 							"elementType": "IntegratedFlowRateMeasurementValue",
@@ -4001,6 +4146,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0025_E2",
 					"edt": [
 						{
 							"elementType": "FlowRateMeasurementValue",
@@ -4034,6 +4180,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0026_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -4056,6 +4203,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0026_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -4078,6 +4226,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0026_B1",
 					"edt": [
 						{
 							"elementType": "FineMotionDetectionState",
@@ -4100,6 +4249,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0026_B2",
 					"edt": [
 						{
 							"elementType": "FineMotionDetectionCountSetting",
@@ -4126,6 +4276,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0026_BC",
 					"edt": [
 						{
 							"elementType": "SamplingTimesSetting",
@@ -4150,6 +4301,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0026_BD",
 					"edt": [
 						{
 							"elementType": "SamplingTimeSetting",
@@ -4180,6 +4332,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0027_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -4202,6 +4355,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0027_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -4224,6 +4378,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0027_BE",
 					"edt": [
 						{
 							"elementType": "PassingDetectionHoldTimeSettingValue",
@@ -4248,6 +4403,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0027_E0",
 					"edt": [
 						{
 							"elementType": "PassageDetectionDirectionState",
@@ -4284,6 +4440,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0028_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -4306,6 +4463,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0028_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevelSetting",
@@ -4328,6 +4486,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0028_B1",
 					"edt": [
 						{
 							"elementType": "TheBedDetectionState",
@@ -4356,6 +4515,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0029_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -4378,6 +4538,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0029_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevel",
@@ -4400,6 +4561,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0029_B1",
 					"edt": [
 						{
 							"elementType": "OpeningDetectionState2",
@@ -4422,6 +4584,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0029_E0",
 					"edt": [
 						{
 							"elementType": "OpeningDetectionState1",
@@ -4454,6 +4617,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_002A_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -4476,6 +4640,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_002A_E2",
 					"edt": [
 						{
 							"elementType": "AmountOfActivityLevel2",
@@ -4504,6 +4669,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_002B_80",
 					"edt": [
 						{
 							"elementType": "0",
@@ -4526,6 +4692,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_002B_E2",
 					"edt": [
 						{
 							"elementType": "XYZAxis",
@@ -4555,6 +4722,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_002C_80",
 					"edt": [
 						{
 							"elementType": "0",
@@ -4577,6 +4745,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_002C_B0",
 					"edt": [
 						{
 							"elementType": "DetectionThresholdLevel",
@@ -4599,6 +4768,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_002C_B1",
 					"edt": [
 						{
 							"elementType": "0",
@@ -4684,6 +4854,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0130_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -4706,6 +4877,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0130_8F",
 					"edt": [
 						{
 							"elementType": "PowerSavingOperationSetting",
@@ -4728,6 +4900,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -4752,6 +4925,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -4771,6 +4945,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_92",
 					"edt": [
 						{
 							"elementType": "OnTimerRelativeTimeSetting",
@@ -4790,6 +4965,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_94",
 					"edt": [
 						{
 							"elementType": "OffTimerReservationSetting",
@@ -4814,6 +4990,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_95",
 					"edt": [
 						{
 							"elementType": "OffTimerTimeSetting",
@@ -4833,6 +5010,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_96",
 					"edt": [
 						{
 							"elementType": "OffTimerRelativeTimeSetting",
@@ -4852,6 +5030,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0130_A0",
 					"edt": [
 						{
 							"elementType": "AirFlowRateSetting",
@@ -4877,6 +5056,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_A1",
 					"edt": [
 						{
 							"elementType": "WindDirectionAutomaticSetting",
@@ -4901,6 +5081,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_A3",
 					"edt": [
 						{
 							"elementType": "WindDirectionSwingSetting",
@@ -4925,6 +5106,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_A4",
 					"edt": [
 						{
 							"elementType": "WindDirectionUpAndDownSetting",
@@ -4950,6 +5132,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_A5",
 					"edt": [
 						{
 							"elementType": "WindDirectionLeftAndRightSet",
@@ -4969,6 +5152,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_AA",
 					"edt": [
 						{
 							"elementType": "SpecialState",
@@ -4993,6 +5177,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_AB",
 					"edt": [
 						{
 							"elementType": "NonPriorityState",
@@ -5015,6 +5200,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0130_B0",
 					"edt": [
 						{
 							"elementType": "OperationModeSetting",
@@ -5041,6 +5227,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_B1",
 					"edt": [
 						{
 							"elementType": "TemperatureAutomaticSetting",
@@ -5063,6 +5250,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_B2",
 					"edt": [
 						{
 							"elementType": "RapidOperationModeSetting",
@@ -5086,6 +5274,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0130_B3",
 					"edt": [
 						{
 							"elementType": "TemperatureSetValue",
@@ -5113,6 +5302,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_B4",
 					"edt": [
 						{
 							"elementType": "DehumidificationModeRelativeHumiditySetValue",
@@ -5137,6 +5327,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_B5",
 					"edt": [
 						{
 							"elementType": "CoolingModeTemperatureSetValue",
@@ -5161,6 +5352,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_B6",
 					"edt": [
 						{
 							"elementType": "HeatingModeTemperatureSetpoint",
@@ -5185,6 +5377,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_B7",
 					"edt": [
 						{
 							"elementType": "DehumidificationModeTemperatureSetValue",
@@ -5209,6 +5402,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_B8",
 					"edt": [
 						{
 							"elementType": "CoolingHeatingDehumidifyingBlast",
@@ -5236,6 +5430,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_B9",
 					"edt": [
 						{
 							"elementType": "CurrentConsumptionMeasurements",
@@ -5265,6 +5460,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_BA",
 					"edt": [
 						{
 							"elementType": "IndoorRelativeHumidityMeasurements",
@@ -5294,6 +5490,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_BB",
 					"edt": [
 						{
 							"elementType": "IndoorTemperatureMeasurementValue",
@@ -5323,6 +5520,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_BC",
 					"edt": [
 						{
 							"elementType": "UserRemoteControlTemperatureSetValue",
@@ -5347,6 +5545,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_BD",
 					"edt": [
 						{
 							"elementType": "BalloonTemperatureMeasurements",
@@ -5374,6 +5573,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_BE",
 					"edt": [
 						{
 							"elementType": "OutsideAirTemperatureMeasurementValue",
@@ -5401,6 +5601,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_BF",
 					"edt": [
 						{
 							"elementType": "RelativeTemperatureSetValue",
@@ -5431,6 +5632,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_C0",
 					"edt": [
 						{
 							"elementType": "SettingVentilationMode",
@@ -5455,6 +5657,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_C1",
 					"edt": [
 						{
 							"elementType": "SettingHumidificationMode",
@@ -5477,6 +5680,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_C2",
 					"edt": [
 						{
 							"elementType": "VentilationAirVolumeSetting",
@@ -5502,6 +5706,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_C4",
 					"edt": [
 						{
 							"elementType": "HumidificationAmountSetting",
@@ -5527,6 +5732,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_C6",
 					"edt": [
 						{
 							"elementType": "LadenAirCleaningMethod",
@@ -5567,6 +5773,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_C7",
 					"edt": [
 						{
 							"elementType": "ElectrostaticPrecipitatorSystemClusterIonSystemPreliminary",
@@ -5625,6 +5832,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_C8",
 					"edt": [
 						{
 							"elementType": "EquippedRefreshMethod",
@@ -5665,6 +5873,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_C9",
 					"edt": [
 						{
 							"elementType": "NegativeIonModeClusterIonSystemPreliminary",
@@ -5723,6 +5932,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_CA",
 					"edt": [
 						{
 							"elementType": "EquippedWithSelfCleaningMethod",
@@ -5763,6 +5973,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_CB",
 					"edt": [
 						{
 							"elementType": "OzoneCleaningSystemDryingSystemPreliminary",
@@ -5821,6 +6032,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_CC",
 					"edt": [
 						{
 							"elementType": "SettingSpecialOperationMode",
@@ -5846,6 +6058,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0130_CD",
 					"edt": [
 						{
 							"elementType": "InternalOperatingState",
@@ -5886,6 +6099,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_CE",
 					"edt": [
 						{
 							"elementType": "ForceThermoModeSetting",
@@ -5909,6 +6123,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0130_CF",
 					"edt": [
 						{
 							"elementType": "SetAirCleaningMode",
@@ -5937,6 +6152,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0133_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -5959,6 +6175,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0133_A0",
 					"edt": [
 						{
 							"elementType": "VentilationAirVolumeSetting",
@@ -5984,6 +6201,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0133_BF",
 					"edt": [
 						{
 							"elementType": "VentilationAutomaticSetting",
@@ -6012,6 +6230,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0134_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -6034,6 +6253,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0134_A0",
 					"edt": [
 						{
 							"elementType": "VentilationAirVolumeSetting",
@@ -6059,6 +6279,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0134_B4",
 					"edt": [
 						{
 							"elementType": "IndoorRelativeHumiditySetValue",
@@ -6083,6 +6304,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0134_BA",
 					"edt": [
 						{
 							"elementType": "IndoorRelativeHumidityMeasurements",
@@ -6107,6 +6329,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0134_BF",
 					"edt": [
 						{
 							"elementType": "VentilationAutomaticSetting",
@@ -6129,6 +6352,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0134_C0",
 					"edt": [
 						{
 							"elementType": "Co2ConcentrationMeasurementValue",
@@ -6153,6 +6377,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0134_C1",
 					"edt": [
 						{
 							"elementType": "SmokeDetectionStatus",
@@ -6197,6 +6422,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0134_E0",
 					"edt": [
 						{
 							"elementType": "HeatExchangerOperationSetting",
@@ -6225,6 +6451,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0135_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -6247,6 +6474,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0135_A0",
 					"edt": [
 						{
 							"elementType": "AirFlowRateSetting",
@@ -6272,6 +6500,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0135_C0",
 					"edt": [
 						{
 							"elementType": "AirContaminationDetectionState",
@@ -6294,6 +6523,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0135_C1",
 					"edt": [
 						{
 							"elementType": "SmokeDetectionStatus",
@@ -6316,6 +6546,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0135_C2",
 					"edt": [
 						{
 							"elementType": "PhotocatalystOperationSetting",
@@ -6338,6 +6569,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0135_E1",
 					"edt": [
 						{
 							"elementType": "FilterExchangeNotificationState",
@@ -6366,6 +6598,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0139_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -6388,6 +6621,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0139_94",
 					"edt": [
 						{
 							"elementType": "OffTimerReservationSetting",
@@ -6410,6 +6644,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0139_96",
 					"edt": [
 						{
 							"elementType": "OffTimerRelativeTimeSetting",
@@ -6429,6 +6664,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0139_B4",
 					"edt": [
 						{
 							"elementType": "RelativeHumidityMeasurements",
@@ -6456,6 +6692,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0139_C0",
 					"edt": [
 						{
 							"elementType": "HumidificationSetting1",
@@ -6485,6 +6722,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0139_C1",
 					"edt": [
 						{
 							"elementType": "HumidificationSetting2",
@@ -6512,6 +6750,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0139_C2",
 					"edt": [
 						{
 							"elementType": "IonReleaseSetting",
@@ -6534,6 +6773,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0139_C3",
 					"edt": [
 						{
 							"elementType": "EquippedWithIonEmissionMethod",
@@ -6574,6 +6814,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0139_C4",
 					"edt": [
 						{
 							"elementType": "SettingSpecialOperationMode",
@@ -6614,6 +6855,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0139_C5",
 					"edt": [
 						{
 							"elementType": "WaterLevel",
@@ -6645,6 +6887,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0142_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -6667,6 +6910,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0142_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -6689,6 +6933,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0142_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -6708,6 +6953,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0142_92",
 					"edt": [
 						{
 							"elementType": "OnTimerRelativeTimeSetting",
@@ -6727,6 +6973,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0142_94",
 					"edt": [
 						{
 							"elementType": "OffTimerReservationSetting",
@@ -6749,6 +6996,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0142_95",
 					"edt": [
 						{
 							"elementType": "OffTimerTimeSetting",
@@ -6768,6 +7016,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0142_96",
 					"edt": [
 						{
 							"elementType": "OffTimerRelativeTimeSetting",
@@ -6787,6 +7036,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0142_A0",
 					"edt": [
 						{
 							"elementType": "AirFlowRateSetting",
@@ -6812,6 +7062,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0142_B1",
 					"edt": [
 						{
 							"elementType": "TemperatureAutomaticSetting",
@@ -6834,6 +7085,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0142_B3",
 					"edt": [
 						{
 							"elementType": "TemperatureSetValue",
@@ -6861,6 +7113,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0142_BB",
 					"edt": [
 						{
 							"elementType": "IndoorTemperatureMeasurementValue",
@@ -6889,6 +7142,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0142_BC",
 					"edt": [
 						{
 							"elementType": "UserRemoteControlTemperatureSetValue",
@@ -6919,6 +7173,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0143_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -6941,6 +7196,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -6965,6 +7221,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -6984,6 +7241,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_92",
 					"edt": [
 						{
 							"elementType": "OnTimerRelativeTimeSetting",
@@ -7003,6 +7261,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_94",
 					"edt": [
 						{
 							"elementType": "OffTimerReservationSetting",
@@ -7027,6 +7286,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_95",
 					"edt": [
 						{
 							"elementType": "OffTimerTimeSetting",
@@ -7046,6 +7306,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_96",
 					"edt": [
 						{
 							"elementType": "OffTimerRelativeTimeSetting",
@@ -7065,6 +7326,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_B1",
 					"edt": [
 						{
 							"elementType": "TemperatureAutomaticSetting",
@@ -7087,6 +7349,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0143_B3",
 					"edt": [
 						{
 							"elementType": "TemperatureSetValue",
@@ -7111,6 +7374,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0143_BB",
 					"edt": [
 						{
 							"elementType": "TemperatureMeasurementValue",
@@ -7140,6 +7404,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_C0",
 					"edt": [
 						{
 							"elementType": "ExtensionOperationSetting",
@@ -7162,6 +7427,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_C1",
 					"edt": [
 						{
 							"elementType": "ExtensionTimerTimeSettingValue",
@@ -7181,6 +7447,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0143_C2",
 					"edt": [
 						{
 							"elementType": "IonReleaseSetting",
@@ -7203,6 +7470,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0143_C3",
 					"edt": [
 						{
 							"elementType": "EquippedWithIonEmissionMethod",
@@ -7243,6 +7511,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0143_C4",
 					"edt": [
 						{
 							"elementType": "OilLevels",
@@ -7274,6 +7543,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0145_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -7296,6 +7566,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -7320,6 +7591,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -7339,6 +7611,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_92",
 					"edt": [
 						{
 							"elementType": "OnTimerRelativeTimeSetting",
@@ -7358,6 +7631,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_94",
 					"edt": [
 						{
 							"elementType": "OffTimerReservationSetting",
@@ -7382,6 +7656,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_95",
 					"edt": [
 						{
 							"elementType": "OffTimerTimeSetting",
@@ -7401,6 +7676,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_96",
 					"edt": [
 						{
 							"elementType": "OffTimerRelativeTimeSetting",
@@ -7420,6 +7696,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_A0",
 					"edt": [
 						{
 							"elementType": "AirFlowRateSetting",
@@ -7445,6 +7722,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_A4",
 					"edt": [
 						{
 							"elementType": "WindDirectionUpAndDownSetting",
@@ -7471,6 +7749,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_A5",
 					"edt": [
 						{
 							"elementType": "WindDirectionLeftAndRightSet",
@@ -7497,6 +7776,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_AA",
 					"edt": [
 						{
 							"elementType": "SpecialState",
@@ -7521,6 +7801,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_AC",
 					"edt": [
 						{
 							"elementType": "ThermoState",
@@ -7543,6 +7824,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_AE",
 					"edt": [
 						{
 							"elementType": "AutomaticOperationWhenTheOperationModeState",
@@ -7568,6 +7850,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0145_B0",
 					"edt": [
 						{
 							"elementType": "OperationModeSetting",
@@ -7593,6 +7876,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0145_B3",
 					"edt": [
 						{
 							"elementType": "TemperatureSetpoint1",
@@ -7617,6 +7901,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_B4",
 					"edt": [
 						{
 							"elementType": "DehumidificationModeRelativeHumiditySetValue1",
@@ -7641,6 +7926,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_B5",
 					"edt": [
 						{
 							"elementType": "CoolingModeWhenTheTemperatureSetValue1",
@@ -7665,6 +7951,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_B6",
 					"edt": [
 						{
 							"elementType": "HeatingModeTemperatureSetpoint1",
@@ -7689,6 +7976,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_B7",
 					"edt": [
 						{
 							"elementType": "DehumidificationModeTemperatureSetpoint1",
@@ -7713,6 +8001,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_B8",
 					"edt": [
 						{
 							"elementType": "CoolingHeatingDehumidifyingBlast",
@@ -7737,6 +8026,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_B9",
 					"edt": [
 						{
 							"elementType": "IndoorCurrentConsumptionMeasurements",
@@ -7762,6 +8052,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_BA",
 					"edt": [
 						{
 							"elementType": "IndoorRelativeHumidityMeasurementValue1",
@@ -7789,6 +8080,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_BB",
 					"edt": [
 						{
 							"elementType": "IndoorTemperatureMeasurementValue1",
@@ -7816,6 +8108,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_BF",
 					"edt": [
 						{
 							"elementType": "RelativeTemperatureSetValue",
@@ -7844,6 +8137,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_C0",
 					"edt": [
 						{
 							"elementType": "SettingVentilationMode",
@@ -7867,6 +8161,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_C1",
 					"edt": [
 						{
 							"elementType": "TotalHeatExchangerIntegrationSettings",
@@ -7889,6 +8184,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_C2",
 					"edt": [
 						{
 							"elementType": "VentilationAirVolumeSetting",
@@ -7940,6 +8236,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_CD",
 					"edt": [
 						{
 							"elementType": "ForceStopSetting",
@@ -7962,6 +8259,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_CE",
 					"edt": [
 						{
 							"elementType": "ForceThermoModeSetting",
@@ -7985,6 +8283,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_CF",
 					"edt": [
 						{
 							"elementType": "FilterSignSetting",
@@ -8007,6 +8306,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_DB",
 					"edt": [
 						{
 							"elementType": "IndoorPowerConsumptionMeasurements",
@@ -8031,6 +8331,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_DC",
 					"edt": [
 						{
 							"elementType": "ExpansionValveOpeningLevel",
@@ -8055,6 +8356,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0145_E3",
 					"edt": [
 						{
 							"elementType": "TemperatureSettingValue2",
@@ -8080,6 +8382,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_E4",
 					"edt": [
 						{
 							"elementType": "DehumidificationModeRelativeHumiditySetValue2",
@@ -8105,6 +8408,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_E5",
 					"edt": [
 						{
 							"elementType": "CoolingModeTemperatureSettingValue2",
@@ -8130,6 +8434,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_E6",
 					"edt": [
 						{
 							"elementType": "HeatingModeTemperatureSetpoint2",
@@ -8155,6 +8460,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0145_E7",
 					"edt": [
 						{
 							"elementType": "DehumidificationModeTemperatureSettingValue2",
@@ -8180,6 +8486,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_EA",
 					"edt": [
 						{
 							"elementType": "IndoorRelativeHumidityMeasurementValue2",
@@ -8208,6 +8515,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0145_EB",
 					"edt": [
 						{
 							"elementType": "IndoorTemperatureMeasurementValue2",
@@ -8242,6 +8550,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0146_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -8264,6 +8573,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0146_AA",
 					"edt": [
 						{
 							"elementType": "SpecialState",
@@ -8286,6 +8596,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0146_B0",
 					"edt": [
 						{
 							"elementType": "OperationModeSetting",
@@ -8311,6 +8622,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0146_B8",
 					"edt": [
 						{
 							"elementType": "CoolingHeatingDehumidifying",
@@ -8335,6 +8647,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0146_B9",
 					"edt": [
 						{
 							"elementType": "OutdoorConsumptionCurrentMeasurementValue",
@@ -8360,6 +8673,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0146_BE",
 					"edt": [
 						{
 							"elementType": "OutsideAirTemperatureMeasurementValue1",
@@ -8413,6 +8727,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0146_D0",
 					"edt": [
 						{
 							"elementType": "CompressorOperatingState",
@@ -8435,6 +8750,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0146_D1",
 					"edt": [
 						{
 							"elementType": "OperationModeState",
@@ -8459,6 +8775,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0146_D2",
 					"edt": [
 						{
 							"elementType": "FanRotationLevel",
@@ -8483,6 +8800,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0146_DB",
 					"edt": [
 						{
 							"elementType": "OutdoorPowerConsumptionMeasurements",
@@ -8507,6 +8825,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0146_EE",
 					"edt": [
 						{
 							"elementType": "OutsideAirTemperatureMeasurementValue2",
@@ -9044,6 +9363,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0260_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -9066,6 +9386,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0260_89",
 					"edt": [
 						{
 							"elementType": "Upper1Byte",
@@ -9260,6 +9581,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0260_E0",
 					"edt": [
 						{
 							"elementType": "OpeningAndClosingOperationSetting",
@@ -9283,6 +9605,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0260_E1",
 					"edt": [
 						{
 							"elementType": "OpeningLevelSetting",
@@ -9307,6 +9630,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0260_E2",
 					"edt": [
 						{
 							"elementType": "BlindAngleSetting",
@@ -9331,6 +9655,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0260_E3",
 					"edt": [
 						{
 							"elementType": "OpeningAndClosingSpeedSetting",
@@ -11613,6 +11938,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -11635,6 +11961,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -11657,6 +11984,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -11676,6 +12004,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_026B_B0",
 					"edt": [
 						{
 							"elementType": "AutomaticSettingBoiling",
@@ -11699,6 +12028,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_B1",
 					"edt": [
 						{
 							"elementType": "AutomaticSettingTemperatureOfTheHotWaterBoiling",
@@ -11721,6 +12051,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_026B_B2",
 					"edt": [
 						{
 							"elementType": "StateInBoiling",
@@ -11743,6 +12074,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_B3",
 					"edt": [
 						{
 							"elementType": "BoilingHotWaterTemperatureSetValue",
@@ -11836,6 +12168,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_026B_C0",
 					"edt": [
 						{
 							"elementType": "BoilingIncreasedPermissionSettingsDuringTheDay",
@@ -11858,6 +12191,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_026B_C1",
 					"edt": [
 						{
 							"elementType": "WaterHeaterWaterTemperatureMeasurementValue",
@@ -11982,6 +12316,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_D1",
 					"edt": [
 						{
 							"elementType": "HotWaterSupplyTemperatureSetValue",
@@ -12006,6 +12341,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_D3",
 					"edt": [
 						{
 							"elementType": "BathTemperatureSetValue",
@@ -12146,6 +12482,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_026B_DB",
 					"edt": [
 						{
 							"elementType": "WinterHPUnitRatedPowerConsumption",
@@ -12170,6 +12507,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_026B_DC",
 					"edt": [
 						{
 							"elementType": "InterimPeriodHPUnitRatedPowerConsumption",
@@ -12194,6 +12532,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_026B_DD",
 					"edt": [
 						{
 							"elementType": "SummerHPUnitRatedPowerConsumption",
@@ -12218,6 +12557,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_E0",
 					"edt": [
 						{
 							"elementType": "BoilingHotWaterSetting",
@@ -12242,6 +12582,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_026B_E1",
 					"edt": [
 						{
 							"elementType": "RemainingHotWaterMeasurementValue",
@@ -12266,6 +12607,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_026B_E2",
 					"edt": [
 						{
 							"elementType": "TankCapacityValue",
@@ -12290,6 +12632,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_026B_E3",
 					"edt": [
 						{
 							"elementType": "SetBathAutomaticMode",
@@ -12334,6 +12677,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_E5",
 					"edt": [
 						{
 							"elementType": "HotWaterOperationSettingPlusManualBath",
@@ -12356,6 +12700,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_E6",
 					"edt": [
 						{
 							"elementType": "ManualBathTepidOperationSetting",
@@ -12378,6 +12723,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_E7",
 					"edt": [
 						{
 							"elementType": "BathHotWaterSetting1",
@@ -12402,6 +12748,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_E8",
 					"edt": [
 						{
 							"elementType": "BathHotWaterSetting2",
@@ -12469,6 +12816,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_026B_EE",
 					"edt": [
 						{
 							"elementType": "BathHotWaterSetting3",
@@ -14377,6 +14725,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -14399,6 +14748,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -14421,6 +14771,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -14440,6 +14791,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_92",
 					"edt": [
 						{
 							"elementType": "OnTimerRelativeTimeSetting",
@@ -14459,6 +14811,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_94",
 					"edt": [
 						{
 							"elementType": "OffTimerReservationSetting",
@@ -14481,6 +14834,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_95",
 					"edt": [
 						{
 							"elementType": "OffTimerTimeSetting",
@@ -14500,6 +14854,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_96",
 					"edt": [
 						{
 							"elementType": "OffTimerRelativeTimeSetting",
@@ -14519,6 +14874,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_E0",
 					"edt": [
 						{
 							"elementType": "OperationModeSetting",
@@ -14541,6 +14897,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_027A_E1",
 					"edt": [
 						{
 							"elementType": "WaterTemperatureSetting1",
@@ -14568,6 +14925,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_027A_E2",
 					"edt": [
 						{
 							"elementType": "WaterTemperatureSetting2",
@@ -14590,6 +14948,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027A_E3",
 					"edt": [
 						{
 							"elementType": "ForwardWaterTemperatureMeasurementValue",
@@ -14617,6 +14976,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027A_E4",
 					"edt": [
 						{
 							"elementType": "ReturnWaterTemperatureMeasurementValue",
@@ -14644,6 +15004,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_E5",
 					"edt": [
 						{
 							"elementType": "SpecialOperationSet",
@@ -14667,6 +15028,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_E6",
 					"edt": [
 						{
 							"elementType": "DailyTimerSetting",
@@ -14690,6 +15052,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_E7",
 					"edt": [
 						{
 							"elementType": "DailyTimer1Setting",
@@ -14709,6 +15072,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027A_E8",
 					"edt": [
 						{
 							"elementType": "DailyTimer2Setting",
@@ -14784,6 +15148,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_027B_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -14806,6 +15171,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -14828,6 +15194,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -14847,6 +15214,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_92",
 					"edt": [
 						{
 							"elementType": "OnTimerRelativeTimeSetting",
@@ -14866,6 +15234,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_94",
 					"edt": [
 						{
 							"elementType": "OffTimerReservationSetting",
@@ -14888,6 +15257,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_95",
 					"edt": [
 						{
 							"elementType": "OffTimerTimeSetting",
@@ -14907,6 +15277,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_96",
 					"edt": [
 						{
 							"elementType": "OffTimerRelativeTimeSetting",
@@ -14926,6 +15297,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_027B_E0",
 					"edt": [
 						{
 							"elementType": "TemperatureSetting1",
@@ -14953,6 +15325,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_027B_E1",
 					"edt": [
 						{
 							"elementType": "TemperatureSetting2",
@@ -14978,6 +15351,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027B_E2",
 					"edt": [
 						{
 							"elementType": "IndoorTemperatureMeasurementValue",
@@ -15005,6 +15379,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027B_E3",
 					"edt": [
 						{
 							"elementType": "FloorTemperatureMeasurementValue",
@@ -15032,6 +15407,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_E4",
 					"edt": [
 						{
 							"elementType": "ZoneSwitchSetting",
@@ -15132,6 +15508,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_E5",
 					"edt": [
 						{
 							"elementType": "SpecialOperationSet",
@@ -15155,6 +15532,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_E6",
 					"edt": [
 						{
 							"elementType": "DailyTimerSetting",
@@ -15178,6 +15556,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_E7",
 					"edt": [
 						{
 							"elementType": "DailyTimer1Setting",
@@ -15197,6 +15576,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027B_E8",
 					"edt": [
 						{
 							"elementType": "DailyTimer2Setting",
@@ -15269,6 +15649,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027C_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -15291,6 +15672,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027C_C1",
 					"edt": [
 						{
 							"elementType": "WaterHeaterWaterTemperatureMeasurementValue",
@@ -15315,6 +15697,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027C_C2",
 					"edt": [
 						{
 							"elementType": "TheRatedPowerGenerationAmount",
@@ -15339,6 +15722,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027C_C3",
 					"edt": [
 						{
 							"elementType": "TheHotWaterTankHeat",
@@ -15363,6 +15747,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027C_C4",
 					"edt": [
 						{
 							"elementType": "InstantaneousPowerGenerationPowerMeasurementValue",
@@ -15387,6 +15772,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027C_C5",
 					"edt": [
 						{
 							"elementType": "TheIntegratedPowerGenerationAmountMeasurementValue",
@@ -15412,6 +15798,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027C_C6",
 					"edt": [
 						{
 							"elementType": "TheIntegratedPowerGenerationAmountOfPowerResetSetting",
@@ -15433,6 +15820,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027C_C7",
 					"edt": [
 						{
 							"elementType": "InstantaneousGasConsumptionMeasurementValue",
@@ -15458,6 +15846,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027C_C8",
 					"edt": [
 						{
 							"elementType": "IntegratedGasConsumptionMeasurementValue",
@@ -15483,6 +15872,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027C_C9",
 					"edt": [
 						{
 							"elementType": "IntegratedGasConsumptionResetSetting",
@@ -15504,6 +15894,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_027C_CA",
 					"edt": [
 						{
 							"elementType": "PowerGenerationOperationSetting",
@@ -15644,6 +16035,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027C_E1",
 					"edt": [
 						{
 							"elementType": "RemainingHotWaterMeasurementValue",
@@ -15668,6 +16060,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_027C_E2",
 					"edt": [
 						{
 							"elementType": "TankCapacityValue",
@@ -18293,6 +18686,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0282_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -18315,6 +18709,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0282_E0",
 					"edt": [
 						{
 							"elementType": "IntegratedGasConsumptionMeasurementValue",
@@ -18340,6 +18735,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0282_E2",
 					"edt": [
 						{
 							"elementType": "IntegratedGasConsumptionMeasurementValueHistory",
@@ -18374,6 +18770,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0283_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -18396,6 +18793,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_D0",
 					"edt": [
 						{
 							"elementType": "SupplyPressureDataMaximumValue",
@@ -18421,6 +18819,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_D1",
 					"edt": [
 						{
 							"elementType": "SupplyPressureDataMinimumValue",
@@ -18446,6 +18845,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_D2",
 					"edt": [
 						{
 							"elementType": "SupplyPressureDataCurrentValue",
@@ -18471,6 +18871,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_D3",
 					"edt": [
 						{
 							"elementType": "OcclusionPressureDataMaximumValue",
@@ -18496,6 +18897,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_D4",
 					"edt": [
 						{
 							"elementType": "OcclusionPressureDataMinimumValue",
@@ -18521,6 +18923,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_D5",
 					"edt": [
 						{
 							"elementType": "OcclusionPressureDataCurrentValue",
@@ -18546,6 +18949,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_D6",
 					"edt": [
 						{
 							"elementType": "OcclusionPressureAbnormalNumberOfDaysSupplyPressureAbnormalNumberOfDays",
@@ -18584,6 +18988,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0283_D7",
 					"edt": [
 						{
 							"elementType": "TestCallSetting",
@@ -18606,6 +19011,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E0",
 					"edt": [
 						{
 							"elementType": "MeterReadingDataAccumulatedGasConsumptionMeasurementValue1",
@@ -18631,6 +19037,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E1",
 					"edt": [
 						{
 							"elementType": "MeterReadingDataAccumulatedGasConsumptionMeasurementValue2",
@@ -18656,6 +19063,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E2",
 					"edt": [
 						{
 							"elementType": "MeterReadingDataAnomalyDetectionState",
@@ -18678,6 +19086,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E3",
 					"edt": [
 						{
 							"elementType": "SecurityDataInformation1",
@@ -18697,6 +19106,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E4",
 					"edt": [
 						{
 							"elementType": "SecurityDataInformation2",
@@ -18716,6 +19126,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E5",
 					"edt": [
 						{
 							"elementType": "CenterValveShutOffState",
@@ -18738,6 +19149,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E6",
 					"edt": [
 						{
 							"elementType": "CenterValveShutOffReturnPermitState",
@@ -18760,6 +19172,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E7",
 					"edt": [
 						{
 							"elementType": "EmergencyValveShutOffState",
@@ -18782,6 +19195,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E8",
 					"edt": [
 						{
 							"elementType": "ShutOffValveOpeningAndClosingState",
@@ -18804,6 +19218,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_E9",
 					"edt": [
 						{
 							"elementType": "RemainingManagementWarningLevel",
@@ -18829,6 +19244,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0283_EA",
 					"edt": [
 						{
 							"elementType": "RemainingManagementWarningLevelSetValue1",
@@ -18853,6 +19269,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0283_EB",
 					"edt": [
 						{
 							"elementType": "RemainingManagementWarningLevelSetting2",
@@ -18877,6 +19294,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0283_EC",
 					"edt": [
 						{
 							"elementType": "RemainingManagementWarningLevelSetting3",
@@ -18901,6 +19319,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_ED",
 					"edt": [
 						{
 							"elementType": "SmallLeakageTimerValue",
@@ -18925,6 +19344,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_EE",
 					"edt": [
 						{
 							"elementType": "SmallLeakageTimerValue",
@@ -18949,6 +19369,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0283_EF",
 					"edt": [
 						{
 							"elementType": "History3History2History1",
@@ -21476,6 +21897,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0288_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -21498,6 +21920,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0288_D3",
 					"edt": [
 						{
 							"elementType": "Coefficient",
@@ -21544,6 +21967,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0288_E0",
 					"edt": [
 						{
 							"elementType": "IntegralPowerConsumptionMeasurementValue",
@@ -21571,6 +21995,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0288_E1",
 					"edt": [
 						{
 							"elementType": "IntegralPowerConsumptionUnit",
@@ -21600,6 +22025,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0288_E2",
 					"edt": [
 						{
 							"elementType": "AccumulatedHistoryCollectionDate",
@@ -21644,6 +22070,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0288_E3",
 					"edt": [
 						{
 							"elementType": "IntegralPowerConsumptionMeasurementValue",
@@ -21671,6 +22098,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0288_E4",
 					"edt": [
 						{
 							"elementType": "AccumulatedHistoryCollectionDate",
@@ -21715,6 +22143,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0288_E5",
 					"edt": [
 						{
 							"elementType": "AccumulatedHistoryCollectionDay1",
@@ -21742,6 +22171,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0288_E7",
 					"edt": [
 						{
 							"elementType": "InstantaneousPowerMeasurementValue",
@@ -21771,6 +22201,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0288_E8",
 					"edt": [
 						{
 							"elementType": "RPhaseTPhase",
@@ -21970,6 +22401,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0289_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -22110,6 +22542,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0289_E0",
 					"edt": [
 						{
 							"elementType": "GasDivisionSetting",
@@ -22134,6 +22567,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0289_E1",
 					"edt": [
 						{
 							"elementType": "OwnerClassificationSetting",
@@ -22159,6 +22593,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_E2",
 					"edt": [
 						{
 							"elementType": "IntegratedGasConsumptionMeasurementValue",
@@ -22187,6 +22622,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_E3",
 					"edt": [
 						{
 							"elementType": "IntegratedGasConsumptionMeasurementValueUnit",
@@ -22214,6 +22650,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_E4",
 					"edt": [
 						{
 							"elementType": "CollectionDate",
@@ -22253,6 +22690,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0289_E5",
 					"edt": [
 						{
 							"elementType": "IntegratedGasConsumptionHistoryCollectionDateSet",
@@ -22277,6 +22715,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_E6",
 					"edt": [
 						{
 							"elementType": "MeterReadingDataAnomalyDetectionState",
@@ -22299,6 +22738,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_E7",
 					"edt": [
 						{
 							"elementType": "SecurityDataInformation",
@@ -22318,6 +22758,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_E8",
 					"edt": [
 						{
 							"elementType": "CenterValveShutOffState",
@@ -22340,6 +22781,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_E9",
 					"edt": [
 						{
 							"elementType": "CenterValveShutOffReturnPermitState",
@@ -22362,6 +22804,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_EA",
 					"edt": [
 						{
 							"elementType": "EmergencyValveShutOffState",
@@ -22384,6 +22827,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_EB",
 					"edt": [
 						{
 							"elementType": "ShutOffValveOpeningAndClosingState",
@@ -22406,6 +22850,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0289_EC",
 					"edt": [
 						{
 							"elementType": "History3History2History1",
@@ -22425,6 +22870,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0289_ED",
 					"edt": [
 						{
 							"elementType": "IdNumberSetting",
@@ -22444,6 +22890,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0289_EE",
 					"edt": [
 						{
 							"elementType": "TestMaturitySetting",
@@ -23236,6 +23683,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0290_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -23258,6 +23706,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0290_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -23280,6 +23729,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0290_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -23299,6 +23749,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0290_94",
 					"edt": [
 						{
 							"elementType": "OffTimerReservationSetting",
@@ -23321,6 +23772,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0290_95",
 					"edt": [
 						{
 							"elementType": "OffTimerTimeSetting",
@@ -23340,6 +23792,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0290_B0",
 					"edt": [
 						{
 							"elementType": "IlluminanceLevelSetting",
@@ -23367,6 +23820,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0290_B1",
 					"edt": [
 						{
 							"elementType": "LightColorSetting",
@@ -23393,6 +23847,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0290_B2",
 					"edt": [
 						{
 							"elementType": "IlluminanceLevelTheNumberOfStagesSet",
@@ -23419,6 +23874,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0290_B3",
 					"edt": [
 						{
 							"elementType": "LightColorLevelTheNumberOfStagesSet",
@@ -23445,6 +23901,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0290_B4",
 					"edt": [
 						{
 							"elementType": "IlluminationLightColor",
@@ -23828,6 +24285,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_02A0_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -23850,6 +24308,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_02A0_B1",
 					"edt": [
 						{
 							"elementType": "SoundGeneratingSet",
@@ -23872,6 +24331,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_02A0_E0",
 					"edt": [
 						{
 							"elementType": "BuzzerSoundTypeSetting",
@@ -24316,6 +24776,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B2_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -24338,6 +24799,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B2_B0",
 					"edt": [
 						{
 							"elementType": "LidOpeningAndClosingState",
@@ -24360,6 +24822,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B2_B1",
 					"edt": [
 						{
 							"elementType": "HotWaterShortageWarningState",
@@ -24382,6 +24845,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B2_B2",
 					"edt": [
 						{
 							"elementType": "BoilingSetting",
@@ -24404,6 +24868,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B2_E0",
 					"edt": [
 						{
 							"elementType": "BoilingWarmModeSetting",
@@ -24427,6 +24892,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B2_E1",
 					"edt": [
 						{
 							"elementType": "KeepWarmTemperatureSettings",
@@ -24451,6 +24917,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B2_E2",
 					"edt": [
 						{
 							"elementType": "TheTeemingState",
@@ -24473,6 +24940,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B2_E3",
 					"edt": [
 						{
 							"elementType": "LockState",
@@ -24501,6 +24969,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -24523,6 +24992,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_A0",
 					"edt": [
 						{
 							"elementType": "RapidFreezingOperationSetting",
@@ -24546,6 +25016,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_A1",
 					"edt": [
 						{
 							"elementType": "RapidRefrigerationOperationSetting",
@@ -24569,6 +25040,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_A4",
 					"edt": [
 						{
 							"elementType": "IcePermissionSettings",
@@ -24592,6 +25064,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_A5",
 					"edt": [
 						{
 							"elementType": "IceMakingOperationState",
@@ -24614,6 +25087,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_A6",
 					"edt": [
 						{
 							"elementType": "WaterSupplyTankStateForIce",
@@ -24636,6 +25110,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_A8",
 					"edt": [
 						{
 							"elementType": "RefrigeratingRoomHumidificationOperationSetting",
@@ -24658,6 +25133,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_A9",
 					"edt": [
 						{
 							"elementType": "CrisperHumidificationOperationSetting",
@@ -24680,6 +25156,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_AD",
 					"edt": [
 						{
 							"elementType": "DeodorizingOperationSetting",
@@ -24702,6 +25179,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_B0",
 					"edt": [
 						{
 							"elementType": "DoorOpeningAndClosingState",
@@ -24724,6 +25202,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_B1",
 					"edt": [
 						{
 							"elementType": "DoorOpenWarningState",
@@ -24746,6 +25225,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_B2",
 					"edt": [
 						{
 							"elementType": "RefrigerationCompartmentDoorOpeningAndClosingState",
@@ -24768,6 +25248,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_B3",
 					"edt": [
 						{
 							"elementType": "FreezerCompartmentDoorOpeningAndClosingState",
@@ -24790,6 +25271,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_B4",
 					"edt": [
 						{
 							"elementType": "IceGreenhouseDoorOpeningAndClosingState",
@@ -24812,6 +25294,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_B5",
 					"edt": [
 						{
 							"elementType": "VegetableCompartmentDoorOpeningAndClosingState",
@@ -24834,6 +25317,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_B6",
 					"edt": [
 						{
 							"elementType": "SwitchCompartmentDoorOpeningAndClosingState",
@@ -24856,6 +25340,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_D1",
 					"edt": [
 						{
 							"elementType": "RefrigeratingCompartmentTemperatureMeasurementValue",
@@ -24880,6 +25365,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_D2",
 					"edt": [
 						{
 							"elementType": "FreezerCompartmentTemperatureMeasurementValue",
@@ -24904,6 +25390,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_D3",
 					"edt": [
 						{
 							"elementType": "IceGreenhouseTemperatureMeasurementValue",
@@ -24928,6 +25415,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_D4",
 					"edt": [
 						{
 							"elementType": "VegetableCompartmentTemperatureMeasurementValue",
@@ -24952,6 +25440,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_D5",
 					"edt": [
 						{
 							"elementType": "SwitchCompartmentTemperatureMeasurementValue",
@@ -24976,6 +25465,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_D8",
 					"edt": [
 						{
 							"elementType": "TheMaximumSpeedLevel",
@@ -25014,6 +25504,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_DA",
 					"edt": [
 						{
 							"elementType": "CurrentConsumptionMeasurements",
@@ -25039,6 +25530,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_DC",
 					"edt": [
 						{
 							"elementType": "RatedPowerConsumptionValue",
@@ -25063,6 +25555,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B7_E0",
 					"edt": [
 						{
 							"elementType": "RefrigeratingChamberRefrigeratorIceGreenhouseCrisperSwitchingRoom",
@@ -25089,6 +25582,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_E2",
 					"edt": [
 						{
 							"elementType": "RefrigeratingCompartmentTemperatureSettingValue",
@@ -25113,6 +25607,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_E3",
 					"edt": [
 						{
 							"elementType": "FreezerCompartmentTemperatureSettingValue",
@@ -25137,6 +25632,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_E4",
 					"edt": [
 						{
 							"elementType": "IceGreenhouseTemperatureSetValue",
@@ -25161,6 +25657,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_E5",
 					"edt": [
 						{
 							"elementType": "VegetableCompartmentTemperatureSettingValue",
@@ -25185,6 +25682,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_E6",
 					"edt": [
 						{
 							"elementType": "SwitchCompartmentTemperatureSettingValue",
@@ -25209,6 +25707,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_E9",
 					"edt": [
 						{
 							"elementType": "RefrigeratingCompartmentTemperatureLevelSetting",
@@ -25231,6 +25730,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_EA",
 					"edt": [
 						{
 							"elementType": "FreezerCompartmentTemperatureLevelSetting",
@@ -25253,6 +25753,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_EB",
 					"edt": [
 						{
 							"elementType": "IceGreenhouseTemperatureLevelSetting",
@@ -25275,6 +25776,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_EC",
 					"edt": [
 						{
 							"elementType": "VegetableCompartmentTemperatureLevelSetting",
@@ -25297,6 +25799,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B7_ED",
 					"edt": [
 						{
 							"elementType": "SettingTheSwitchingChamberTemperatureLevel",
@@ -25325,6 +25828,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -25347,6 +25851,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B8_B0",
 					"edt": [
 						{
 							"elementType": "DoorOpeningAndClosingState",
@@ -25369,6 +25874,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B8_B1",
 					"edt": [
 						{
 							"elementType": "HeatingState",
@@ -25397,6 +25903,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_B2",
 					"edt": [
 						{
 							"elementType": "HeatingSetting",
@@ -25420,6 +25927,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_D0",
 					"edt": [
 						{
 							"elementType": "AutomaticMenuCourseSet",
@@ -25463,6 +25971,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_D1",
 					"edt": [
 						{
 							"elementType": "SetOvenMode",
@@ -25488,6 +25997,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_D5",
 					"edt": [
 						{
 							"elementType": "OvenPreheatedSetting",
@@ -25511,6 +26021,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_D6",
 					"edt": [
 						{
 							"elementType": "SettingFermentationMode",
@@ -25537,6 +26048,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E0",
 					"edt": [
 						{
 							"elementType": "SettingHeatingMode",
@@ -25567,6 +26079,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E1",
 					"edt": [
 						{
 							"elementType": "AutomaticHeatingSetting",
@@ -25590,6 +26103,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E2",
 					"edt": [
 						{
 							"elementType": "SettingAutomaticHeatingLevel",
@@ -25615,6 +26129,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E3",
 					"edt": [
 						{
 							"elementType": "InsideTemperatureSetting",
@@ -25644,6 +26159,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E4",
 					"edt": [
 						{
 							"elementType": "FinishTemperatureSetValue",
@@ -25672,6 +26188,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E5",
 					"edt": [
 						{
 							"elementType": "HeatingTimeSetting",
@@ -25691,6 +26208,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E6",
 					"edt": [
 						{
 							"elementType": "HeatingTheRemainingTimeSetValue",
@@ -25714,6 +26232,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E7",
 					"edt": [
 						{
 							"elementType": "MicrowaveHeatingOutputSetValue",
@@ -25738,6 +26257,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E8",
 					"edt": [
 						{
 							"elementType": "MiddleNotificationPatternSet",
@@ -25757,6 +26277,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_E9",
 					"edt": [
 						{
 							"elementType": "AccessoriesSet",
@@ -25776,6 +26297,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_EA",
 					"edt": [
 						{
 							"elementType": "DisplayStringSetting",
@@ -25795,6 +26317,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_EB",
 					"edt": [
 						{
 							"elementType": "1Stage2Stage",
@@ -25814,6 +26337,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B8_EC",
 					"edt": [
 						{
 							"elementType": "MicrowaveTwoStageHeatingOutputSetValue",
@@ -25844,6 +26368,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B9_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -25866,6 +26391,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B9_96",
 					"edt": [
 						{
 							"elementType": "LeftRightBackRoaster",
@@ -25888,6 +26414,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B9_A1",
 					"edt": [
 						{
 							"elementType": "ChildLockSetting",
@@ -25910,6 +26437,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B9_A2",
 					"edt": [
 						{
 							"elementType": "RadiantHeaterLockSetting",
@@ -25932,6 +26460,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03B9_B1",
 					"edt": [
 						{
 							"elementType": "LeftRightBackRoaster",
@@ -25957,6 +26486,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B9_B2",
 					"edt": [
 						{
 							"elementType": "LeftRightBackRoaster",
@@ -25981,6 +26511,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "notApplicable",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_03B9_B3",
 					"edt": [
 						{
 							"elementType": "BatchStopSetting",
@@ -26002,6 +26533,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B9_E0",
 					"edt": [
 						{
 							"elementType": "LeftRightBack",
@@ -26028,6 +26560,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B9_E3",
 					"edt": [
 						{
 							"elementType": "LeftRightBack",
@@ -26055,6 +26588,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03B9_E7",
 					"edt": [
 						{
 							"elementType": "LeftRightBackRoaster",
@@ -26097,6 +26631,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03BB_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -26119,6 +26654,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03BB_90",
 					"edt": [
 						{
 							"elementType": "RiceReservationSetting",
@@ -26141,6 +26677,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03BB_91",
 					"edt": [
 						{
 							"elementType": "CookerReservationSettingTimeSetValue",
@@ -26160,6 +26697,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03BB_92",
 					"edt": [
 						{
 							"elementType": "CookerReservationSettingRelativeTimeSetting",
@@ -26179,6 +26717,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03BB_B0",
 					"edt": [
 						{
 							"elementType": "LidOpeningAndClosingState",
@@ -26201,6 +26740,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03BB_B1",
 					"edt": [
 						{
 							"elementType": "RiceState",
@@ -26226,6 +26766,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_03BB_B2",
 					"edt": [
 						{
 							"elementType": "CookingControlSetting",
@@ -26248,6 +26789,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03BB_E1",
 					"edt": [
 						{
 							"elementType": "KeepWarmSetting",
@@ -26270,6 +26812,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03BB_E5",
 					"edt": [
 						{
 							"elementType": "TheInnerPotRemovalState",
@@ -26292,6 +26835,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03BB_E6",
 					"edt": [
 						{
 							"elementType": "LidRemovalState",
@@ -26320,6 +26864,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C5_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -26342,6 +26887,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C5_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -26364,6 +26910,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C5_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -26383,6 +26930,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C5_92",
 					"edt": [
 						{
 							"elementType": "OnTimerRelativeTimeSetting",
@@ -26402,6 +26950,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03C5_B0",
 					"edt": [
 						{
 							"elementType": "DoorLidOpeningAndClosingState",
@@ -26424,6 +26973,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C5_B2",
 					"edt": [
 						{
 							"elementType": "WashingSet",
@@ -26447,6 +26997,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03C5_E1",
 					"edt": [
 						{
 							"elementType": "WashingTransitionState",
@@ -26472,6 +27023,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03C5_E6",
 					"edt": [
 						{
 							"elementType": "WashingRemainingTime",
@@ -26497,6 +27049,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C6_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -26519,6 +27072,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C6_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -26541,6 +27095,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C6_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -26560,6 +27115,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C6_92",
 					"edt": [
 						{
 							"elementType": "OnTimerRelativeTimeSetting",
@@ -26579,6 +27135,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03C6_B0",
 					"edt": [
 						{
 							"elementType": "DoorLidOpeningAndClosingState",
@@ -26601,6 +27158,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03C6_B2",
 					"edt": [
 						{
 							"elementType": "DryingSetting",
@@ -26624,6 +27182,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03C6_E1",
 					"edt": [
 						{
 							"elementType": "DryingTransitionState",
@@ -26647,6 +27206,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03C6_E6",
 					"edt": [
 						{
 							"elementType": "DryingTimeRemaining",
@@ -26959,6 +27519,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -26981,6 +27542,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_90",
 					"edt": [
 						{
 							"elementType": "OnTimerReservationSetting",
@@ -27003,6 +27565,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_91",
 					"edt": [
 						{
 							"elementType": "OnTimerTimeSetting",
@@ -27022,6 +27585,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_92",
 					"edt": [
 						{
 							"elementType": "OnTimerRelativeTimeSetting",
@@ -27041,6 +27605,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_B0",
 					"edt": [
 						{
 							"elementType": "DoorLidOpeningAndClosingState",
@@ -27063,6 +27628,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_B2",
 					"edt": [
 						{
 							"elementType": "WashingAndDryingSetting",
@@ -27086,6 +27652,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_D0",
 					"edt": [
 						{
 							"elementType": "WashingAndDryingCourseSetting1",
@@ -27157,6 +27724,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_D1",
 					"edt": [
 						{
 							"elementType": "WashingAndDryingCourseSetting2",
@@ -27195,6 +27763,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_D2",
 					"edt": [
 						{
 							"elementType": "DryingMethodSetting",
@@ -27232,6 +27801,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_D3",
 					"edt": [
 						{
 							"elementType": "ConfigurableCourseInformation1",
@@ -27251,6 +27821,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_D4",
 					"edt": [
 						{
 							"elementType": "ConfigurableCourseInformation2",
@@ -27270,6 +27841,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_D5",
 					"edt": [
 						{
 							"elementType": "SettingPossibleCourseInformation3",
@@ -27289,6 +27861,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_D6",
 					"edt": [
 						{
 							"elementType": "WaterFlowSetting",
@@ -27315,6 +27888,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_D7",
 					"edt": [
 						{
 							"elementType": "DehydrationRotationSpeedSettingValue",
@@ -27343,6 +27917,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_D8",
 					"edt": [
 						{
 							"elementType": "DrynessSetting",
@@ -27369,6 +27944,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_DB",
 					"edt": [
 						{
 							"elementType": "WashingRemainingTime",
@@ -27388,6 +27964,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_DC",
 					"edt": [
 						{
 							"elementType": "DryingTimeRemaining",
@@ -27407,6 +27984,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_DF",
 					"edt": [
 						{
 							"elementType": "OnTimerElapsedTime",
@@ -27426,6 +28004,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_E1",
 					"edt": [
 						{
 							"elementType": "TsukeokiStrokeTimeSettingValue",
@@ -27449,6 +28028,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_E2",
 					"edt": [
 						{
 							"elementType": "WashingAndDryingTransitionState",
@@ -27497,6 +28077,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_E3",
 					"edt": [
 						{
 							"elementType": "TheAmountOfWaterSet1",
@@ -27525,6 +28106,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_E4",
 					"edt": [
 						{
 							"elementType": "TheAmountOfWaterSet2",
@@ -27551,6 +28133,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_E5",
 					"edt": [
 						{
 							"elementType": "WashTimeSetting",
@@ -27574,6 +28157,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_E6",
 					"edt": [
 						{
 							"elementType": "RinseTheNumberOfTimesTheSetValue",
@@ -27600,6 +28184,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_E7",
 					"edt": [
 						{
 							"elementType": "ModeSettingRinse",
@@ -27740,6 +28325,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_E8",
 					"edt": [
 						{
 							"elementType": "DehydrationTimeSetting",
@@ -27768,6 +28354,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_E9",
 					"edt": [
 						{
 							"elementType": "DryingTimeSetting",
@@ -27791,6 +28378,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_EA",
 					"edt": [
 						{
 							"elementType": "WashWarmWaterSetting",
@@ -27819,6 +28407,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_EB",
 					"edt": [
 						{
 							"elementType": "BathWaterSetting",
@@ -27845,6 +28434,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_EC",
 					"edt": [
 						{
 							"elementType": "SoftKeepSetting",
@@ -27867,6 +28457,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_ED",
 					"edt": [
 						{
 							"elementType": "WashingAndDryingTheRemainingTime",
@@ -27889,6 +28480,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_03D3_EE",
 					"edt": [
 						{
 							"elementType": "DoorLidLockIsSetInOperation",
@@ -27911,6 +28503,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_03D3_EF",
 					"edt": [
 						{
 							"elementType": "WashingAndDryingProcessInformation",
@@ -28509,6 +29102,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_05FD_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -28531,6 +29125,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_05FD_E0",
 					"edt": [
 						{
 							"elementType": "ConnectedEquipment",
@@ -28829,6 +29424,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0601_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -28851,6 +29447,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0601_B0",
 					"edt": [
 						{
 							"elementType": "DisplayControlSettings",
@@ -28873,6 +29470,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0601_B1",
 					"edt": [
 						{
 							"elementType": "StringSettingCanBeAcceptedState",
@@ -28895,6 +29493,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0601_B2",
 					"edt": [
 						{
 							"elementType": "DisplayableCharacterCode",
@@ -28995,6 +29594,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0601_B3",
 					"edt": [
 						{
 							"elementType": "TheLengthOfTheString",
@@ -29054,6 +29654,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0601_B4",
 					"edt": [
 						{
 							"elementType": "TransmissionStringLengthAccepted",
@@ -29083,6 +29684,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0602_80",
 					"edt": [
 						{
 							"elementType": "OperatingState",
@@ -29105,6 +29707,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "optional",
+					"doc": "$EPCDOC_0602_B0",
 					"edt": [
 						{
 							"elementType": "DisplayControlSettings",
@@ -29127,6 +29730,7 @@
 					"accessModeAnno": "required",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0602_B1",
 					"edt": [
 						{
 							"elementType": "StringSettingCanBeAcceptedState",
@@ -29149,6 +29753,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "required",
 					"accessModeSet": "notApplicable",
+					"doc": "$EPCDOC_0602_B2",
 					"edt": [
 						{
 							"elementType": "DisplayableCharacterCode",
@@ -29249,6 +29854,7 @@
 					"accessModeAnno": "notApplicable",
 					"accessModeGet": "optional",
 					"accessModeSet": "required",
+					"doc": "$EPCDOC_0602_B3",
 					"edt": [
 						{
 							"elementType": "TheLengthOfTheString",
